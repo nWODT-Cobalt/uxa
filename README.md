@@ -2,17 +2,19 @@
 
 <!-- # User Experience Architecture -->
 <!-- add hero pic and/or examples -->
-<!-- top whitespace -->
+
+<br>
+<br>
 
 Pedagogical, reference or evangelization material for **User Experience Architecture** practitioners.
 
 This material aims to support UI, UX or product designers working at scale, and helping others in an organization to do so. It covers topics like design systems, design principles, tokens, components, semantics, creativity techniques, applied cognition, etc.
 
-It is very much an early, ongoing work.
+It's very much an early, ongoing work.
 
 ## Content
 
-Each presentation or document is exported as PDF, ready to be used.
+Each presentation or document is exported as PDF, ready to be used, albeit without presenter notes.
 
 - `Practice`: pedagogical, reference or reference material
     - `Presentations`: slide decks

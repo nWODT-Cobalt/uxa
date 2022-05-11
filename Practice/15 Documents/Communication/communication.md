@@ -1,12 +1,4 @@
-<!-- publication:
-
-- readme (really more of a WIP disclaimer)
-- license
-- Communication/this doc
-- Communication/assets
-- Tools & Resources/ (including list of models)
-
-does github parse non-readme TOCs? -->
+<!-- errrf should be moved to `resources` really -->
 
 # Writing Guidelines
 <!--illustrating too; reword to ~"deliverables content and formatting" or so.-->
