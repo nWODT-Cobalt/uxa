@@ -38,11 +38,9 @@ We understand that clear thinking and expression are paramount: not just because
 <!--faire propre, clair, maintenable-->
 <!--strive to clarify for us, for others-->
 
-Economy of concepts (and the related economy of words).
+Economy of concepts, and the resulting economy of words.
 
-Progression be it in semiotic visual devices or documentation writing, each solution builds on the previous one. I.e things are introduced in relation of previous things. Ecological design.
-
-Parallel writing and other best practices. Quickly mentioned or linked, nothing more.
+Progression, be it in semiotic visual devices or documentation writing, each solution builds on the previous one. I.e things are introduced in relation of previous things.
 
 **Standing On The Shoulders Of Giants**
 

@@ -1,9 +1,7 @@
-![](Practice/90%20Sources/a-mark.svg)
+![](Resources/Logos/a-mark-readme.svg)
 
-<!-- # User Experience Architecture -->
-<!-- add hero pic and/or examples -->
+<!-- add example illos -->
 
-<br>
 <br>
 
 Pedagogical, reference or evangelization material for **User Experience Architecture** practitioners.
@@ -21,7 +19,7 @@ Each presentation or document is exported as PDF, ready to be used, albeit witho
     - `Documents`: long form writing
     - `Sources`: source files for illustrations
     - `Notebooks`: staging for work in progress
-<!-- - `Resources`: templates, themes, fonts, styleguides etc, to render or edit `Practice` content -->
+- `Resources`: templates, themes, fonts, styleguides etc, to render or edit `Practice` content
 
 ## Dependencies
 
