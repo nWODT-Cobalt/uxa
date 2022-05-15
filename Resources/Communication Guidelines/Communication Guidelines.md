@@ -1,4 +1,4 @@
-<# Writing Guidelines
+# Writing Guidelines
 <!--illustrating too; reword to ~"deliverables content and formatting" or so.-->
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
@@ -146,6 +146,9 @@ Conventions:
 Italics, translation right after in parentheses.
 
 <!-- # Under Consideration
+
+Expose the intention > explain the behaviour > describe the properties
+Illustrate with tokens: tool for spec & governance > capture design decision > json kvp
 
 - format deckset presenters notes (they render formatted on deckset and on gith
 - <https://www.smashingmagazine.com/2021/10/resources-tools-turbocharge-copywriting-skills/>

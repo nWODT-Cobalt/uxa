@@ -1,6 +1,6 @@
-![](Resources/Logos/a-mark-readme.svg)
+<br>
 
-<!-- add example illos -->
+![](Resources/Logos/a-mark-readme.svg)
 
 <br>
 
@@ -14,7 +14,7 @@ It's very much an early, ongoing work.
 
 Each presentation or document is exported as PDF, ready to be used, albeit without presenter notes.
 
-- `Practice`: pedagogical, reference or reference material
+- `Practice`: pedagogical, reference or evangelization material
     - `Presentations`: slide decks
     - `Documents`: long form writing
     - `Sources`: source files for illustrations
@@ -30,8 +30,6 @@ Otherwise, the material is available as PDF and can be used as is.
 
 Presentations are rendered with [Deckset](https://www.deckset.com/), documents with [Marked](https://marked2app.com/).
 Both use [ia Writer](https://github.com/iaolo/iA-Fonts) and [Inter](https://rsms.me/inter/) fonts.
-
-<!-- deckset + marked themes -->
 
 ### For Edition
 
