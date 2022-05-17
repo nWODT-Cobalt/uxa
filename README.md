@@ -9,16 +9,17 @@ Pedagogical, reference or evangelization material for **User Experience Architec
 This material aims to support UI, UX or product designers working at scale, and helping others in an organization to do so. It covers topics like design systems, design principles, tokens, components, semantics, creativity techniques, applied cognition, etc.
 
 It's very much an early, ongoing work.
+<!-- So far, mostly basic stuff to facilitate conversations -->
 
 ## Content
 
 Each presentation or document is exported as PDF, ready to be used, albeit without presenter notes.
 
+- `Notebooks`: staging for work in progress
 - `Practice`: pedagogical, reference or evangelization material
     - `Presentations`: slide decks
     - `Documents`: long form writing
     - `Sources`: source files for illustrations
-    - `Notebooks`: staging for work in progress
 - `Resources`: templates, themes, fonts, styleguides etc, to render or edit `Practice` content
 
 ## Dependencies
