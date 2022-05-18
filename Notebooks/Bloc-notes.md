@@ -13,6 +13,13 @@ Makers tend not to lead because they are busy making
 
 Rather than being a dictionary of shapes, it’s a dictionary of methods
 
+From the Wikipedia page on Composability:
+
+>A highly composable system provides recombinant components that can be selected and assembled in various combinations to satisfy specific user requirements. In information systems, the essential features that make a component composable are that it be:
+
+>- self-contained (modular): it can be deployed independently – note that it may cooperate with other components, but dependent components are replaceable
+>- stateless: it treats each request as an independent transaction, unrelated to any previous request. Stateless is just one technique; managed state and transactional systems can also be composable, but with greater difficulty.
+
 ## Pour axiomes
 
 Specialized understanding = gatekeeping
@@ -30,7 +37,6 @@ Reuse from the get-go, meaning *always* turn it into a deliverable. At least:
 Predictability, generativity/predictivity, decidability (hard pass/fail). repeatability, accuracy, efficience, opposite of inference ("expliciteness"), "lean fit"
 functions not dictionnaries: <https://matthewstrom.com/writing/functions-in-design-systems>
 thats what being systematic means, hence why it can't just be added afterwards
-
 
 ## Matériel pédagogique WIP
 

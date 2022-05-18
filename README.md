@@ -8,8 +8,7 @@ Pedagogical, reference or evangelization material for **User Experience Architec
 
 This material aims to support UI, UX or product designers working at scale, and helping others in an organization to do so. It covers topics like design systems, design principles, tokens, components, semantics, creativity techniques, applied cognition, etc.
 
-It's very much an early, ongoing work.
-<!-- So far, mostly basic stuff to facilitate conversations -->
+It's very much an early, ongoing work. The initial focus is on defining basic notions to facilitate conversation.
 
 ## Content
 

@@ -1,19 +1,19 @@
-# Systèmes
+# Reading notes on design systems, components & tokens
 
 ##  Functions and the future of design systems
 
 <https://matthewstrom.com/writing/functions-in-design-systems/>
-<!--date d'ajout : 17/02/2022-->
+<!--date d’ajout : 17/02/2022-->
 
 Today, most design systems work like dictionaries, composed of a finite set of definitions. But there’s a new page turning, one that ushers in the age of functions.
 Design systems are starting to use functions that recreate the design decision making process, responding appropriately to any input they are given. The early uses of functions do a great job of extending the reach of design systems. But the potential is vast.
 
-*Exemple : génération automatique de palette de couleurs, ou d'échelle typographique.*
+*For example: color palette or typographic scale generation.*
 
 ## Design System Communications
 
 <https://medium.com/eightshapes-llc/design-system-communications-ca679ffc36d3>
-<!--date d'ajout : 02/03/2019-->
+<!--date d’ajout : 02/03/2019-->
 
 For design systems, outcomes that matter include:
 
@@ -27,49 +27,37 @@ For design systems, outcomes that matter include:
 
 ## Scenario-Driven Design Systems
 
-`02_ScenarioDrivenDesignSys_YeseniaPerezCruz.pdf`
+<https://www.youtube.com/watch?v=wxvu_IIUVS0> or [PDF](https://speakerdeck.com/yeseniaperezcruz/building-flexible-design-systems)
+<!--date d’ajout : 23/06/2018-->
 
-<!--date d'ajout : 02/03/2019-->
-
-A system is: Elements, Interconnectedness, Purpose.
+A system is: elements, interconnectedness, purpose.  
+A good design system feels: cohesive, unified, connected.
 
 Identify key moments for brand expression.
 
-Do not start with individual components, Be more specific
+Do not start with individual components, be more specific.
 
 Visual inventory and purpose inventory: What elements are presentationally similar, and which are semantically similar?
 
-Only add layout when the content requires it, Base everything on the content’s needs
+Only add layout when the content requires it, base everything on the content’s needs.
 
-On component variations:
-
-- Good: Solves a specific problem, user need
-- Bad: Visual variation that serves the same functionality
-
-Unify components that have the same goal, Be specific, but keep patterns general and push back on visual variations. Visual variations are okay if they are critical to the brand.
-
-## Building Flexible Design Systems
-
-<https://speakerdeck.com/yeseniaperezcruz/building-flexible-design-systems>
-<!--date d'ajout : 23/06/2018-->
-
-A good design system feels: cohesive, unified, connected.
+Unify components that have the same goal, be specific, but keep patterns general and push back on visual variations. Visual variations are okay if they are critical to the brand.
 
 Good variation:
 
-- If there's a specific problem that we need a new pattern to solve
+- If there’s a specific problem that we need a new pattern to solve
 - Determined by user scenarios and content needs
 - Strengthens brand voice in a way that serves our audience
 
 Bad variation:
 
 - Visual variation on components that serve the same function across brands
-- Don't do much to strengthen brand voice
+- Don’t do much to strengthen brand voice
 
 ## Design Systems Handbook
 
 <https://www.designbetter.co/design-systems-handbook>
-<!--date d'ajout : 14/01/2018-->
+<!--date d’ajout : 14/01/2018-->
 
 To be reusable and scalable, patterns need to be modular, composable, generic, and flexible.
 
@@ -103,7 +91,7 @@ Alan Kay:
 ## “I Made This. Does It Go in the System?”
 
 <https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531>
-<!--date d'ajout : 25/09/2017-->
+<!--date d’ajout : 25/09/2017-->
 
 Designers and engineers always confront challenges the system doesn’t solve. And then, they’ll solve it. Through blood, sweat and tears, they’ll develop fervent belief about the solution’s value. The system is their path to amplify that value. But is the system the right place for it?
 
@@ -115,10 +103,8 @@ Systems are never the repository for every style, component, and feature designe
 2. Is it consistent with the system’s vision?
 3. How much will it cost to make and maintain?
 4. Does it trigger momentum in a new direction?
-5. How deeply can YOU guide its use?
-
-	"What guidance can you document now? Use…when? Configure…how? Alter content…in what ways? How does this work, for everybody?" If your contributor struggles to articulate ideas and you don’t know either, maybe the feature isn’t mature or ready for broad distribution. However, what if your contributor quickly cites scenarios of use, rattles off do and don’ts, and itemizes editorial and style considerations? Now we’re talking!
-
+5. How deeply can YOU guide its use?  
+	“What guidance can you document now? Use…when? Configure…how? Alter content…in what ways? How does this work, for everybody?” If your contributor struggles to articulate ideas and you don’t know either, maybe the feature isn’t mature or ready for broad distribution. However, what if your contributor quickly cites scenarios of use, rattles off do and don’ts, and itemizes editorial and style considerations? Now we’re talking!
 6. Is the timing right for contributor AND system?
 
 **What’s Left to Be Done?**
@@ -127,17 +113,12 @@ In my 10+ years of system work, I’ve never seen a contribution complete enough
 
 1. Expand to a minimally sufficient feature set
 2. Reduce scope to broaden relevance/omit contentious features
-
-	Actually, you already get along! A system’s *Card* can include agreed features — *thumbnail*, copy *heading* styles, *descriptions* — and omit contentious items. This is especially true if a library also offers other primitives—here, *button* and *icons* — so that product teams can customize the contentious stuff themselves. Problem solved, move on.
-
 3. Always, always normalize to how system features are designed and built
-
-The system promises robust and accessible features of high visual quality and resilient to varied content, dependent on a shared — and perhaps tokenized — visual language.
 
 ## The Most Exciting Design Systems Are Boring
 
 <https://bigmedium.com/ideas/boring-design-systems.html>
-<!--date d'ajout : 04/04/2017-->
+<!--date d’ajout : 04/04/2017-->
 
 With projects like this, there’s often a strong temptation to throw out the old and start fresh with fancy new design components. “If we’re going to establish standards,” whispers the devil on your shoulder, “then let’s get rid of all the old stuff. Let’s blow it out with a new look, fancy interactions, and a shiny tech framework.” (Or my favorite: “Let’s make our own Material Design.”)
 
@@ -156,36 +137,27 @@ Design systems, like code frameworks, are no place for untested ideas. Extract p
 ## The GE Design System and Thoughts about Craft at Scale
 
 <https://vimeo.com/132580829>
-<!--date d'ajout : 04/06/2016-->
+<!--date d’ajout : 04/06/2016-->
 
-No one ever follows style guides. Maybe it's more like LEGOs than it is a set of rules. It's a kit of parts that snap together and that you can make things of. Tools not rules.
+No one ever follows style guides. Maybe it’s more like LEGOs than it is a set of rules. It’s a kit of parts that snap together and that you can make things of. Tools not rules.
 
 ## The Way We Build
 
 <http://airbnb.design/the-way-we-build/>
-<!--date d'ajout : 25/05/2016-->
+<!--date d’ajout : 25/05/2016-->
 
 Here’s the simple truth: you can’t innovate on products without first innovating the way you build them.
 
 Christopher Alexander states that “nothing which is not simple and direct can survive the slow transmission from person to person.”
 
-## The Marvel Styleguide
-
-<http://blog.marvelapp.com/the-marvel-styleguide/>
-<!--date d'ajout : 04/05/2016-->
-
-Now that Marvel utilises a global styleguide, we no longer need to maintain high-quality assets. We no longer need to produce hi-fidelity mocks. A designer can simply whack together a UI using whatever colors, fonts, assets or software they have readily available. Accuracy is not important because the developer will override everything in the mock, choosing the closest match from the styleguide in each case. In some cases, all that’s needed is a spec sheet written in a Google Doc.
-
-Tweaking designs is often discouraged because nobody is really sure which areas of the codebase might be accidentally affected by the update. When products are not designed systematically, different segments are often siloed and unconnected — making them inaccessible to most of the team.
-
 ## Style Guide Best Practices at Beyond Tellerrand
 
 <http://bradfrost.com/blog/post/style-guide-best-practices-at-beyond-tellerrand/>
-<!--date d'ajout : 14/12/2015-->
+<!--date d’ajout : 14/12/2015-->
 
-*Bon résumé globalement.*
+*Solid recap.*
 
-The 6 Flavors of Style Guide: Brand Identity Guidelines, Design Language, Voice and Tone, Writing, Code, Pattern Libraries *([détaillés ici](http://bradfrost.com/blog/post/style-guides/))*.
+The 6 Flavors of Style Guide: Brand Identity Guidelines, Design Language, Voice and Tone, Writing, Code, Pattern Libraries *([covered here](http://bradfrost.com/blog/post/style-guides/))*.
 
 And if the boss says no, then do it anyways. I firmly believe this. I’m very much a proponent of asking forgiveness not permission. And this is especially true with establishing a pattern library and design system. Because guess what? In order to make the new website, you have to establish the parts of that whole anyways. Instead of this, which technically you can make some stuff out of a disheveled box of Legos. But by taking just a little bit of time to organize those pieces, then you’re able to do that work a lot more efficiently. It doesn’t seem like rocket science, but boy, does it not happen as much as it should.
 
@@ -204,7 +176,7 @@ Their style guide serves as a huge recruitment tool.
 ## The Language of Modular Design
 
 <http://alistapart.com/article/language-of-modular-design>
-<!--date d'ajout : 15/08/2015-->
+<!--date d’ajout : 15/08/2015-->
 
 As many of us move away from designing pages toward designing systems, one concept keeps cropping up: modularity. We often hear about the benefits of a modular approach; modules are scalable, replaceable, reusable, easy to test, quick to put together—“They’re just like LEGO!”
 
@@ -218,17 +190,57 @@ The defining step toward thinking modularly was going through the process of bui
 
 Name things collaboratively, based on their high-level function.
 
-Such oversights can lead to duplications and inconsistencies—which undermine modularity.
-
 In the process of naming an element, you work out the function as a group and reach an agreement. It’s not so much about giving something a great name (although, of course, that’s an ideal to aspire to), but *agreeing* on the name.
 
 Naming things together is a useful habit for your team to develop, because in the process of trying to give something a name that makes sense, you work out its function and, most importantly, reach consensus.
 
 Make an effort to refer to the elements by the name you agreed on—no matter how strange this might sound in everyday conversations. It takes more effort initially to call something a “whisper box” (yes, we have an element called “whisper box”) rather than “that thing with the lines and an icon in the middle.” But until you start referring to an element by its proper name, it doesn’t exist in your modular system as a solid, actionable block. Every time you use the name you agreed on, you strengthen the element you call on and evolve your design language.
 
-## Unless it's a part of your build
+## Unless it’s a part of your build
 
 <https://twitter.com/operatino/status/652414383759446016>
-<!--date d'ajout : 30/11/2015-->
+<!--date d’ajout : 30/11/2015-->
 
-Unless it's a part of your build (or dev process), your styleguide is just more documentation to maintain.
+Unless it’s a part of your build (or dev process), your styleguide is just more documentation to maintain.
+
+---
+
+## Component QA in Design Systems
+
+<https://medium.com/eightshapes-llc/component-qa-in-design-systems-b18cb4decb9c>
+<!--date d’ajout : 18/03/2018-->
+
+*Good inventory of the properties of quality components, such as* Sufficient States & Variations, Content Resilience, Composability, *etc.*
+
+## Components
+
+<https://jxnblk.com/blog/components/>
+<!--date d’ajout : 26/07/2017-->
+
+*Arbitrary categorization (e.g. atomic nomenclature) doesn’t help with composability.*
+
+A UI system that is made up of independent stateless components is extremely flexible. When individual pieces need to be swapped out or updated, those changes are isolated and don’t cause other parts of a system to break.
+
+Naming things is hard, there’s no debate there, but when you start to categorize different parts of a UI into pages, views, flows, atoms, molecules, materials, or kittens, you’ve already started to undermine the concept of composability, and it probably takes more time and effort to get an entire team of people to “agree upon” your proposed naming conventions than it’s worth.
+
+The point of this is to think about everything as an interoperable system. You can slice and dice components in any way you see fit, and these components are likely to change and be fine tuned as a system is developed. Premature optimization is a trap that’s easy to fall into. Embrace the chaos as you build. Patterns will emerge from the primordial goop of UI that is your product, and by consistently thinking about a composable system you’ll probably come up with something more flexible and more robust than if one person dictates a dogmatic framework to work within.
+
+---
+
+## Design Tokens Only Exist In A Pre-Processed State
+
+<https://carbonemike.com/design-tokens-only-exist-pre-processed>
+<!--date d’ajout : 18/06/2021-->
+
+*E.g. the initial token could store a transparency value, that would be lost on platforms supporting only hex values.*
+
+Once compiled and transformed, the output is no longer a design token. Instead, it’s simply what it is: a key value pair fit for the platform. A variable in a form the platform can understand.
+
+The reason for this conclusion is because the purpose of a design token is to exist as a value, surrounded by context, ready to be transformed. When the design token goes through that transform process, it will inevitably lose nearly all of its meta information. That meta information is very important: it provides context to the token and instructions for how that token should be transformed.
+
+## Documenting Design Tokens
+
+<https://dbanks.design/blog/documenting-design-tokens/>
+<!--date d’ajout : 10/08/2019-->
+
+In this article I will show you all the cool things people are doing to document design tokens.
