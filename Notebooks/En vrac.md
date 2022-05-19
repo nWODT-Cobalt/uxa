@@ -1,3 +1,94 @@
+# En vrac
+
+Prioritize learning over delivery
+Every decision you make is a hypothesis
+
+at scale, all edge cases are common
+
+Design systems extension ideas: design IDE, bidirectional integration with dev IDE, visual & behavioral regression testing, self-service 3rd party integration (to be broken down), design APIs, theming (not just colors but scale factors, hardware factors, ui form factors etc), integrated telemetry, task patterns, etc.
+
+Functionalism: design for function and it will be beautiful *(pwoooo risqué)*
+
+Makers tend not to lead because they are busy making
+
+Rather than being a dictionary of shapes, it’s a dictionary of methods
+
+From the Wikipedia page on Composability:
+
+>A highly composable system provides recombinant components that can be selected and assembled in various combinations to satisfy specific user requirements. In information systems, the essential features that make a component composable are that it be:
+
+>- self-contained (modular): it can be deployed independently – note that it may cooperate with other components, but dependent components are replaceable
+>- stateless: it treats each request as an independent transaction, unrelated to any previous request. Stateless is just one technique; managed state and transactional systems can also be composable, but with greater difficulty.
+
+## Pour axiomes
+
+Specialized understanding = gatekeeping
+
+An easy-to-learn API features consistent naming conventions and patterns, economy of concepts, and predictability.
+
+Each deliverable is a micro DSL
+
+Reuse from the get-go, meaning *always* turn it into a deliverable. At least:
+
+- Title (both decent file name, if not complete scheme, and on-pic title)
+- Expand from an example to a rationale if possible
+- Share/publish/version etc
+
+Predictability, generativity/predictivity, decidability (hard pass/fail). repeatability, accuracy, efficience, opposite of inference ("expliciteness"), "lean fit"
+functions not dictionnaries: <https://matthewstrom.com/writing/functions-in-design-systems>
+thats what being systematic means, hence why it can't just be added afterwards
+
+## Matériel pédagogique WIP
+
+### Components
+
+Investigate modes *(pour DoD de composant)* : Edition, data saving, failure, loading, initial state, empty state, etc. +min, max, reasonable/expected, recommended
+
+base components should only accept enumerable parameters
+
+### Writing and Maintaining Documentation
+
+And remember — if it isn’t documented, it doesn’t exist.
+
+Show structure before behavior, and behavior before layout.
+
+The customer journey is a fluid mix of intentions, contexts, tasks and ever more dynamic screens. Documentation should capture and encourage working in terms of complete flows, not just successions of static screens. Given finite resources, it means starting from structure rather than layout.
+
+Our best solution yet is to approach documentation with an editorial mindset, carefully composing a narrative for each page, curating what content to expose, and supporting it with purpose-made illustrations.
+
+Allocate the most real estate and details for primary use cases.
+
+Maintaining current pages is as important as adding new ones.
+
+Content naturally becomes irrelevant over time; it’s our job to make sure that our colleagues find what they’re looking for nonetheless.
+
+Quick fixes here and there, larger reorganizations when appropriate and sunsetting content from time to time ensure everyone remains on the same page.
+
+Make sure only meaningful revisions are archived locally and on Mojo; get rid of the minimal or redundant iterations
+
+### Publication Status & Change History
+
+Enter any pertinent information in the prompt if you feel the changes are significant.
+
+As such, it is preferable to expose pages only when their content is high quality. This way, it is possible to work on major new features or improvements in the backstage, without disrupting the experience of the reader.
+
+Reviewing our content together builds consensus, allows for better solutions and keeps everyone in the loop. Conversely working in isolation often leads to inconsistency, rework, and poor communication inside and outside of the team. It’s thus preferred to discuss major changes before pushing them; see previous point to for how to work with Confluence drafts.
+
+### Misc
+
+Insertion non linéaire
+
+commutativity, associativity, and distributivity
+
+Conceptual Integrity:
+
+- As few concepts as possible (in words or pictos)
+- Explicitely mentioned/depicted (no silent nor black box notions)
+- Single representation thereof
+- As few exceptions as possible
+
+*Example comparing rows of toggle vs a silly implementation with radios, checkboxes, dropdowns, labels on the left or on the right, etc. Or something not UI related?*.
+
 # Pratiques et concepts
 
 *Applicables au-delà des design systems, mais pas fonctionnel unitairement.*
@@ -132,102 +223,3 @@ If we change the way we work from thinking about our output as just a single doc
 Now, the first time you do this it's not going to be any faster. But, once you've done it for a while, you end up having an environment of shared models. You end up with shared standards, project content, customer models, scenarios, ecosystems, and so on. That allows us to do our work in a faster, better, and cheaper way.
 
 Object-oriented UX is about working smarter. It's about working in a way which is in fact faster, cheaper, and better. I think, in the future, we'll find that all UX professionals will work, not based on ad hoc memories they have from different projects, but from a shared, documented, tool-based environment that allows them to manage these objects.
-
-# Élicitations et rédaction de principes
-
-## Exemples
-
-*En sus de ceux inclus dans les design systems:*
-
-- [La charte des « Décodeurs »](http://www.lemonde.fr/les-decodeurs/article/2014/03/10/la-charte-des-decodeurs_4365106_4355770.html)
-- [Gravity](https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26) (Inclusive , Lean, Robust, Considered , Progressive)
-- [Linear Method](https://linear.app/linear-method)
-- Lyft
-	1. Nail the basics (Clear choice & context)
-	2. Build confidence (Consistent & transparent)
-	3. Be unique (Ownable & delightful)
-- [Paste](https://paste.twilio.design/principles)
-
-## Fredrik Matheson
-
-<https://twitter.com/movito/status/1028548828931272705>
-<!--date d'ajout : 19/08/2018-->
-
-“A principle isn’t a principle unless it costs you something” — Bill Bernbach
-
-*En commentant un tweet de Jared Spool :*
-
-Values worth sticking with are only meaningful when they are hard to execute. If they are always convenient and easy, they aren’t values. They are just good practice. Values are the things we do when the wrong thing is easier and more lucrative.
-
-## Creating Great Design Principles: 6 Counter-intuitive Tests
-
-<https://articles.uie.com/creating-design-principles/>
-<!--date d'ajout : 23/06/2018-->
-
-It’s easy to separate a good design from bad designs. A great principle helps you distinguish a great design from the good designs.
-
-- Test 1: Does It Come Directly From Research?
-- Test 2: Does it Help You Say ‘No’ Most of the Time?
-- Test 3: Does it Distinguish Your Design From Your Competitors’?
-- Test 4: Is it Something You Might Reverse in a Future Release?
-- Test 5: Have You Evaluated it for This Project?
-- Test 6: Is its Meaning Constantly Tested?
-
-*Easy to use* is not something that will ever set a competitor apart. However, *Focus on polish before new features* could set your design apart from a competitor trying to win the hearts and minds of customers through new features, even though their existing platform is buggy and convoluted.
-
-## Web App Masters: Design Principles
-
-<http://www.lukew.com/ff/entry.asp?1364>
-
-How do we tell if our designs are getting better? We need way to evaluate them. Design principles embody a design philosophy and help teams get to better design decisions.
-
-Design principles provide abstract guidance about how to make decisions. Dieter Rams was one of the first to apply design principles to his work.
-
-Google and Facebook have very similar high-level design principles (useful, fast, simple, human) but these principles are so broad that they are almost useless.
-
-Companies use generic principles because they are the only things people can agree upon. Who would argue that “fast” and “universal” are not good principles? As a result, these generic principles show up a lot.
-
-The problem with really long lists of principles is that no team can keep them all in mind as they go through the design process.
-
-Good design principles are specific and not overly extensive.
-
-Design principles should not be common. They need to be specific to what you are trying to accomplish.
-
-There are six questions that you can use to evaluate your design principles.
-
-- Does the design principle come directly from research? What kind of research finds principles like “clean” and “universal”? None. Knowing the observations that led to principles is makes them actionable.
-- Does this principle allow you to say “no” most of the time? We need to get rid of good designs. We need to get to great designs.
-- Does the design principle distinguish your design from your competitor’s designs?
-- Have you evaluated the design principle for this project?
-- Is this design principle something you might want to reverse in a future release? If we can imagine effective designs that don’t meet our principle. That’s how we get to great deigns from good designs.
-- Is the design principle’s meaning constantly being tested?
-
-## What makes a good design principle?
-
-<https://matthewstrom.com/writing/principles>
-<!--date d'ajout : 03/01/2018-->
-
-- Good design principles are memorable
-- Good design principles help you say no
-- Good design principles aren’t truisms (a good test of truism is the reversibility test)
-- Good design principles are applicable
-
-A shortcut to good principles: "Even Over" statements
-
-*Réminiscent du « pour savoir si un terme est vide de sens, il faut chercher son contraire. Personne ne voudrait par exemple s’appeler A l’arrêt », dans  [Pourquoi les partis politiques se prennent de passion pour le point d’exclamation](https://www.lopinion.fr/politique/pourquoi-les-partis-politiques-se-prennent-de-passion-pour-le-point-dexclamation).*
-
-## A Matter of Principle
-
-<https://medium.com/the-year-of-the-looking-glass/a-matter-of-principle-4f5e6ad076bb#.crmh0x42x>
-
-*Principles can answer stakeholders or devs more efficiently than factual points thrown at each and every question they have.*
-
-A good set of design principles, on the other hand, does the following:
-
-1. Helps resolve practical and real-world questions around specific design decisions.
-2. Applies to an entire class of design decisions, both things we can think of today, as well as questions that will pop up in the future.
-3. Imparts a human-oriented sense of “why?” that is easy for everybody — including non-designers — to understand.
-4. Has a point of view and a sense of prioritization that a rational person could disagree with.
-5. Is generally paired with illustrative examples that show how the principle applies to specific decisions.
-
-Instead of relying on gatekeepers to keep a high quality bar, better instead that everyone gets to agreement on a smaller set of guiding values, so that the best decisions get made in a consistent manner, scaling across many decisions, and even many designers.
