@@ -122,6 +122,8 @@ Use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
 
 Use **strong** styling for keywords. *expand with dod material*
 
+`<!--BREAK-->` for Marked document covers
+
 avoid parentheses. use commas or rephrase.
 
 <!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->

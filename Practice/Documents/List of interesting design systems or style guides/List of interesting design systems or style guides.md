@@ -4,6 +4,8 @@ There are great and exhaustive aggregators of quality design documentation, such
 
 <!-- [Designing Inspired Style Guides](https://speakerdeck.com/malarkey/designing-inspired-style-guides) -->
 
+<!--BREAK-->
+
 ## Design Systems (UX/UI-centric)
 
 - [Audi](http://www.audi.com/ci/en/guides/user-interface/introduction.html), with a companion brand guide

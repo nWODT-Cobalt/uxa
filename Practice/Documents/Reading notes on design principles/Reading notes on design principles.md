@@ -1,5 +1,7 @@
 # Reading notes on design principles
 
+<!--BREAK-->
+
 *Most design principles tend to be consensual statements of good intentions, read once and instantly forgotten as they’re of no use day-to-day.*
 *This document tracks best practices for eliciting and writing useful principles.*
 

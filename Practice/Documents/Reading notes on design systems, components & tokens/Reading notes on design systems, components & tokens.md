@@ -1,5 +1,7 @@
 # Reading notes on design systems, components & tokens
 
+<!--BREAK-->
+
 ##  Functions and the future of design systems
 
 <https://matthewstrom.com/writing/functions-in-design-systems/>
