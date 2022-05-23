@@ -26,14 +26,14 @@ Each presentation or document is exported as PDF, ready to be used, albeit witho
 Dependencies only kick in when rendering the material live, or editing it.
 Otherwise, the material is available as PDF and can be used as is.
 
-### For Consumption
+### For Rendering
 
 Presentations are rendered with [Deckset](https://www.deckset.com/), documents with [Marked](https://marked2app.com/).
 Both use [ia Writer](https://github.com/iaolo/iA-Fonts) and [Inter](https://rsms.me/inter/) fonts.
 
-### For Edition
+### For Editing
 
-Text content and document wrappers are stored in Markdown `.md` files. They are plain text files, modifiable with any text editor (e.g. [Atom](https://atom.io/)).
+Text content and document wrappers are stored in Markdown `.md` files, modifiable with any text editor (e.g. [Atom](https://atom.io/)).
 
 Most illustrations are made with [Sketch](https://www.sketch.com/) (`.sketch` files). Some bitmaps are processed beforehand in [Pixelmator Pro](https://www.pixelmator.com/pro/) (`.pxd` files).
 

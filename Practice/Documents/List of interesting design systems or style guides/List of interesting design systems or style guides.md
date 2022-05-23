@@ -20,6 +20,7 @@ There are great and exhaustive aggregators of quality design documentation, such
 - [Morningstar](http://designsystem.morningstar.com/)
 - [OpenBridge](https://openbridge-ds.webflow.io), “user interfaces for the maritime industry”
 - [Orbit](https://orbit.kiwi/), for its dashboard-like home page and search
+- [Designing for Playdate](https://sdk.play.date/1.11.1/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic's usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
 - [Pulse](https://pulse.heartbeat.ua/), cool style
 - [Royal Canin](http://developer.royalcanin.com/), interesting presentation and industry-specific content
 - [Ruter Design System](https://components.ruter.as/), overall excellent, neat contrast testing tool
@@ -37,6 +38,7 @@ There are great and exhaustive aggregators of quality design documentation, such
 - [Driveclub](https://www.youtube.com/watch?v=IKaiXA4Xx74), in video format
 - [The Guardian digital design style guide](https://design.theguardian.com/)
 - [Helsinki Visual Identity Guidelines](https://brand.hel.fi/en/)
+- [Instagram](https://about.instagram.com/brand/)
 - [A List Apart](http://alistapart.com/about/style-guide)
 - [mozilla dot design](https://mozilla.design/), impactful format
 - [Starbucks Creative Expression](https://creative.starbucks.com/), fantastic presentation
