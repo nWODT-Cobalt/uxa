@@ -33,7 +33,7 @@ Both use [ia Writer](https://github.com/iaolo/iA-Fonts) and [Inter](https://rsms
 
 ### For Editing
 
-Text content and document wrappers are stored in Markdown `.md` files, modifiable with any text editor (e.g. [Atom](https://atom.io/)).
+Text content and document wrappers are stored in Markdown (`.md` files), modifiable with any text editor.
 
 Most illustrations are made with [Sketch](https://www.sketch.com/) (`.sketch` files). Some bitmaps are processed beforehand in [Pixelmator Pro](https://www.pixelmator.com/pro/) (`.pxd` files).
 

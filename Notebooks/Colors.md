@@ -6,6 +6,7 @@
 <https://bottosson.github.io/posts/oklab/>
 <https://github.com/Siddharth11/Colorful>
 <https://uxdesign.cc/how-should-you-name-your-colors-in-a-design-system-3086513476df>
+<https://atmos.style/blog/lch-color-space>
 
 color picking + color palettes generation for complex product
 
