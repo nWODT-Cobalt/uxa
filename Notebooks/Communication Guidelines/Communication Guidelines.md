@@ -149,6 +149,12 @@ Italics, translation right after in parentheses.
 
 <!-- # Under Consideration
 
+normative vs non-normative sections
+
+case sensitive, no spaces (within a project, not between projects)
+
+preferred sizes & form factors (incl scales and common multiples of 8 and 10)
+
 Expose the intention > explain the behaviour > describe the properties
 Illustrate with tokens: tool for spec & governance > capture design decision > json kvp
 
