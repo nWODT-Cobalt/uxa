@@ -234,7 +234,9 @@ The point of this is to think about everything as an interoperable system. You c
 <https://tr.designtokens.org/>
 <!--date d'ajout : 05/06/2022-->
 
-*Normative documentation for tokens. Solid and well-articulated; covering the “what” and the “how” more than the why. The action is really at <https://tr.designtokens.org/format/>.*
+*Normative. The action is really at <https://tr.designtokens.org/format/>.*
+
+This document describes the technical specification for a file format to exchange design tokens between different tools.
 
 ## Design Tokens Only Exist In A Pre-Processed State
 

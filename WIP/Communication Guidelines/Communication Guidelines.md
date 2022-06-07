@@ -1,5 +1,6 @@
-# Writing Guidelines
-<!--illustrating too; reword to ~"deliverables content and formatting" or so.-->
+# Communication Guidelines
+
+<br>
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
 
@@ -9,21 +10,18 @@
 
 — [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
 
-<!-- This document aims to encourage the UXA practitioner to communicate and to do so quickly, consistently, and to great impact. -->
+<!--BREAK-->
 
-Communication is paramount because it clarifies thinking, enables collaboration and supports scale.
+## Introduction
 
-<!-- It is not an optional stage at the end of the thing, it is the thing. -->
+Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
 This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material.
 
-<!-- also aims for quality -->
-
-<!-- on confond un peu l'obligation de qualité avec l'incitation à communiquer mais ok -->
-<!-- quickly  -->
-
 It's relevant for reference material, like best practices, and pedagogical material, like trainings. It's not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
+
+<!--BREAK-->
 
 ## 1 Structure
 
@@ -54,7 +52,7 @@ Alineas (line breaks) can be used within a paragraph to add structure.
 
 Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
 
-Apply a *must/could/should* structure whenever possible.
+Apply a *must/could/should* structure whenever possible. <https://www.rfc-editor.org/rfc/rfc2119>
 
 ## 2. Content
 
@@ -122,7 +120,7 @@ Use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
 
 Use **strong** styling for keywords. *expand with dod material*
 
-`<!--BREAK-->` for Marked document covers
+`<!--BREAK-->` right after the h1 for Marked document covers
 
 avoid parentheses. use commas or rephrase.
 
@@ -158,22 +156,28 @@ preferred sizes & form factors (incl scales and common multiples of 8 and 10)
 Expose the intention > explain the behaviour > describe the properties
 Illustrate with tokens: tool for spec & governance > capture design decision > json kvp
 
-- format deckset presenters notes (they render formatted on deckset and on gith
+Handbook / IND6408
+
+other big notion:
+
+- format deckset presenters notes (they render formatted on deckset and on github
 - <https://www.smashingmagazine.com/2021/10/resources-tools-turbocharge-copywriting-skills/>
 - UXA·ID
 - Page numbers?
 - Titles on individual slides?
 - Highlight sparsely (e.g. command names, symbol names)?
 - TOC, recap?
+- naming schemes
 - DOs/DONTs vs only DOs vs good/better/best?
 - Qualités: Validité, Clarté/Transparence, Granularité, Uniformité, Cohérence,
 Complétude, Disponibilité, Accessibilité, Utilisabilité
 - Preferred date/time format, numbers format etc
 - <https://polaris.shopify.com/content/grammar-and-mechanics#basics>
-- Always provide local context (scope, assumptions, environment etc)
+- Always provide local context (scope, assumptions, environment etc); invisible meta on *everything*
 - <https://github.com/cezaraugusto/github-template-guidelines>
 - Recommended types of content: quick diagrams, reference ppt
-- split between long form and quicker tips/conventions?
+- split between long form and quicker tips/conventions? where illos?
+- quick and easy for the author, consistent and memorable for the reader
 
 HFDS 2003: *lots of overlap == prune and rephrase, and give general credit*
 
