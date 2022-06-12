@@ -17,7 +17,7 @@ Or paragraphs.
 
 ![image](assets/image.svg)
 
-^Commentary about the image, as presenter notes.
+^Commentary about the image, as presenter notes. Supports *formatting*.
 
 ---
 

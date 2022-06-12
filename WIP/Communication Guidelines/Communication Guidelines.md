@@ -64,6 +64,8 @@ Alineas (line breaks) can be used within a paragraph to add structure.
 - The preferred length of paragraphs is three or four sentences, but five or six are acceptable.
 - The preferred average sentence is 17 words or less, but up to 20 is acceptable.
 
+<!--BREAK-->
+
 ## 2. Writing
 
 ### 2.0 Syntax
@@ -74,61 +76,58 @@ Apply a *must/could/should* structure whenever possible. <https://www.rfc-editor
 
 ### 2.1 Vocabulary
 
-Be very mindful of the vocabulary. Prefer generic terms over specialized terms. Avoid synonyms, especially in domain-specific matters. Avoid fuzzy terms and everything-buckets.
+Be very mindful of vocabulary.
 
-*Keep annotations terse. Economy of concepts and terms is a primary goal.*
+Prefer generic terms over terms of art. Terms of art (words or phrases that have a precise, specialized meaning within a particular field or profession) are an essential communication tool, but should only be used to capture crucial meaning that would otherwise be lost. The only reason to use a technical term rather than a more common word is that it precisely expresses something that would otherwise be ambiguous or unclear.
 
-*Use only terms formally defined in the Design System. If new terms are introduced, they must be defined locally or globally.*
-
-*Replace or clarify terms that could be interpreted in different ways. For example is “Alert” about a business rule, an error message, a push notification or an exception indicator?*
-
-Avoid everything-buckets that don’t really describe anything, such as “Framework” or “Global”. It’s our job to spot those terms and replace them with clearer explanations.
-
-Avoid fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
-
-From the [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/):
-
->Terms of art (words or phrases that have a precise, specialized meaning within a particular field or profession) are an essential communication tool, but should only be used to capture crucial meaning that would otherwise be lost. The only reason to use a technical term rather than a more common word is that it *precisely* expresses something that would otherwise be ambiguous or unclear.
-
->Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
+Define technical terms, uncommon words and common words that are used in an unusual or special way. Define them immediately following their first occurrence in the text.
 
 Avoid abbreviations.
 
-*Highlight words Style to indicate to the reader that they refer to entities in our own design system, rather than generic notions.*
+When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
+Include it in the document, or contribute and link to the **Vocabulary** (to be published).
 
-*Dans une procédure, l’identification des commandes et des équipements, le texte des messages d’alarme, le numéro des salles, etc. sont tous écrits exactement tel que l’opérateur les voit sur place, sur les gravures, les plaquettes d’identification, les écrans cathodiques ou autres indications visuelles.*
+Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets.
 
-*Pour chaque action significative ou groupe d’actions significatives reliées, on inclut une ou des vérifications afin de s’assurer que leur exécution a apporté les résultats attendus.*
+Replace or clarify terms that could be interpreted in different ways. E.g. it is not clear if an “alert” is about an error message, a business rule, a push notification or an exception indicator.
 
-*Un organigramme pourrait être nécessaire pour faciliter l’application de la procédure.*
+Avoid fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
 
-What to define ? Technical terms, uncommon words, common words that are used in an unusual or special way.
-When several (about 10) new terms are abbreviations are used a glossary or list of acronyms would be included.
-Words or terms that must be defined shall be defined immediately following their first occurrence in the text.
+When referring to existing content, such as a UI or a diagram, spell commands, labels or messaging exactly as they appear in situ.
 
-### 2.2 Sourcing & Attribution
-
-dont reinvent the wheel for nothing ; check for prior data
-authoritative / verified / quality (in data, in presentation) sourcing
-
-Always give proper attribution: inline, in footnotes, or in a dedicated section.
-
-format for inline (text or pic) or reference attribution
+Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of agreement, to the detriment of actionability. Spot them and replace them with clearer explanations.
 
 ### 2.3 Tone & Voice
 
-Be assertive and impersonal, from the author and to the reader. Use the present tense and the *active form*.
+For descriptions, use the present tense and the active form (“Selecting a value triggers validation”).
+For instructions, use the second person imperative (“Remove test set”).
 
-Use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form. Use yhe second person imperative ("Remove test set").
+Prefer positive wording, and direct statements to what's true rather than what's false.  
+It's quicker to check what's true rather than what's false.  
+Use negative wording for prohibition or to correct misconceptions.
 
-Privilégier les énoncés affirmatifs plutôt que négatifs. Faire porter les énoncés sur ce qui est vrai plutôt que sur ce qui est faux (dans les tâches de vérification). Raison: on est plus rapide à vérifier ce qui est vrai que ce qui est faux.  
-Positive wording. Use negative wording for prohibition or to correct misconceptions.
+In any case be assertive, impersonal and use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
+
+<!-- Faire porter les énoncés sur ce qui est vrai plutôt que sur ce qui est faux (dans les tâches de vérification). Raison: on est plus rapide à vérifier ce qui est vrai que ce qui est faux. -->
+
+### 2.2 Attribution
+
+dont reinvent the wheel for nothing ; check for prior data
+authoritative / verified / quality (in data, in presentation) sourcing
+<!-- Heh == prefer authoritative data -->
+<!-- Sourcing is a whole other topic -->
+
+Always give proper attribution: inline, in footnotes, or in a dedicated section. In the format that's demanded in the readme or license.
+
+format for inline (text or pic) or reference attribution
+
+verify authorized usage
 
 ### 2.4. Formatting
 
 <!-- Heh pas terrible, c'est plutôt "conventions et finitions" -->
 
-#### 4.0 Style Conventions
+#### 2.4.1 Style Conventions
 
 Use **strong** styling for keywords. *expand with dod material*
 
@@ -148,8 +147,7 @@ Ponctuer les éléments de liste. D’un point s’il s’agit d’une phrase co
 
 Numbers representing quantities of 10 or more shall be expressed in numerals ; those representing quantities less than 10 shall be expressed in words. If a number is the first word in a sentence, it shall be expressed in words.
 
-
-#### 4.1 Typographic Signs
+#### 2.4.2 Typographic Signs
 
 Be mindful about typographic signs.
 
@@ -164,13 +162,17 @@ Conventions:
 - etc.
 - i.e.
 
-#### 4.2 Foreign Words
+#### 2.4.3 Foreign Words
 
 Italics, translation right after in parentheses.
+
+<!--BREAK-->
 
 ## 3 Illustrating
 
 ### 3.1 Usage
+
+When/what to illustrate: covers/back covers for style, caricatured examples for trainings, charts-instead-of-text, etc.
 
 Illustrate profusely. At least an illustration every 3-4 slides. They help keep reader interest.
 
@@ -184,9 +186,23 @@ Don't illustrate bad practices. In the rare case a bad practice has to be depict
 
 Consistent pictorial style. All comparable figures in a document shall be prepared in the same style, for example, all line drawings, or all photographs.
 
+[moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/)
+
+### 3.3 Format
+
 Force bg
 
-*preferred sizes & form factors (incl scales and common multiples of 8 and 10)*
+preferred layouts/grids (explain grid logic + show grid templates)
+
+preferred sizes & form factors (incl scales and common multiples of 8 and 10)
+
+export @2x
+
+### 3.3 Examples
+
+*florilège annoté*
+
+<!--BREAK-->
 
 ## 4 Deckset & Marked Minutiae
 
@@ -198,6 +214,10 @@ Force bg
 
 format deckset presenters notes (they render formatted on deckset and on github
 
+People can’t remember more than 3 points from a speech. (KK)
+
+<!--BREAK-->
+
 ## 5 Naming Convention & File Organization
 
 <!-- Split into different document ? -->
@@ -206,13 +226,16 @@ Naming schemes ? esp for artboards
 
 Names: case sensitive, no spaces (within a project, not between projects)
 
+<!--BREAK-->
+
 ## 9 Credits/bibliographie
 
 - Règles rédaction de Foulon
 - HFDS 2003
 - IND6408
+- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
 
----
+<!--BREAK-->
 
 # Under Consideration
 
@@ -230,3 +253,7 @@ TBD:
 - Highlight sparsely (e.g. command names, symbol names)?
 - TOC, recap?
 - Qualités: Validité, Clarté/Transparence, Granularité, Uniformité, Cohérence, Complétude, Disponibilité, Accessibilité, Utilisabilité
+- Highlight words Style to indicate to the reader that they refer to entities in our own design system, rather than generic notions.
+- Pour chaque action significative ou groupe d’actions significatives reliées, on inclut une ou des vérifications afin de s’assurer que leur exécution a apporté les résultats attendus.
+- Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
+- Keep annotations terse. Economy of concepts and terms is a primary goal.
