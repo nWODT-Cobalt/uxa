@@ -2,6 +2,15 @@
 
 <!--BREAK-->
 
+## Consistency vs Flexibility: The Myth of Creative Restraint in Design Systems
+
+<https://sparkbox.com/foundry/design_system_consistency_versus_flexibility_design_system_constraints>
+<!--date d'ajout : 13/06/2022-->
+
+But the work is not only technical, it’s cultural. If you want to build a systematic design practice, you’ll have to let go of the tools and the techniques and focus on the people. Consistent output comes from organizations that are culturally consistent—aligned on values and principles. In other words, an organization is successful when it aligns people behind a shared vision, so that everyone’s “wants” match the needs of the business.
+
+Your design system can be a catalyst for that alignment, but it won’t create it on its own. That is the unspoken and deeply challenging mandate of a design system team. The reward is a system flexible enough to enable innovation alongside digital products that are authentically consistent. It will take time to get there, but don’t settle for anything less.
+
 ##  Functions and the future of design systems
 
 <https://matthewstrom.com/writing/functions-in-design-systems/>
@@ -248,6 +257,22 @@ This document describes the technical specification for a file format to exchang
 Once compiled and transformed, the output is no longer a design token. Instead, it’s simply what it is: a key value pair fit for the platform. A variable in a form the platform can understand.
 
 The reason for this conclusion is because the purpose of a design token is to exist as a value, surrounded by context, ready to be transformed. When the design token goes through that transform process, it will inevitably lose nearly all of its meta information. That meta information is very important: it provides context to the token and instructions for how that token should be transformed.
+
+## Design tokens — What are they & how will they help you?
+
+<https://lukasoppermann.medium.com/design-tokens-what-are-they-how-will-they-help-you-b73f80f602ab>
+<!--date d'ajout : 28/01/2021-->
+
+- Design tokens are a methodology to extract design decisions into a separate space. They are stored technology agnostic to be used on any platform.
+- The two types of design tokens are choices & decisions.
+- Choices are the available primitives like brand colors
+- Decisions are choices applied to a context, e.g. what color is used for a primary button
+- Continued interest in design tokens will bring better design software integrations and improved development tooling.
+- Design tokens help have 4 main benefits
+	- Design consistency across products
+	- Improved maintainability
+	- Help scale products to other platforms
+	- Improve documentation of design decisions
 
 ## Documenting Design Tokens
 

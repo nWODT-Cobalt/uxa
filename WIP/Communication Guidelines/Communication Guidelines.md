@@ -16,10 +16,11 @@
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material.
+This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions and parameters, but doesn't explain nor justify them.
+
 <!-- quick and easy for the author, consistent and memorable for the reader -->
 
-It's relevant for reference material, like best practices, and pedagogical material, like trainings. It's not relevant for pitching, marketing nor UI copywriting.
+This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It's not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
 
 <!--BREAK-->
@@ -87,7 +88,7 @@ Avoid abbreviations.
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
 Include it in the document, or contribute and link to the **Vocabulary** (to be published).
 
-Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets.
+Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
 Replace or clarify terms that could be interpreted in different ways. E.g. it is not clear if an “alert” is about an error message, a business rule, a push notification or an exception indicator.
 
@@ -102,7 +103,7 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 For descriptions, use the present tense and the active form (“Selecting a value triggers validation”).
 For instructions, use the second person imperative (“Remove test set”).
 
-Prefer positive wording, and direct statements to what's true rather than what's false.  
+Prefer positive wording, and statements directed to what's true rather than what's false.  
 It's quicker to check what's true rather than what's false.  
 Use negative wording for prohibition or to correct misconceptions.
 
@@ -129,13 +130,12 @@ verify authorized usage
 
 #### 2.4.1 Style Conventions
 
-Use **strong** styling for keywords. *expand with dod material*
+Use title case for headings.
 
 If typographic emphasis is used, it shall be boldface type.
+Use **strong** styling for keywords. *expand with dod material*
 
-title case for headings
-
-avoid parentheses. use commas or rephrase.
+Avoid parentheses. Use commas or rephrase.
 
 <!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->
 
@@ -174,7 +174,7 @@ Italics, translation right after in parentheses.
 
 When/what to illustrate: covers/back covers for style, caricatured examples for trainings, charts-instead-of-text, etc.
 
-Illustrate profusely. At least an illustration every 3-4 slides. They help keep reader interest.
+Illustrate profusely. At least an illustration every 2-3 slides. They help keep reader interest.
 
 Always associate illustrations directly to the content they support, e.g. floated right.
 
@@ -184,21 +184,97 @@ Don't illustrate bad practices. In the rare case a bad practice has to be depict
 
 ### 3.2 Style
 
-Consistent pictorial style. All comparable figures in a document shall be prepared in the same style, for example, all line drawings, or all photographs.
+Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style provided by the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
-[moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/)
+<!-- examples & definitions: illustration, diagram, chart, photograph, gif, screenshot . All of it: figures -->
 
-### 3.3 Format
+Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
-Force bg
+### 3.3 Grid
+
+This guidance is most relevant for heavily templated tools like Deckset or Marked, that offer little control over the size, position or treatment of images. Manually laid out documents may go past the conventions covered here.
+
+Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the OS. They are hereafter noted as pixels for clarity.
+
+<!-- A **unit** is the smallest measure a vertex can be positioned at accurately. It depends on the physical and logical resolution of the device, and can be expressed as pixels (px), points (pt), dips (dp). Units are hereafter noted as pixels for clarity. -->
+
+#### 3.3.1 Parameters
+
+Start from
+
+<!--
+| Parameter     | Value         | Definition                                               |
+| ------------- | ------------- | -------------------------------------------------------- |
+| Module        | 8 px          | The recurring measure vertices are anchored at           |
+| Aspect ratio  | 16:9          | The relative size of the width to the height of an image |
+| Artboard size | 1600 × 900 px | The absolute size of an image                            |
+ -->
+
+![Grid Parameters](assets/grid-parameters@2x.png)
+
+#### 3.3.2 Form Factors/Layout
+
+While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
+
+| Name         |  Size (px) | Usage                                                       |
+| ------------ | ----------:| ----------------------------------------------------------- |
+| 1 artboard   | 1600 × 900 | Full-screen in presentation  (or stand-alone, or in poster) |
+| 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points)         |
+| 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)            |
+
+Other sizes might be derived, as long as they relate to the 16:9 aspect ratio and are multiples of 8 and 10 for grid compatibility.
+
+![Layout Templates](assets/layout-templates@2x.png)
 
 preferred layouts/grids (explain grid logic + show grid templates)
 
-preferred sizes & form factors (incl scales and common multiples of 8 and 10)
+normalized layout templates within canvas for hot swapping. Top-heavy.
 
-export @2x
+40 px clearance (against canvas edge, not safe area edge; show detailed diagram + overlay it on annotated examples)
 
-### 3.3 Examples
+10 px absolute clearance for most illos, eg screenshot (and most dont qualify to begin with). full bleed only for impact, on bg stuff.
+
+Inline doc: shave vertically as much as possible (to not disrupt reading flow).
+Can be vertically shortened (only at export time, so that it's easy to get back to nominal).
+try and catch a major size
+
+![Inline illustration shortening](assets/inline-illo-shortening@2x.png)
+
+#### 3.3.3 Preferred Sizes
+
+Specific values along the 8 px grid are preferred when working on editorial layouts.
+
+While an 8 px module is appropriate for fine work like UI design, it's too granular for illustrations or pages layout, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
+
+The preferred values are multiples of 8 (the UXA grid module) and 10 (another frequent grid module), ensuring scale and compatibility. Multiples of 4 (half UXA grid module) and 10 are also possible, as a second choice. Straight multiples of 8 are the last resort.
+
+<!-- scales, series, stop points? major, minor, module? preferred, possible, fallback? -->
+<!-- the half module series are identical: n(4 × 10) = n(8 × 5) -->
+
+| Priority | Generation | Sample values (px)                                    |
+| -------- | ---------- | ----------------------------------------------------- |
+| 1        | 8 × 10     | 80, 160, 240, 420, 400, 480, 560, 640, 720, 800, etc. |
+| 2        | 4 × 10     | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
+| 3        | 8 × 1      | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
+
+Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, for example [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
+
+### 3.4 Export
+
+svg > pdf > png > jpg
+
+if vector, @1x  
+if bitmap, @2x
+
+Set an illustration background color, `Gris 0106 Béton Clair` by default.
+<!-- Marked-only? -->
+
+Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser, a hands-off, inspection or version control tool, whose own background color is unknown. Some of these backgrounds could make the illustration foreground illegible.
+
+Other background colors are allowed
+<!-- Also: use bg colors *very rarely* for style -->
+
+### 3.5 Examples
 
 *florilège annoté*
 
@@ -206,15 +282,34 @@ export @2x
 
 ## 4 Deckset & Marked Minutiae
 
-`<!--BREAK-->` right after the h1 for Marked document covers
+### 4.1 Marked
+
+Finalize document:
+
+- Insert a `<!--BREAK-->` tag immediately after the top H1, to yield a clean cover page
+
+Configure Marked:
+
+- Enable `Export/Prevent orphaned headlines`
+- Enable `Export/Add page breaks before/Footnotes`
+
+Export with Marked:
+
+- Set the theme to [UXASF1](https://github.com/nWODT-Cobalt/markown-utilities)
+- Select `Export As/Save PDF (Paginated)`
 
 <!-- Major divisions of the document should begin on right hand-pages. Right-hand pages shall be odd-numbered pages, and left hand pages shall be even-numbered pages. -->
 
 <!-- A user document shall have a table of contents unless it has fewer than three divisions or fewer than six pages. A table of contents shall include: (a) at least two levels of the headings and subheadings of the document, (b) appendixes if they exist, (d) list of exhibits, illustrations, figures and tables if they exist, and (e) the original page number of each item listed. The table of contents shall begin on a right-hand page. -->
 
-format deckset presenters notes (they render formatted on deckset and on github
+### 4.2 Deckset
 
-People can’t remember more than 3 points from a speech. (KK)
+<!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
+<!-- Actually: make small, focused documents all the time -->
+
+format deckset presenters notes (they render formatted on deckset and on github)
+
+Render with [UXASF1](/Resources/Deckset)
 
 <!--BREAK-->
 
