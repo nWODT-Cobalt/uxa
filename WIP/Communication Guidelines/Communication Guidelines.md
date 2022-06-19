@@ -200,7 +200,7 @@ Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the
 
 #### 3.3.1 Parameters
 
-Start from
+The UXA grid is set to an 8 px module.
 
 <!--
 | Parameter     | Value         | Definition                                               |
@@ -216,27 +216,26 @@ Start from
 
 While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
 
-| Name         |  Size (px) | Usage                                                       |
+![Artboards Form Factors](assets/artboard-form-factors@2x.png)
+
+| Type         |  Size (px) | Usage                                                       |
 | ------------ | ----------:| ----------------------------------------------------------- |
 | 1 artboard   | 1600 × 900 | Full-screen in presentation  (or stand-alone, or in poster) |
 | 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points)         |
 | 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)            |
 
-Other sizes might be derived, as long as they relate to the 16:9 aspect ratio and are multiples of 8 and 10 for grid compatibility.
+Artboards contain various guides helping to lay out content quickly and consistently:
+
+1. Artboard: export frame of the figure
+2. Measurement origin: virtual border from which all content should be measured and aligned. Set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard, that doesn't support it by default.
+3. Visual clearance: 40 px for docs, 40/80 px for slides (against canvas edge, not safe area edge. Exceptionally 10px, eg screenshot (and most dont qualify to begin with). full bleed only for impact, on bg stuff.
+4. Content keylines: optional preferred positions for content
 
 ![Layout Templates](assets/layout-templates@2x.png)
 
-preferred layouts/grids (explain grid logic + show grid templates)
-
-normalized layout templates within canvas for hot swapping. Top-heavy.
-
-40 px clearance (against canvas edge, not safe area edge; show detailed diagram + overlay it on annotated examples)
-
-10 px absolute clearance for most illos, eg screenshot (and most dont qualify to begin with). full bleed only for impact, on bg stuff.
-
 Inline doc: shave vertically as much as possible (to not disrupt reading flow).
 Can be vertically shortened (only at export time, so that it's easy to get back to nominal).
-try and catch a major size
+try and catch a preferred size.
 
 ![Inline illustration shortening](assets/inline-illo-shortening@2x.png)
 
@@ -251,28 +250,42 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 <!-- scales, series, stop points? major, minor, module? preferred, possible, fallback? -->
 <!-- the half module series are identical: n(4 × 10) = n(8 × 5) -->
 
-| Priority | Generation | Sample values (px)                                    |
+[Preferred Sizes]
+| Priority | Rythm (px) | Sample values (px)                                    |
 | -------- | ---------- | ----------------------------------------------------- |
 | 1        | 8 × 10     | 80, 160, 240, 420, 400, 480, 560, 640, 720, 800, etc. |
 | 2        | 4 × 10     | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
 | 3        | 8 × 1      | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
 
-Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, for example [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
+Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
 
 ### 3.4 Export
 
-svg > pdf > png > jpg
+<!-- svg > pdf > png > jpg -->
 
-if vector, @1x  
-if bitmap, @2x
+Export to SVG by default.  
+SVG files are scalable, interoperable, programmatically manipulable and lightweight.
+Some specific use cases may require other formats:
+
+| Priority | Format | Scaling | Usage                                            |
+| -------- | ------ | ------- | ------------------------------------------------ |
+| 1        | SVG    | 1x      | Vector figures without text (e.g. illustrations) |
+| 2        | PDF    | 1x      | Vector figures with text (e.g. diagrams)         |
+| 3        | PNG    | 2x      | Screenshots, UI mockups                          |
+| 4        | JPG    | 2x      | Photos, scanned documents                        |
 
 Set an illustration background color, `Gris 0106 Béton Clair` by default.
 <!-- Marked-only? -->
 
-Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser, a hands-off, inspection or version control tool, whose own background color is unknown. Some of these backgrounds could make the illustration foreground illegible.
+Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser or a hand-off, inspection or version control tool. Their background color is unknown, and some of them could make the illustration foreground illegible.
 
-Other background colors are allowed
-<!-- Also: use bg colors *very rarely* for style -->
+Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will bleed through. Depending on the photo color, the `Gris 0106 Béton Clair` background may not work well. In this case, it's possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
+<!-- Heh that's actually slide bg , not illo bg + 90% scaling-->
+
+Do not pick an arbitrary background color for editorial purposes, like calling for attention.
+<!-- divider entre recommendations marked et recommendations deckset ? peu d'overlap au final -->
+
+![Background Color](assets/background-color@2x.png)
 
 ### 3.5 Examples
 
@@ -304,12 +317,12 @@ Export with Marked:
 
 ### 4.2 Deckset
 
+Present or export Deckset presentations with the [UXASF1](/Resources/Deckset) theme.
+
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
 
-format deckset presenters notes (they render formatted on deckset and on github)
-
-Render with [UXASF1](/Resources/Deckset)
+Do not hesitate to format Deckset presenter's notes; they will render so on Deckset and on Github.
 
 <!--BREAK-->
 

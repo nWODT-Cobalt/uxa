@@ -5,6 +5,14 @@
 *Most design principles tend to be consensual statements of good intentions, read once and instantly forgotten as they’re of no use day-to-day.*
 *This document tracks best practices for eliciting and writing useful principles.*
 
+## Zack
+
+<!--date d'ajout : 18/06/2022-->
+
+The purpose and consumers of the contents need to be clarified first. How far you would like the principles to impact your internal orgs? Is it for [UX-internal] educating or align stakeholder expectations? Establish a common language in the whole company?
+
+Product Design [can be] a supporting org/subset of Prod Dev, so PM and Dev are involved in signing-off. The principles need to be widely-relatable/educable so that they actually accelerate the buy-in process. Something to watch out for to manage stakeholder expectations.
+
 ## Fredrik Matheson
 
 <https://twitter.com/movito/status/1028548828931272705>
