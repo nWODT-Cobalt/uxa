@@ -16,12 +16,20 @@
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions and parameters, but doesn't explain nor justify them.
+This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions and parameters, but doesn’t explain nor justify them.
 
 <!-- quick and easy for the author, consistent and memorable for the reader -->
 
-This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It's not relevant for pitching, marketing nor UI copywriting.
+This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
+
+### Conventions
+
+Some terms used throughout this document have a particular meaning in the UXA context:
+
+- Document (Marked; only for reading or reference) vs presentation (deckset, for presentation or reference).
+- Inline vs full-screen
+- Figures (illustration, diagram, chart, photograph, gif, screenshot) vs images vs tables
 
 <!--BREAK-->
 
@@ -31,10 +39,12 @@ This document is relevant for reference material, like best practices, and pedag
 
 Always provide local context (scope, assumptions, environment etc); invisible meta on *everything*
 
+Explicitly declare normative vs non-normative sections.
+
 Content Order: Overview/abstract/general before details/concrete/specific.
 
 Start with good practices
-Don't cover bad practices, unless some recurring misconception needs active correction.
+Don’t cover bad practices, unless some recurring misconception needs active correction.
 
 <!-- DOs/DONTs vs only DOs vs good/better/best? -->
 
@@ -47,15 +57,15 @@ split between long form and quicker tips/conventions
 
 ### 1.2 Morphology
 
-could it be a list, a comparison table, a data table, a diagram, a reference ppt? *Make a super clear, super big decision tree for "how to shape your content/here's a boilerplate" depending on the deliverable. Eg best practices page: start from a must/could/should bullet list, etc.*
+could it be a list, a comparison table, a data table, a diagram, a reference ppt? *Make a super clear, super big decision tree for “how to shape your content/here’s a boilerplate” depending on the deliverable. Eg best practices page: start from a must/could/should bullet list, etc.*
 
 If text:
 
 Each notion should be one paragraph and one only.
-<!-- So it's actually one section -->
+<!-- So it’s actually one section -->
 
 Each paragraph should be structured in the same way: first the notion <!-- result/guidance --> expressed in a few words. Then its rationale (optional), best practices (optional) and alternatives (optional). <!-- Further reading (connection to other concepts, perspectives, controversies, details etc.) -->  
-everything but the idea is optional since in a lot of cases, the instruction standalone can be acted upon immediately, even if somewhat less effectively, while explanations can be added later. Thus trading depth for breadth allows for a quicker "initial overview".
+everything but the idea is optional since in a lot of cases, the instruction standalone can be acted upon immediately, even if somewhat less effectively, while explanations can be added later. Thus trading depth for breadth allows for a quicker “initial overview”.
 No paragraph should be longer than 10-15 lines.
 
 ![](assets/communication,writing-guidelines,structure@2x.png)
@@ -103,68 +113,82 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 For descriptions, use the present tense and the active form (“Selecting a value triggers validation”).
 For instructions, use the second person imperative (“Remove test set”).
 
-Prefer positive wording, and statements directed to what's true rather than what's false.  
-It's quicker to check what's true rather than what's false.  
+Prefer positive wording, and statements directed to what’s true rather than what’s false; it’s quicker to check.  
 Use negative wording for prohibition or to correct misconceptions.
 
 In any case be assertive, impersonal and use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
 
 <!-- Faire porter les énoncés sur ce qui est vrai plutôt que sur ce qui est faux (dans les tâches de vérification). Raison: on est plus rapide à vérifier ce qui est vrai que ce qui est faux. -->
 
-### 2.2 Attribution
+### 2.2 Sourcing
 
-dont reinvent the wheel for nothing ; check for prior data
-authoritative / verified / quality (in data, in presentation) sourcing
+Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used. This can be achieved through various means, like an open-source license or the purchase of a commercial license.
+
+<!-- authoritative / verified / quality (in data, in presentation) sourcing -->
 <!-- Heh == prefer authoritative data -->
-<!-- Sourcing is a whole other topic -->
+<!-- authoritative sourcing != legal sourcing -->
 
-Always give proper attribution: inline, in footnotes, or in a dedicated section. In the format that's demanded in the readme or license.
+### 2.3. Attribution
 
-format for inline (text or pic) or reference attribution
+Most documents or presentations are built upon on other people’s ideas, data or work. It’s important to only ever use authorized material, and credit it properly.
 
-verify authorized usage
+Provide attribution for other people’s material.  
+Inline attribution, located directly where the material is, is the preferred way of doing attribution. It works well for most quotes, tables or figures.
+Reference attribution, separate from the material and gathered at the end of the document, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. It’s mostly for full-slide images.
+
+If the author asks for a specific an attribution format, use it. If not, use the following:
+
+- Inline: `<work title>, <author name>, <work year>`
+- Reference: `<page/slide number>: <work title>, <author name>, <work year>`
+
+Do not use footnotes for attribution.
+
+<!-- provide examples: default, talk within a conference, figure within a document, etc. -->
+<!-- the point is to be fair and useful (provide context), not be dogmatic nor academic -->
+
+<!-- citation, attribution, sources, references, credits, further resources -->
+<!-- [How to Cite Your Sources](https://gouldguides.carleton.edu/citation/attribution) -->
+<!-- APA -->
 
 ### 2.4. Formatting
 
-<!-- Heh pas terrible, c'est plutôt "conventions et finitions" -->
+<!-- Heh pas terrible, c’est plutôt “conventions et finitions” -->
 
 #### 2.4.1 Style Conventions
 
 Use title case for headings.
 
 If typographic emphasis is used, it shall be boldface type.
-Use **strong** styling for keywords. *expand with dod material*
+Use **strong** styling for keywords.
+
+*expand with dod material*
+
+Punctuate list items: with a period if it’s a complete sentence, or sentences. Otherwise with commas. The last item is punctuated with a period.
 
 Avoid parentheses. Use commas or rephrase.
 
 <!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->
 
-explicitly declare normative vs non-normative sections
-
-Preferred date/time format, numbers format etc
-
-Ponctuer les éléments de liste. D’un point s’il s’agit d’une phrase complète, ou de plusieurs phrases. De virgules le cas échéant. L’avant-dernier élément sera complété par “et” ou “ou”, et le dernier élément terminé par un point.
+#### 2.4.2 Number, date and time conventions
 
 Numbers representing quantities of 10 or more shall be expressed in numerals ; those representing quantities less than 10 shall be expressed in words. If a number is the first word in a sentence, it shall be expressed in words.
 
+*Preferred date/time format, units formats and spaces etc*
+
 #### 2.4.2 Typographic Signs
 
-Be mindful about typographic signs.
+Be mindful about typographic signs. In particular:
 
-Use proper apostrophes and quote marks ([smart-quotes-plus package](https://atom.io/packages/smart-quotes-plus)), multiplication signs, etc.
+- Abbreviations: e.g., etc., i.e. with periods,
+- Apostrophes and quote marks: curly instead of straight; run the [smart-quotes-plus](https://atom.io/packages/smart-quotes-plus) package,
+- Fractions: real fractions like ¼ instead of fake ones like 1/4; supported by Inter and iA Writer Quattro,
+- Multiplication signs: × instead of the letter x.
 
-- [Glyphy](https://www.glyphy.io/) (e.g. ·, ↪, ⚠)
-- [Subscripts and superscripts](https://en.wikipedia.org/wiki/Unicode_subscripts_and_superscripts) (e.g. ⁿᵈ, ⁴)
-
-Conventions:
-
-- e.g.
-- etc.
-- i.e.
+Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or ⚠.
 
 #### 2.4.3 Foreign Words
 
-Italics, translation right after in parentheses.
+Foreign words should be italicized, and immediately followed by their translation in parentheses.
 
 <!--BREAK-->
 
@@ -178,15 +202,13 @@ Illustrate profusely. At least an illustration every 2-3 slides. They help keep 
 
 Always associate illustrations directly to the content they support, e.g. floated right.
 
-Make sure full-page illustrations are commented in *presenter's notes* (see xxx) as otherwise they lack the context required to be useful.
+Make sure full-page illustrations are commented in *presenter’s notes* (see xxx) as otherwise they lack the context required to be useful.
 
-Don't illustrate bad practices. In the rare case a bad practice has to be depicted, always depict the corresponding good practice immediately next to it.
+Don’t illustrate bad practices. In the rare case a bad practice has to be depicted, always depict the corresponding good practice immediately next to it.
 
 ### 3.2 Style
 
 Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style provided by the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
-
-<!-- examples & definitions: illustration, diagram, chart, photograph, gif, screenshot . All of it: figures -->
 
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
@@ -227,14 +249,14 @@ While the canonical 1600 × 900 px artboard size is well-suited to full-screen r
 Artboards contain various guides helping to lay out content quickly and consistently:
 
 1. Artboard: export frame of the figure
-2. Measurement origin: virtual border from which all content should be measured and aligned. Set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard, that doesn't support it by default.
+2. Measurement origin: virtual border from which all content should be measured and aligned. Set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard, that doesn’t support it by default.
 3. Visual clearance: 40 px for docs, 40/80 px for slides (against canvas edge, not safe area edge. Exceptionally 10px, eg screenshot (and most dont qualify to begin with). full bleed only for impact, on bg stuff.
 4. Content keylines: optional preferred positions for content
 
 ![Layout Templates](assets/layout-templates@2x.png)
 
 Inline doc: shave vertically as much as possible (to not disrupt reading flow).
-Can be vertically shortened (only at export time, so that it's easy to get back to nominal).
+Can be vertically shortened (only at export time, so that it’s easy to get back to nominal).
 try and catch a preferred size.
 
 ![Inline illustration shortening](assets/inline-illo-shortening@2x.png)
@@ -243,7 +265,7 @@ try and catch a preferred size.
 
 Specific values along the 8 px grid are preferred when working on editorial layouts.
 
-While an 8 px module is appropriate for fine work like UI design, it's too granular for illustrations or pages layout, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
+While an 8 px module is appropriate for fine work like UI design, it’s too granular for illustrations or pages layout, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
 
 The preferred values are multiples of 8 (the UXA grid module) and 10 (another frequent grid module), ensuring scale and compatibility. Multiples of 4 (half UXA grid module) and 10 are also possible, as a second choice. Straight multiples of 8 are the last resort.
 
@@ -279,11 +301,11 @@ Set an illustration background color, `Gris 0106 Béton Clair` by default.
 
 Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser or a hand-off, inspection or version control tool. Their background color is unknown, and some of them could make the illustration foreground illegible.
 
-Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will bleed through. Depending on the photo color, the `Gris 0106 Béton Clair` background may not work well. In this case, it's possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
-<!-- Heh that's actually slide bg , not illo bg + 90% scaling-->
+Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will bleed through. Depending on the photo color, the `Gris 0106 Béton Clair` background may not work well. In this case, it’s possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
+<!-- Heh that’s actually slide bg , not illo bg + 90% scaling-->
 
 Do not pick an arbitrary background color for editorial purposes, like calling for attention.
-<!-- divider entre recommendations marked et recommendations deckset ? peu d'overlap au final -->
+<!-- divider entre recommendations marked et recommendations deckset ? peu d’overlap au final -->
 
 ![Background Color](assets/background-color@2x.png)
 
@@ -303,8 +325,8 @@ Finalize document:
 
 Configure Marked:
 
-- Enable `Export/Prevent orphaned headlines`
-- Enable `Export/Add page breaks before/Footnotes`
+- Enable `Export`/`Prevent orphaned headlines`
+- Enable `Export` → `Add page breaks before/Footnotes`
 
 Export with Marked:
 
@@ -322,7 +344,7 @@ Present or export Deckset presentations with the [UXASF1](/Resources/Deckset) th
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
 
-Do not hesitate to format Deckset presenter's notes; they will render so on Deckset and on Github.
+Do not hesitate to format Deckset presenter’s notes; they will render so on Deckset and on Github.
 
 <!--BREAK-->
 
@@ -365,3 +387,4 @@ TBD:
 - Pour chaque action significative ou groupe d’actions significatives reliées, on inclut une ou des vérifications afin de s’assurer que leur exécution a apporté les résultats attendus.
 - Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
 - Keep annotations terse. Economy of concepts and terms is a primary goal.
+- style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase.

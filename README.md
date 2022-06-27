@@ -12,13 +12,13 @@ It's very much an early, ongoing work. The initial focus is on defining basic no
 
 ## Content
 
-Each document or presentation is exported as PDF, ready to be used, albeit without presenter notes.
-
 - `Documents`: long form writing
 - `Presentations`: slide decks
 - `Resources`: templates, themes, fonts, style guides etc to render or edit documents and presentation
 - `Sources`: source files for illustrations
 - `WIP`: work in progress
+
+Each document or presentation is exported as PDF, ready to be used, albeit without presenter notes.
 
 ## Dependencies
 
