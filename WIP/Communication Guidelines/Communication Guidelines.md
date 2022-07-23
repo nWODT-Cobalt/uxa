@@ -27,7 +27,7 @@ This document is relevant for reference material, like best practices, and pedag
 
 Some terms used throughout this document have a particular meaning in the UXA context:
 
-- Document (Marked; only for reading or reference) vs presentation (deckset, for presentation or reference).
+- Document (Marked; for reading or reference) vs presentation (Deckset, for presentation or reference).
 - Inline vs full-screen
 - Figures (illustration, diagram, chart, photograph, gif, screenshot) vs images vs tables
 
@@ -108,6 +108,10 @@ When referring to existing content, such as a UI or a diagram, spell commands, l
 
 Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of agreement, to the detriment of actionability. Spot them and replace them with clearer explanations.
 
+### 2.3 Spelling
+
+Use American spelling. When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/) for the preferred spelling of specific terms.
+
 ### 2.3 Tone & Voice
 
 For descriptions, use the present tense and the active form (“Selecting a value triggers validation”).
@@ -119,6 +123,8 @@ Use negative wording for prohibition or to correct misconceptions.
 In any case be assertive, impersonal and use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
 
 <!-- Faire porter les énoncés sur ce qui est vrai plutôt que sur ce qui est faux (dans les tâches de vérification). Raison: on est plus rapide à vérifier ce qui est vrai que ce qui est faux. -->
+
+<!-- use the passive voice if the object (thing being done) is more important than the subject (person doing the thing) -->
 
 ### 2.2 Sourcing
 
@@ -149,6 +155,7 @@ Do not use footnotes for attribution.
 <!-- citation, attribution, sources, references, credits, further resources -->
 <!-- [How to Cite Your Sources](https://gouldguides.carleton.edu/citation/attribution) -->
 <!-- APA -->
+<!-- titre *exact* de la section d'attribution? credits, bibliographie, sources, etc. -->
 
 ### 2.4. Formatting
 
@@ -167,13 +174,37 @@ Punctuate list items: with a period if it’s a complete sentence, or sentences.
 
 Avoid parentheses. Use commas or rephrase.
 
+<!-- Don’t use ampersands (&). They attract attention to the least important part of the sentence. Spell out the word “and.” -->
+
 <!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->
 
-#### 2.4.2 Number, date and time conventions
+Use apostrophes to form possessives:
+
+- Singular nouns: add ’s, even if they end in s (merchant’s, bus’s)
+- Plural nouns that don’t end in s: add ’s (women’s, men’s)
+- Plural nouns that end in s: add an apostrophe (boxes’, customers’)
+
+Oxford Comma Y/N?
+
+#### 2.4.2 Number and Dates
 
 Numbers representing quantities of 10 or more shall be expressed in numerals ; those representing quantities less than 10 shall be expressed in words. If a number is the first word in a sentence, it shall be expressed in words.
 
 *Preferred date/time format, units formats and spaces etc*
+
+These guidelines are for American English, which is the language we use as a base before translating to other languages. However, dates, numbers, and measurements may be formatted differently in other languages.
+
+When possible, use the month’s full name, for example, October. If there are space constraints, use 3-letter abbreviations, for example, Oct. Don’t write dates numerically, for example, 07-02-14.
+
+Don’t use ordinal indicators, which are words representing position or rank in a sequential order (1st, 2nd, 3rd, and so on).
+
+Use commas for numbers with four or more digits. Whenever possible, don’t truncate numbers
+
+Use an en dash without a space on either side for number ranges:
+
+In all cases, include a space between the number and the unit.
+
+When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number (and include a space).
 
 #### 2.4.2 Typographic Signs
 
@@ -326,12 +357,12 @@ Finalize document:
 Configure Marked:
 
 - Enable `Export`/`Prevent orphaned headlines`
-- Enable `Export` → `Add page breaks before/Footnotes`
+- Enable `Export`/`Add page breaks before/Footnotes`
 
 Export with Marked:
 
 - Set the theme to [UXASF1](https://github.com/nWODT-Cobalt/markown-utilities)
-- Select `Export As/Save PDF (Paginated)`
+- Select `Export As`/`Save PDF (Paginated)`
 
 <!-- Major divisions of the document should begin on right hand-pages. Right-hand pages shall be odd-numbered pages, and left hand pages shall be even-numbered pages. -->
 
@@ -358,25 +389,21 @@ Names: case sensitive, no spaces (within a project, not between projects)
 
 <!--BREAK-->
 
-## 9 Credits/bibliographie
+## 9 Sources
 
-- Règles rédaction de Foulon
+- Règles rédaction, JM Foulon, 2007
 - HFDS 2003
 - IND6408
-- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/)
+- [Grammar and mechanics — Shopify Polaris](https://polaris.shopify.com/foundations/content/grammar-and-mechanics), Shopify, 2022
+- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/), Apple, 2020
 
 <!--BREAK-->
 
 # Under Consideration
 
-Check out:
-
-- Handbook / IND6408
-- <https://www.smashingmagazine.com/2021/10/resources-tools-turbocharge-copywriting-skills/>
-- <https://polaris.shopify.com/content/grammar-and-mechanics#basics>
-
 TBD:
 
+- Handbook / IND6408
 - UXA·ID?
 - Page numbers?
 - Titles on individual slides?
@@ -388,3 +415,15 @@ TBD:
 - Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
 - Keep annotations terse. Economy of concepts and terms is a primary goal.
 - style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase.
+
+
+boilerplate f(type of document):
+
+Eg for ~collaboration reference, esp when ppl come from different trades, orgs, etc.
+
+- Any prerequisite or context, including definition of terms of art
+- Overall goals and scope
+- Principles, expressed in a decision-supportive way (see SADMEME). Basically clarifying how will decisions be taken. Typically statements like “xx over yy over zz” or “xx is a goal, yy is a byproduct”
+- Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
+- Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
+- Ideally structured after the process, rather than the tool or the assets; acknowledging that the audience is proficient or debutant.

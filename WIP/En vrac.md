@@ -76,6 +76,8 @@ Reviewing our content together builds consensus, allows for better solutions and
 
 ### Misc
 
+[Formal grammar](https://en.wikipedia.org/wiki/Formal_grammar)
+
 Insertion non linéaire
 
 commutativity, associativity, and distributivity
