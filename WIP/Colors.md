@@ -7,6 +7,8 @@
 <https://github.com/Siddharth11/Colorful>
 <https://uxdesign.cc/how-should-you-name-your-colors-in-a-design-system-3086513476df>
 <https://atmos.style/blog/lch-color-space>
+<https://adobe.design/stories/design-for-scale/reinventing-adobe-spectrum-s-colors>
+<https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/>
 
 color picking + color palettes generation for complex product
 

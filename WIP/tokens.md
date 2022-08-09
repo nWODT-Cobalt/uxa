@@ -29,6 +29,8 @@ recommended setup (2 tiered)
 
 depict the whole thing so that allocation is clear and quantitative comparison easy (== several example, dev change costs reified and quantified, compared to flexibility costs)
 
+<https://bradfrost.com/blog/post/the-many-faces-of-themeable-design-systems/> (à l'envers, ceci dit)
+
 ## Decision Criteria
 
 go further than ~descriptions with guidance for discussion/decision.

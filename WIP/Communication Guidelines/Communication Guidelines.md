@@ -16,20 +16,27 @@
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate — by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions and parameters, but doesn’t explain nor justify them.
+This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
 
 <!-- quick and easy for the author, consistent and memorable for the reader -->
 
 This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
 
-### Conventions
+---
 
 Some terms used throughout this document have a particular meaning in the UXA context:
 
-- Document (Marked; for reading or reference) vs presentation (Deckset, for presentation or reference).
-- Inline vs full-screen
-- Figures (illustration, diagram, chart, photograph, gif, screenshot) vs images vs tables
+Documents vs Presentations
+: Documents are text-heavy, usually long-form material for individual reading or reference. They are exported from [Marked](https://marked2app.com/). Presentations are figure-heavy, usually short-form material for group training or evangelization. They are presented from  [Deckset](https://www.deckset.com/).
+
+Figure
+: Any diagram, chart, gif, illustration, photograph or screenshot.
+
+Inline vs Full-screen
+: Inline figures are presented alongside text, and are usually laid-out complementary to it. Full-screen figures take up the entirety of the page or slide.
+
+<!-- vs images vs tables / huh? -->
 
 <!--BREAK-->
 
@@ -68,22 +75,20 @@ Each paragraph should be structured in the same way: first the notion <!-- resul
 everything but the idea is optional since in a lot of cases, the instruction standalone can be acted upon immediately, even if somewhat less effectively, while explanations can be added later. Thus trading depth for breadth allows for a quicker “initial overview”.
 No paragraph should be longer than 10-15 lines.
 
-![](assets/communication,writing-guidelines,structure@2x.png)
+![](assets/notion-morphology@2x.png)
 
-Alineas (line breaks) can be used within a paragraph to add structure.
+Alineas (line breaks) can be used within a paragraph to add structure.  
+The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
 
-- The preferred length of paragraphs is three or four sentences, but five or six are acceptable.
-- The preferred average sentence is 17 words or less, but up to 20 is acceptable.
+### 1.3 Syntax
+
+Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
+
+Apply a [must/could/should structure](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
 <!--BREAK-->
 
 ## 2. Writing
-
-### 2.0 Syntax
-
-Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
-
-Apply a *must/could/should* structure whenever possible. <https://www.rfc-editor.org/rfc/rfc2119>
 
 ### 2.1 Vocabulary
 
@@ -128,7 +133,8 @@ In any case be assertive, impersonal and use the [singular *they*](https://en.wi
 
 ### 2.2 Sourcing
 
-Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used. This can be achieved through various means, like an open-source license or the purchase of a commercial license.
+Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used.  
+This can be achieved through various means, like an open-source license or the purchase of a commercial license.
 
 <!-- authoritative / verified / quality (in data, in presentation) sourcing -->
 <!-- Heh == prefer authoritative data -->
@@ -139,7 +145,7 @@ Make sure content, in particular fonts or images from Internet, are explicitly a
 Most documents or presentations are built upon on other people’s ideas, data or work. It’s important to only ever use authorized material, and credit it properly.
 
 Provide attribution for other people’s material.  
-Inline attribution, located directly where the material is, is the preferred way of doing attribution. It works well for most quotes, tables or figures.
+Inline attribution, located directly where the material is, is preferred. It works well for most quotes, tables or figures.
 Reference attribution, separate from the material and gathered at the end of the document, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. It’s mostly for full-slide images.
 
 If the author asks for a specific an attribution format, use it. If not, use the following:
@@ -155,7 +161,7 @@ Do not use footnotes for attribution.
 <!-- citation, attribution, sources, references, credits, further resources -->
 <!-- [How to Cite Your Sources](https://gouldguides.carleton.edu/citation/attribution) -->
 <!-- APA -->
-<!-- titre *exact* de la section d'attribution? credits, bibliographie, sources, etc. -->
+<!-- titre *exact* de la section d’attribution? credits, bibliographie, sources, etc. -->
 
 ### 2.4. Formatting
 
@@ -269,7 +275,7 @@ The UXA grid is set to an 8 px module.
 
 While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
 
-![Artboards Form Factors](assets/artboard-form-factors@2x.png)
+![Artboards Form Factors](assets/artboards-form-factors@2x.png)
 
 | Type         |  Size (px) | Usage                                                       |
 | ------------ | ----------:| ----------------------------------------------------------- |
@@ -330,12 +336,12 @@ Some specific use cases may require other formats:
 Set an illustration background color, `Gris 0106 Béton Clair` by default.
 <!-- Marked-only? -->
 
-Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser or a hand-off, inspection or version control tool. Their background color is unknown, and some of them could make the illustration foreground illegible.
+Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser or a hand-off, inspection or version control tool. Their background color is unknown, and could make the illustration foreground illegible.
 
-Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will bleed through. Depending on the photo color, the `Gris 0106 Béton Clair` background may not work well. In this case, it’s possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
+Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will show through. Depending on the photo, the `Gris 0106 Béton Clair` background may not work well. In this case, it’s possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
 <!-- Heh that’s actually slide bg , not illo bg + 90% scaling-->
 
-Do not pick an arbitrary background color for editorial purposes, like calling for attention.
+Do not pick an arbitrary background color for editorial purposes, like calling for attention or impact.
 <!-- divider entre recommendations marked et recommendations deckset ? peu d’overlap au final -->
 
 ![Background Color](assets/background-color@2x.png)
@@ -348,19 +354,18 @@ Do not pick an arbitrary background color for editorial purposes, like calling f
 
 ## 4 Deckset & Marked Minutiae
 
+Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for authoring UXA material.
+
 ### 4.1 Marked
 
-Finalize document:
-
-- Insert a `<!--BREAK-->` tag immediately after the top H1, to yield a clean cover page
-
-Configure Marked:
+One-time Marked configuration:
 
 - Enable `Export`/`Prevent orphaned headlines`
 - Enable `Export`/`Add page breaks before/Footnotes`
 
-Export with Marked:
+Recurring document preparation:
 
+- Ensure there’s a `<!--BREAK-->` tag immediately after the first H1, to yield a clean cover page
 - Set the theme to [UXASF1](https://github.com/nWODT-Cobalt/markown-utilities)
 - Select `Export As`/`Save PDF (Paginated)`
 
@@ -370,7 +375,7 @@ Export with Marked:
 
 ### 4.2 Deckset
 
-Present or export Deckset presentations with the [UXASF1](/Resources/Deckset) theme.
+Present or export Deckset files with the [UXASF1](/Resources/Deckset) theme.
 
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
@@ -379,25 +384,27 @@ Do not hesitate to format Deckset presenter’s notes; they will render so on De
 
 <!--BREAK-->
 
+<!--
 ## 5 Naming Convention & File Organization
-
-<!-- Split into different document ? -->
 
 Naming schemes ? esp for artboards
 
 Names: case sensitive, no spaces (within a project, not between projects)
+-->
 
 <!--BREAK-->
 
 ## 9 Sources
 
-- Règles rédaction, JM Foulon, 2007
-- HFDS 2003
-- IND6408
+- Règles de rédaction et de présentation des ouvrages scientifiques et techniques, Michel Foulon, 2003
 - [Grammar and mechanics — Shopify Polaris](https://polaris.shopify.com/foundations/content/grammar-and-mechanics), Shopify, 2022
+- [Human Factors Design Standard (HFDS)](https://hf.tc.faa.gov/hfds/), FAA, 2003
+- IND6406 Ergonomie Cognitive — Les procédures de travail, Jean-Marc Robert, 2009
 - [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/), Apple, 2020
 
 <!--BREAK-->
+
+<!--
 
 # Under Consideration
 
@@ -415,7 +422,7 @@ TBD:
 - Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
 - Keep annotations terse. Economy of concepts and terms is a primary goal.
 - style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase.
-
+- <https://plain-words.com/>
 
 boilerplate f(type of document):
 
@@ -427,3 +434,5 @@ Eg for ~collaboration reference, esp when ppl come from different trades, orgs, 
 - Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
 - Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - Ideally structured after the process, rather than the tool or the assets; acknowledging that the audience is proficient or debutant.
+
+-->
