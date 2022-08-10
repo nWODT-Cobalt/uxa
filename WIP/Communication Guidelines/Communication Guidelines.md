@@ -261,6 +261,8 @@ Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the
 
 The UXA grid is set to an 8 px module.
 
+<!-- module: The recurring measure/multiplier vertices are anchored at -->
+
 <!--
 | Parameter     | Value         | Definition                                               |
 | ------------- | ------------- | -------------------------------------------------------- |
@@ -376,6 +378,8 @@ Recurring document preparation:
 ### 4.2 Deckset
 
 Present or export Deckset files with the [UXASF1](/Resources/Deckset) theme.
+
+A boilerplate file is available (link).
 
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->

@@ -14,11 +14,8 @@ It's very much an early, ongoing work. The initial focus is on defining basic no
 
 - `Documents`: long form writing
 - `Presentations`: slide decks
-- `Resources`: templates, themes, fonts, style guides etc to render or edit documents and presentation
-- `Sources`: source files for illustrations
+- `Resources`: templates, themes, source files for figures, etc.
 - `WIP`: work in progress
-
-Each document or presentation is exported as PDF, ready to be used, albeit without presenter notes.
 
 ## Dependencies
 
@@ -32,9 +29,9 @@ Both use [ia Writer](https://github.com/iaolo/iA-Fonts) and [Inter](https://rsms
 
 ### For Editing
 
-Text content and document wrappers are stored in Markdown (`.md` files), modifiable with any text editor.
+Text content and document wrappers are stored in Markdown (`.md` files), modifiable with any text editor. Check out [Markdown Utilities](https://github.com/nWODT-Cobalt/markown-utilities) for more information.
 
-Most illustrations are made with [Sketch](https://www.sketch.com/) (`.sketch` files). Some bitmaps are processed beforehand in [Pixelmator Pro](https://www.pixelmator.com/pro/) (`.pxd` files).
+Figures are made with [Sketch](https://www.sketch.com/) (`.sketch` files). Some bitmaps are processed beforehand in [Pixelmator Pro](https://www.pixelmator.com/pro/) (`.pxd` files).
 
 ## License
 
