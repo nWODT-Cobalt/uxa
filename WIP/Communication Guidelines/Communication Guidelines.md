@@ -28,54 +28,58 @@ This document is relevant for reference material, like best practices, and pedag
 Some terms used throughout this document have a particular meaning in the UXA context:
 
 Documents vs Presentations
-: Documents are text-heavy, usually long-form material for individual reading or reference. They are exported from [Marked](https://marked2app.com/). Presentations are figure-heavy, usually short-form material for group training or evangelization. They are presented from  [Deckset](https://www.deckset.com/).
+: Documents are text-heavy, usually long-form material for individual reading or reference. They are exported from [Marked](https://marked2app.com/).  
+Presentations are figure-heavy, usually short-form material for group training or evangelization. They are presented from  [Deckset](https://www.deckset.com/).
 
 Figure
 : Any diagram, chart, gif, illustration, photograph or screenshot.
 
 Inline vs Full-screen
-: Inline figures are presented alongside text, and are usually laid-out complementary to it. Full-screen figures take up the entirety of the page or slide.
+: Inline figures are presented alongside text, and are usually laid-out complementary to it.  
+Full-screen figures take up the entirety of the page or slide.
 
-<!-- vs images vs tables / huh? -->
+Section
+: A distinct part of a document. Its length and presentation differs depending on the complexity and format of the document. It's usually defined by headings or pages or slides break.
 
 <!--BREAK-->
 
-## 1 Structure
+## 1 Content Structure
 
-### 1.1 Content
+### 1.1 Content / Order / Overview Then Details
 
 Always provide local context (scope, assumptions, environment etc); invisible meta on *everything*
 
-Explicitly declare normative vs non-normative sections.
+<!-- Explicitly declare normative vs non-normative sections. Or rather: obligations vs mere guidelines -->
+
+### 1.2 asdsad
 
 Content Order: Overview/abstract/general before details/concrete/specific.
 
 Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction.
 
-<!-- DOs/DONTs vs only DOs vs good/better/best? -->
-
 Expose the intention > explain the behaviour > describe the properties
-Illustrate with tokens: tool for spec & governance > capture design decision > json kvp
+
+<!-- Illustrate with tokens: tool for spec & governance > capture design decision > json kvp -->
 
 split between long form and quicker tips/conventions
 
-+notion of it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating
+### 1.2 Organizing Ideas
 
-### 1.2 Morphology
+Each idea should be one section and one only.  
+First, express the idea in a few words.
+<!-- The direct expression of the idea, in a few words, is the first and most important part. -->
 
-could it be a list, a comparison table, a data table, a diagram, a reference ppt? *Make a super clear, super big decision tree for “how to shape your content/here’s a boilerplate” depending on the deliverable. Eg best practices page: start from a must/could/should bullet list, etc.*
+<!-- In most cases, it can be acted upon immediately. -->
+<!-- Trading depth for breadth allows for a quicker “initial overview”. -->
 
-If text:
+Then, consider adding supporting information: rationale, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies).
 
-Each notion should be one paragraph and one only.
-<!-- So it’s actually one section -->
+, always in the same order:  They are all optional.
 
-Each paragraph should be structured in the same way: first the notion <!-- result/guidance --> expressed in a few words. Then its rationale (optional), best practices (optional) and alternatives (optional). <!-- Further reading (connection to other concepts, perspectives, controversies, details etc.) -->  
-everything but the idea is optional since in a lot of cases, the instruction standalone can be acted upon immediately, even if somewhat less effectively, while explanations can be added later. Thus trading depth for breadth allows for a quicker “initial overview”.
-No paragraph should be longer than 10-15 lines.
+<!-- Identifying ideas vs details: result/guidance -->
 
-![](assets/notion-morphology@2x.png)
+![Idea Structure](assets/notion-morphology@2x.png)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
@@ -83,8 +87,9 @@ The preferred length of paragraphs is three or four sentences, but five or six a
 ### 1.3 Syntax
 
 Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
+<!-- Omit the do etc. -->
 
-Apply a [must/could/should structure](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
+Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
 <!--BREAK-->
 
@@ -398,6 +403,27 @@ Names: case sensitive, no spaces (within a project, not between projects)
 
 <!--BREAK-->
 
+## 5 Content
+
+could it be a list, a comparison table, a data table, a diagram, a reference ppt? *Make a super clear, super big decision tree for “how to shape your content/here’s a boilerplate” depending on the deliverable. Eg best practices page: start from a must/could/should bullet list, etc.*
+
+boilerplate f(type of document):
+
+Eg for ~collaboration reference, esp when ppl come from different trades, orgs, etc.
+
+- Any prerequisite or context, including definition of terms of art
+- Overall goals and scope
+- Principles, expressed in a decision-supportive way (see SADMEME). Basically clarifying how will decisions be taken. Typically statements like “xx over yy over zz” or “xx is a goal, yy is a byproduct”
+- Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
+- Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
+- Ideally structured after the process, rather than the tool or the assets; acknowledging that the audience is proficient or debutant.
+
+### Doctoring Examples
+
+notion of it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating
+
+<!--BREAK-->
+
 ## 9 Sources
 
 - Règles de rédaction et de présentation des ouvrages scientifiques et techniques, Michel Foulon, 2003
@@ -427,16 +453,6 @@ TBD:
 - Keep annotations terse. Economy of concepts and terms is a primary goal.
 - style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase.
 - <https://plain-words.com/>
-
-boilerplate f(type of document):
-
-Eg for ~collaboration reference, esp when ppl come from different trades, orgs, etc.
-
-- Any prerequisite or context, including definition of terms of art
-- Overall goals and scope
-- Principles, expressed in a decision-supportive way (see SADMEME). Basically clarifying how will decisions be taken. Typically statements like “xx over yy over zz” or “xx is a goal, yy is a byproduct”
-- Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
-- Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
-- Ideally structured after the process, rather than the tool or the assets; acknowledging that the audience is proficient or debutant.
+- replace document, too generic, with ~report or so
 
 -->

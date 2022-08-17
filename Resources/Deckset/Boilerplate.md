@@ -15,7 +15,7 @@ Or paragraphs.
 
 ---
 
-![image](assets/image.svg)
+![](assets/full-screen-image.svg)
 
 ^Commentary about the image, as presenter notes. Supports *formatting*.
 
@@ -50,6 +50,6 @@ Or paragraphs.
 
 ---
 
-![background cover image](assets/back-cover.svg)
+![](assets/back-cover.svg)
 
 <!-- Complex presentation end -->
