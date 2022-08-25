@@ -2,6 +2,19 @@
 
 <!--BREAK-->
 
+## Truthish.
+
+<https://ethanmarcotte.com/wrote/truthish/>
+<!--date d'ajout : 22/08/2022-->
+
+I’ve written before that design systems often widen the gap between design and engineering teams. In practice, this frequently means each “side” maintains its own workspaces, processes, and documents. I’d go so far as to say most design systems feel like several discipline-specific artifacts stacked underneath a single trenchcoat: inventories and audits conducted by the content team, a component library owned by engineers, a set of visual standards maintained by designers, and so on.
+
+I’m not here to critique this multiple-artifact model, mind you. Until tooling improves to the point where cross-discipline collaboration doesn’t require expensive, custom-built solutions, designers and engineers will continue to work in the environments available to them. As they should!
+
+Despite this, most design system teams position the component library as the “source of truth” for the entire design system.
+
+There’s an interesting tension here. Because practically, this means most design systems contain *multiple* sources of truth, while formally acknowledging only one. It’s one of the surest ways that hyperobject feeling can creep in.
+
 ## Consistency vs Flexibility: The Myth of Creative Restraint in Design Systems
 
 <https://sparkbox.com/foundry/design_system_consistency_versus_flexibility_design_system_constraints>
