@@ -1,13 +1,21 @@
 theme: UXASF1
 autoscale: true
 
-<!-- Simple presentation start -->
-
-# Title
+# Simple Presentation Title
 
 ---
 
-**Main notion expressed in a few words.**
+## Subtitle
+# **Complex Presentation**
+# **Title**
+
+![original](assets/cover.svg)
+
+[.footer: UXAID]
+
+---
+
+**Main idea expressed in a few words.**
 
 Then its rationale (optional), best practices (optional) and alternatives (optional), in a few lines.
 
@@ -21,26 +29,13 @@ Or paragraphs.
 
 ---
 
-<!-- Simple presentation end -->
-<!-- Complex presentation start-->
-
-## Subtitle
-# **Presentation’s**
-# **Title**
-
-![original](assets/cover.svg)
-
-[.footer: UXAID]
-
----
-
 # Section title
 
 ---
 
 ## Slide Title
 
-**Main notion expressed in a few words.**
+**Main idea expressed in a few words.**
 
 Then its rationale (optional), best practices (optional) and alternatives (optional), in a few lines.
 
@@ -50,6 +45,13 @@ Or paragraphs.
 
 ---
 
-![](assets/back-cover.svg)
+Custom styled-slide.
 
-<!-- Complex presentation end -->
+Use *very* parsimoniously.
+
+[.text: #F8F8F8, alignment(center)]
+[.background-color: #232323]
+
+---
+
+![](assets/back-cover.svg)
