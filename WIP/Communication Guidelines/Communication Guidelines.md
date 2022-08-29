@@ -23,7 +23,8 @@ This document encourages UXA practitioners to communicate by providing guideline
 This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
 
----
+<!--BREAK-->
+<!-- ## Conventions? -->
 
 Some terms used throughout this document have a particular meaning in the UXA context:
 
@@ -34,62 +35,95 @@ Presentations are figure-heavy, usually short-form material for group training o
 Figure
 : Any diagram, chart, gif, illustration, photograph or screenshot.
 
-Inline vs Full-screen
+Inline figures vs Full-screen figures
 : Inline figures are presented alongside text, and are usually laid-out complementary to it.  
 Full-screen figures take up the entirety of the page or slide.
 
+Practitioner
+: The UXA agent this guide is addressed to.
+
 Section
-: A distinct part of a document. Its length and presentation differs depending on the complexity and format of the document. It's usually defined by headings or pages or slides break.
+: A distinct part of a document. Its length and presentation differs depending on the complexity and format of the document. It’s usually defined by headings or pages or slides break.
 
 <!--BREAK-->
 
 ## 1 Content Structure
 
-### 1.1 Content / Order / Overview Then Details
+<!-- Instead, break down as inventory of all important sections + high-level what to write down and how to organize it (diff from more direct guidance in 2. Writing) -->
 
-Always provide local context (scope, assumptions, environment etc); invisible meta on *everything*
+### 1.1 Capturing Context
 
-<!-- Explicitly declare normative vs non-normative sections. Or rather: obligations vs mere guidelines -->
+Capture context about the work, within the work.
 
-### 1.2 asdsad
+<!-- Examples. Differentiate explicit and implicit context.
+- marked theme css header
+- token convention page
+- lib best practices page
+- something from a deckset or marked doc? -->
 
-Content Order: Overview/abstract/general before details/concrete/specific.
+Context-setting is critical to the audience, as it’s likely coming from a different background, level of expertise, organization or task than the practitioner. Such context has to be presented outwards, e.g. in an introduction section or slide.
+<!-- access to info etc -->
 
-Start with good practices
-Don’t cover bad practices, unless some recurring misconception needs active correction.
+Context-setting is valuable to the practitioner too. Outward context intended for the audience will eventually be useful when coming back to an old project.  
+Some further context, exclusive to the practitioner, should also be captured: that of conventions and intentions local to the work. Such context has to be presented inwards, e.g. in presenter’s notes or edit-mode only comments at the beginning of a file.
+
+The last benefit of capturing context is that trying to characterize the work often ends up focusing/curating it.
+<!-- By exposing assumptions or gaps / forcing to clarify -->
+
+Frequently captured context elements:
+
+- Goals, scope, timeframe
+- Target audience, prerequisites
+- Assumptions, hypothesis
+- Environment, setup, access rights, tech specs
+- Terms of art, degree of maturity or stability, is the content a recommentation or an obligation
+
+Note that the negatives are as important as the positives, and should be captured too, e.g: “x is in scope but y is not” or “we’re assuming that a is desired but b is not”.
+<!-- Extend to: capture all "realization" that seem obvious in retrospect, but actually came out after some thinking/conversation-->
+
+### 1.2 Overview Then Details
+
+*yeah should deffo be merged with the subsequent section. Write as ~organizing xxx, for ex. point idea. Overall notion: Overview Then Details. Bonus:*
+
+split between long form and quicker tips/conventions. gather all the latter at the beginning.
+<!-- Overview/abstract/general (should work standalone) before details/concrete/specific. -->
+
+*"unrelated", as part of "how to tell the overview/core apart":*
 
 Expose the intention > explain the behaviour > describe the properties
-
 <!-- Illustrate with tokens: tool for spec & governance > capture design decision > json kvp -->
-
-split between long form and quicker tips/conventions
+<!-- The core of the idea can be distinguished from its supporting information through result/guidance. -->
 
 ### 1.2 Organizing Ideas
 
 Each idea should be one section and one only.  
 First, express the idea in a few words.
-<!-- The direct expression of the idea, in a few words, is the first and most important part. -->
 
-<!-- In most cases, it can be acted upon immediately. -->
-<!-- Trading depth for breadth allows for a quicker “initial overview”. -->
+In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately.
+<!-- Moreover, trading depth for breadth allows for a quick “initial overview”. -->
 
-Then, consider adding supporting information: rationale, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies).
+Afterwards, consider adding supporting information: rationale/justification, details, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies). All considerations are optional, but if present must remain in this order.
 
-, always in the same order:  They are all optional.
+Don’t hesitate to emphasize the idea from its supporting information through layout, type treatment, progressive disclosure etc.
 
-<!-- Identifying ideas vs details: result/guidance -->
+<!-- WHAT ABOUT EXEMPLES/ILLUSTRATIONS? if only one: right after the idea. If several: colocated. -->
 
-![Idea Structure](assets/notion-morphology@2x.png)
+![Organizing Ideas. Note the bolding on the idea expression.](assets/notion-morphology@2x.png)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
 
-### 1.3 Syntax
+### 1.3 Writing for Actionability
+
+<!-- Syntax -->
 
 Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
 <!-- Omit the do etc. -->
 
 Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
+
+<!-- Start with good practices
+Don’t cover bad practices, unless some recurring misconception needs active correction. -->
 
 <!--BREAK-->
 
@@ -120,7 +154,9 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 
 ### 2.3 Spelling
 
-Use American spelling. When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/) for the preferred spelling of specific terms.
+Use American spelling.
+
+When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/).
 
 ### 2.3 Tone & Voice
 
@@ -138,7 +174,8 @@ In any case be assertive, impersonal and use the [singular *they*](https://en.wi
 
 ### 2.2 Sourcing
 
-Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used.  
+Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used.
+
 This can be achieved through various means, like an open-source license or the purchase of a commercial license.
 
 <!-- authoritative / verified / quality (in data, in presentation) sourcing -->
@@ -250,7 +287,7 @@ Don’t illustrate bad practices. In the rare case a bad practice has to be depi
 
 ### 3.2 Style
 
-Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style provided by the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
+Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
@@ -284,11 +321,11 @@ While the canonical 1600 × 900 px artboard size is well-suited to full-screen r
 
 ![Artboards Form Factors](assets/artboards-form-factors@2x.png)
 
-| Type         |  Size (px) | Usage                                                       |
-| ------------ | ----------:| ----------------------------------------------------------- |
-| 1 artboard   | 1600 × 900 | Full-screen in presentation  (or stand-alone, or in poster) |
-| 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points)         |
-| 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)            |
+| Type         |  Size (px) | Usage                                               |
+| ------------ | ----------:| --------------------------------------------------- |
+| 1 artboard   | 1600 × 900 | Full-screen in presentation (or stand-alone)        |
+| 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points) |
+| 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)    |
 
 Artboards contain various guides helping to lay out content quickly and consistently:
 
@@ -368,7 +405,7 @@ Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.c
 One-time Marked configuration:
 
 - Enable `Export`/`Prevent orphaned headlines`
-- Enable `Export`/`Add page breaks before/Footnotes`
+- Enable `Export`/`Add page breaks before: Footnotes`
 
 Recurring document preparation:
 
@@ -409,10 +446,6 @@ could it be a list, a comparison table, a data table, a diagram, a reference ppt
 
 boilerplate f(type of document):
 
-Eg for ~collaboration reference, esp when ppl come from different trades, orgs, etc.
-
-- Any prerequisite or context, including definition of terms of art
-- Overall goals and scope
 - Principles, expressed in a decision-supportive way (see SADMEME). Basically clarifying how will decisions be taken. Typically statements like “xx over yy over zz” or “xx is a goal, yy is a byproduct”
 - Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
 - Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
