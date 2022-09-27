@@ -81,6 +81,8 @@ Frequently captured context elements:
 Note that the negatives are as important as the positives, and should be captured too, e.g: “x is in scope but y is not” or “we’re assuming that a is desired but b is not”.
 <!-- Extend to: capture all "realization" that seem obvious in retrospect, but actually came out after some thinking/conversation-->
 
+<!-- [Assumed Audiences](https://maggieappleton.com/assumed-audience) -->
+
 ### 1.2 Overview Then Details
 
 *yeah should deffo be merged with the subsequent section. Write as ~organizing xxx, for ex. point idea. Overall notion: Overview Then Details. Bonus:*
@@ -234,6 +236,10 @@ Use apostrophes to form possessives:
 
 Oxford Comma Y/N?
 
+[Semantic Line Breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html)
+
+[Ventilated Prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html)
+
 #### 2.4.2 Number and Dates
 
 Numbers representing quantities of 10 or more shall be expressed in numerals ; those representing quantities less than 10 shall be expressed in words. If a number is the first word in a sentence, it shall be expressed in words.
@@ -272,6 +278,10 @@ Foreign words should be italicized, and immediately followed by their translatio
 <!--BREAK-->
 
 ## 3 Illustrating
+
+>The greatest value of a picture is when it forces us to notice what we never expected to see.
+
+— John Tukey, Exploratory Data Analysis, 1977
 
 ### 3.1 Usage
 
@@ -487,5 +497,14 @@ TBD:
 - style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase.
 - <https://plain-words.com/>
 - replace document, too generic, with ~report or so
+
+---
+
+How to write normative templates/definitions (eg for publishing to a platform)
+
+- Be explicit and exclusive
+- (local) unambiguous vocabulary/anatomy
+- best practices/intention/expectations/examples
+- responsabilities: product designer/stakeholders provide domain input, DLS/platform people provide templates/channels/actual publication/outputs
 
 -->

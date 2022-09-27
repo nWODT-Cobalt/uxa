@@ -2,6 +2,17 @@
 
 <!--BREAK-->
 
+## Your design system contribution practice is doomed to fail
+
+<https://amyhupe.co.uk/articles/your-contribution-model-is-doomed>
+<!--date d'ajout : 27/09/2022-->
+
+When Nathan Curtis interviewed a group of design system leads in 2020, they told him that although contribution was valuable for other reasons, they “do not reduce workload and do not make [a] system produce more”.
+
+In fact, in *my* experience, contributions actually increase workload and make our systems produce less.
+
+*Contributions are often implicitly following a socialist model, whereas the org and the individuals work after a capitalistic one. Hence misaligned incentives, leading to poor results. Contributions can even reinforce systemic inequalities.*
+
 ## Truthish.
 
 <https://ethanmarcotte.com/wrote/truthish/>

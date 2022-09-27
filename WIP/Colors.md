@@ -6,9 +6,10 @@
 <https://bottosson.github.io/posts/oklab/>
 <https://github.com/Siddharth11/Colorful>
 <https://uxdesign.cc/how-should-you-name-your-colors-in-a-design-system-3086513476df>
-<https://atmos.style/blog/lch-color-space>
+<https://atmos.style/blog/lch-color-space> (et <https://atmos.style/>)
 <https://adobe.design/stories/design-for-scale/reinventing-adobe-spectrum-s-colors>
 <https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/>
+<https://colorandcontrast.com/#/>
 
 color picking + color palettes generation for complex product
 

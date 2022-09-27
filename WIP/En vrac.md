@@ -1,6 +1,7 @@
 # En vrac
 
 Prioritize learning over delivery
+
 Every decision you make is a hypothesis
 
 at scale, all edge cases are common
@@ -12,6 +13,8 @@ Functionalism: design for function and it will be beautiful *(pwoooo risqué)*
 Makers tend not to lead because they are busy making
 
 Rather than being a dictionary of shapes, it’s a dictionary of methods
+
+La complexité est exponentielle, pas linéaire, de la quantité. A design system’s distinct parameters, and the values those parameters can take on, can be considered the surface area of a design system: collectively, they outline of the space of possibilities that the design system can produce. Every time that surface area increases — one more colour, one more font size — the volume of the design system, or the combined ways in which all those parameters and attributes can interact as a whole, increases at an even faster rate.
 
 From the Wikipedia page on Composability:
 
@@ -37,6 +40,14 @@ Reuse from the get-go, meaning *always* turn it into a deliverable. At least:
 Predictability, generativity/predictivity, decidability (hard pass/fail). repeatability, accuracy, efficience, opposite of inference ("expliciteness"), "lean fit"
 functions not dictionnaries: <https://matthewstrom.com/writing/functions-in-design-systems>
 thats what being systematic means, hence why it can't just be added afterwards
+
+## Créativité
+
+- contextualize^100 (recap, refocus, repeat etc)
+- capture/expose hypotheses and assumptions, including business use cases
+- put ideas/proposals on a spectrum
+- never talk without visual or shared note taking support
+- adversely define everything buckets (eg "feed"); keep do's and dont's and update the definition as needed
 
 ## Matériel pédagogique WIP
 
