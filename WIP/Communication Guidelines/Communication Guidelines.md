@@ -460,6 +460,14 @@ boilerplate f(type of document):
 - Technical guidance, expressed in a conformative way.  Eg must/could/should format, do/don’t format, controlled list of values, etc.
 - Some thoughts about governance. Who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - Ideally structured after the process, rather than the tool or the assets; acknowledging that the audience is proficient or debutant.
+- Express goals in terms of user benefits
+	- prioritized
+	- avoid internal tools/preferences
+	- omit "always true" statements (eg we aim for quality, cost-effectiveness etc) unless it's a particular focus of the effort (eg if it's been real bad in the past) *and* is subsequently supported by concrete actions
+
+<!-- Maintain icon governance -> avoid icon gaps/dupes; ensure brand compliance -->
+
+- distinguish whats the usage vs internal rules vs internal convo
 
 ### Doctoring Examples
 
@@ -483,7 +491,7 @@ notion of it has to be simplified, caricatural, true enough to not suspend disbe
 
 TBD:
 
-- Handbook / IND6408
+- Handbook / IND6408 / IND6402
 - UXA·ID?
 - Page numbers?
 - Titles on individual slides?

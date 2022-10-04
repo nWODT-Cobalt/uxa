@@ -49,13 +49,85 @@ thats what being systematic means, hence why it can't just be added afterwards
 - never talk without visual or shared note taking support
 - adversely define everything buckets (eg "feed"); keep do's and dont's and update the definition as needed
 
-## Matériel pédagogique WIP
+## ~Components
 
-### Components
+**Reusable**
 
-Investigate modes *(pour DoD de composant)* : Edition, data saving, failure, loading, initial state, empty state, etc. +min, max, reasonable/expected, recommended
+The chief quality of a component is that once designed, it can be used in many contexts with little to no effort. In Falcon, that means giving extra consideration to:
+
+*Malleability*
+
+The component should be independent from its container as much as possible, allowing for finer integration in the end. Although most components are documented within a container, it is recommended to design and check them on a blank page it’s not even about given components, more fluidity that happens to be encapsulated. make sure it works in our container but don’t assume a fixed or known shape
+This in turn means that the component should be not only responsive, but also graceful at all widths/heights within supported boundaries.
+EXAMPLE Slats were initially designed as a mobile-only grid renderer, but are are often used on desktop. Control Center
+Finally, allowing structural parts of a component to be hidden or modified through customization options also enhances its malleability. Hiding a header or a footer, replacing text with icon etc. help integrating a component further into its environment.
+EXAMPLE e.g. optional title as are redundant when the component is embedded in tabs or accordion
+	Physical & cognitive footprint
+as small as possible is respectful
+as little as required to do the task
+don’t be “too big” (ex. multiple employees feedback), etc.
+
+*Respect other designers*
+
+Avoid requiring critical locations, such as a Navigation Bar or floating action button spot, to trigger or operate the component.
+Likewise, avoid requiring new gestures (e.g. long press) or hijacking existing gestures (e.g. single tap).
+
+*Triggers*
+
+Pickers and containers are not initially on-screen, but are invoked occasionally by the user. Thus the documentation should consider not just the content of the component but also its trigger, and eventually provide a default or recommended one.
+It is often interesting to offer the option to use alternative triggers, and provide examples thereof.
+EXAMPLE The Refine Tools come with the Refine Bar as a default trigger. The specification however offers to replace the Refine Bar with another trigger, and several headlines indeed use an Action Bar button instead.
+EXAMPLE As soon as the Timeframe Selector button was considered part of the component, it was possible to unbundle it etc etc cf ESS or Mobile Timecard
+
+**Resilient**
+
+Each context of use will be ever so different from what was originally expectedIn Falcon, that means looking into:
+Linear growth (eg add-ons)
+edge cases
+modularity (e.g. refine tools)
+generalization of design reqs (+++)
+extensibility
+
+**Clear-cut**
+
+scope needs be clear so that the component is easy and work with (embed)
+interface definition is critical (allows for abstraction)
+what goes in (needed, then optional), what comes out
+
+**Specified**
+
+None of the above matters until it’s documented.
+brief of the problem but also design intent of the solution. Conceptual integrity is paramount.
+inner workings not so important
+Functional specification (use cases, screen flow, customization options) and Creative Brief are even more important than usual: since frameworks & components are intrinsically abstract and versatile, they don’t “self-demonstrate” what they can do easily, and need more context to be assimilated.
+Besides, frameworks & components are building blocks rather than complete products. It’s thus relevant to not just explain how they work, but also why and when they should be used.
+Show variation examples
+make “physical attributes” (e.g. is it big or not, can it be encapsulated or not, etc.) not relevant. Usage/use cases are.
+
+*notion of frequency/severity, at least within a single product suite?*
+
+*vs style: visual attribute or collection thereof*
+
+**Modality**
+
+*(pour DoD de composant)* : Edition, data saving, failure, loading, initial state, empty state, etc. +min, max, reasonable/expected, recommended
 
 base components should only accept enumerable parameters
+
+These attributes are relative to the design system components belong to
+
+## Matériel pédagogique WIP
+
+### Documenting Wireflows
+
+No strong formalism is enforced for Wireflows documentation, but those tips may help:
+
+- Not every state, picker or navigation path has to be depicted. Primary screens should be shown, while secondary screens (optional, variation or edge case) can just be mentioned. It’s about giving an idea of how much screens there is a headline, and how they relate to one another, not being a perfect map of it.
+- Entities of the flow should be named, and consistent with the rest of the wire
+- If an headline is strongly embedded in or frequently calls another headline (e.g. Control Center, Right Panel, etc.), show the related inbound/outbound links
+- Add annotations, diagrams, pictures etc. as required
+- Aim to expose constituents and structure before chronological user progression
+- Label screens after their purpose, not their implementation (e.g. “Overview” rather than “Data Views”)
 
 ### Writing and Maintaining Documentation
 

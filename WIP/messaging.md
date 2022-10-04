@@ -134,7 +134,7 @@ Notifications are O-n:1 to objects
 (Eg several possible reminders, on several possible channels)
 ~decided by the design
 In-product
-s out-of-product
+out-of-product
 Interaction
 not blocking
 blocking
