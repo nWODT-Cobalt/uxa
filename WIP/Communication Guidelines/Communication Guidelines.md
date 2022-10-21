@@ -39,6 +39,9 @@ Inline figures vs Full-screen figures
 : Inline figures are presented alongside text, and are usually laid-out complementary to it.  
 Full-screen figures take up the entirety of the page or slide.
 
+Keyword
+: Reference to a formally defined entity, rather than a generic notion.
+
 Practitioner
 : The UXA agent this guide is addressed to.
 
@@ -93,14 +96,14 @@ split between long form and quicker tips/conventions. gather all the latter at t
 *"unrelated", as part of "how to tell the overview/core apart":*
 
 Expose the intention > explain the behaviour > describe the properties
-<!-- Illustrate with tokens: tool for spec & governance > capture design decision > json kvp -->
+<!-- Illustrate with tokens: tool for design spec & governance > capture design decision > json kvp -->
 <!-- The core of the idea can be distinguished from its supporting information through result/guidance. -->
 
 ### 1.2 Organizing Ideas
 
-Each idea should be one section and one only.  
-First, express the idea in a few words.
+Each idea should be one section and one only.
 
+First, express the idea in a few words.  
 In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately.
 <!-- Moreover, trading depth for breadth allows for a quick “initial overview”. -->
 
@@ -110,7 +113,7 @@ Don’t hesitate to emphasize the idea from its supporting information through l
 
 <!-- WHAT ABOUT EXEMPLES/ILLUSTRATIONS? if only one: right after the idea. If several: colocated. -->
 
-![Organizing Ideas. Note the bolding on the idea expression.](assets/notion-morphology@2x.png)
+![Organizing Ideas. Note the boldface on the idea expression.](assets/notion-morphology@2x.png)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
@@ -154,11 +157,11 @@ When referring to existing content, such as a UI or a diagram, spell commands, l
 
 Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of agreement, to the detriment of actionability. Spot them and replace them with clearer explanations.
 
+<!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu'à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n'a aucune valeur. <proposer une meilleure definition> -->
+
 ### 2.3 Spelling
 
-Use American spelling.
-
-When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/).
+Use American spelling. When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/).
 
 ### 2.3 Tone & Voice
 
@@ -211,38 +214,40 @@ Do not use footnotes for attribution.
 
 <!-- Heh pas terrible, c’est plutôt “conventions et finitions” -->
 
-#### 2.4.1 Style Conventions
+<!-- A lot to cover. We're only highlighting the most important points/recurring errors. Overall rule of thumb: be consistent with previous work and with the rest of the deliverable, mindful of typesetting. -->
 
-Use title case for headings.
+#### 2.4.1 Capitalization, Style & Weight
 
-If typographic emphasis is used, it shall be boldface type.
-Use **strong** styling for keywords.
+- Headings must be title case,
+- Everything else, including figure captions, must be sentence case,
+- Keywords must be bolded. Boldface could also be used for emphasis.
+- Foreign words must be italicized, and immediately followed by their translation in parentheses.
 
-*expand with dod material*
+#### 2.4.2 Punctuation
 
-Punctuate list items: with a period if it’s a complete sentence, or sentences. Otherwise with commas. The last item is punctuated with a period.
+- Avoid parentheses. Use commas or rephrase.
+- Print periods in abbreviations (e.g., etc., i.e.)
+- Punctuate list items with a period if it’s a complete sentence, or sentences, otherwise with commas. The last item is punctuated with a period.
+- Use apostrophes to form possessives:
+	- Singular nouns: add ’s, even if they end in s (merchant’s, bus’s)
+	- Plural nouns that don’t end in s: add ’s (women’s, men’s)
+	- Plural nouns that end in s: add an apostrophe (boxes’, customers’)
 
-Avoid parentheses. Use commas or rephrase.
+#### 2.4.3 Typographic Signs
+
+Be mindful about typographic signs. In particular:
+
+- Apostrophes and quote marks: curly instead of straight. Run the [smart-quotes-plus](https://atom.io/packages/smart-quotes-plus) package to sanitize deliverables.
+- Fractions: real fractions like ¼ instead of fake ones like 1/4. Real fractions are supported by Inter and iA Writer Quattro.
+- Multiplication signs: × instead of the letter x.
+
+Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or ⚠.
 
 <!-- Don’t use ampersands (&). They attract attention to the least important part of the sentence. Spell out the word “and.” -->
 
-<!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->
+#### 2.4.4 Number and Dates
 
-Use apostrophes to form possessives:
-
-- Singular nouns: add ’s, even if they end in s (merchant’s, bus’s)
-- Plural nouns that don’t end in s: add ’s (women’s, men’s)
-- Plural nouns that end in s: add an apostrophe (boxes’, customers’)
-
-Oxford Comma Y/N?
-
-[Semantic Line Breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html)
-
-[Ventilated Prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html)
-
-#### 2.4.2 Number and Dates
-
-Numbers representing quantities of 10 or more shall be expressed in numerals ; those representing quantities less than 10 shall be expressed in words. If a number is the first word in a sentence, it shall be expressed in words.
+Numbers representing quantities of 10 or more must be expressed in numerals ; those representing quantities less than 10 must be expressed in words. If a number is the first word in a sentence, it must be expressed in words.
 
 *Preferred date/time format, units formats and spaces etc*
 
@@ -260,20 +265,11 @@ In all cases, include a space between the number and the unit.
 
 When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number (and include a space).
 
-#### 2.4.2 Typographic Signs
+#### 2.4.5 Misc
 
-Be mindful about typographic signs. In particular:
+Use [semantic line breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html), a.k.a. [ventilated prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html), whenever possible.
 
-- Abbreviations: e.g., etc., i.e. with periods,
-- Apostrophes and quote marks: curly instead of straight; run the [smart-quotes-plus](https://atom.io/packages/smart-quotes-plus) package,
-- Fractions: real fractions like ¼ instead of fake ones like 1/4; supported by Inter and iA Writer Quattro,
-- Multiplication signs: × instead of the letter x.
-
-Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or ⚠.
-
-#### 2.4.3 Foreign Words
-
-Foreign words should be italicized, and immediately followed by their translation in parentheses.
+Semantic line breaks are currently well supported in Marked, but not in Deckset that parses them like alineas, altering the rendering of the presentation.
 
 <!--BREAK-->
 
@@ -298,6 +294,9 @@ Don’t illustrate bad practices. In the rare case a bad practice has to be depi
 ### 3.2 Style
 
 Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
+
+<!-- Make sure wireframes or hifis share the same style, scale, level of detail and mock data. -->
+<!-- color variation/blending is possible, except on the core black/grey/blue, that should always be most of the opaque pixels of the figure -->
 
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
@@ -372,6 +371,36 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 
 Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
 
+### 3.4 Composition
+
+Print several wires on the same artboard when documenting multi-parts components, content variations, states, etc.
+
+Lay out steps or states horizontally, options vertically.
+
+Arrange wires after a vertical axial symmetry.
+
+If the wires do not fit in the artboard, consider cropping them, scaling them, or splitting up them up.
+
+Selectively blur wires with the Supporting Content symbol to put the focus on the part that’s being documented.
+
+Import the Shore Leave symbol and stretch it to match the artboard size.
+
+Position callouts to the right of the wires as much as possible, so that the reader can have an unencumbered look at the UI before delving into the documentation.
+
+Align callouts horizontally.
+
+Leave a 5 px margin between the callout tip and the element it’s pointing at.
+
+Avoid vertical callouts. Mixing horizontal and vertical annotation lines hinders reading and looks cluttered.
+
+Avoid Descriptors or Area symbols. Only use them when they are absolutely needed to clarify what the callout is pointing at.
+
+Arrange callouts by descending order of importance.
+
+Don’t burn explanation text in illustrations, as it incurs extra maintenance. Short floating labels are acceptable when describing multi-parts illustrations.
+
+Don’t call out every part of the wireframe. Instead, focus on the key parts that you intend to explain in the annotations.
+
 ### 3.4 Export
 
 <!-- svg > pdf > png > jpg -->
@@ -408,7 +437,7 @@ Do not pick an arbitrary background color for editorial purposes, like calling f
 
 ## 4 Deckset & Marked Minutiae
 
-Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for authoring UXA material.
+Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for publishing UXA material.
 
 ### 4.1 Marked
 
@@ -431,7 +460,7 @@ Recurring document preparation:
 
 Present or export Deckset files with the [UXASF1](/Resources/Deckset) theme.
 
-A boilerplate file is available (link).
+A content boilerplate file [is available](/Resources/Deckset).
 
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
@@ -469,7 +498,15 @@ boilerplate f(type of document):
 
 - distinguish whats the usage vs internal rules vs internal convo
 
-### Doctoring Examples
+<!-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape. -->
+
+Keep annotations terse. Economy of concepts and terms is a primary goal.
+
+<!-- Use only terms formally defined in the Design System. If new terms are introduced, they must be defined locally or globally.
+
+Replace or clarify terms that could be interpreted in different ways. For example is “Alert” about a business rule, an error message, a push notification or an exception indicator? -->
+
+### 5.1 Doctoring Examples
 
 notion of it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating
 
@@ -491,6 +528,7 @@ notion of it has to be simplified, caricatural, true enough to not suspend disbe
 
 TBD:
 
+- mettre juste après l'intro un recap ~normatif en 5-10 pts pour lancer le monde (pas juste les praticiens UXA) (et linker chaque point vers sa section etc). Genre le premier truc à donner à qqun qui commencerait. noter que tjrs applicable, à différents niveaux, et pas juste pour marked/deckset. sous forme de slides plutot, et juste mentionné ici ?
 - Handbook / IND6408 / IND6402
 - UXA·ID?
 - Page numbers?
