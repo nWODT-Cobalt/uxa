@@ -2,7 +2,7 @@
 
 <!--BREAK-->
 
-There are exhaustive aggregators of quality design documentation, such as [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs) or [styleguides.io](http://styleguides.io/). The sample below is subjectively curated, for quick reference or inspiration.
+There are exhaustive aggregators of quality design documentation, such as [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs), [The Component Gallery](https://component.gallery/) or [styleguides.io](http://styleguides.io/). The sample below is subjectively curated, for quick reference or inspiration.
 
 <!-- [Designing Inspired Style Guides](https://speakerdeck.com/malarkey/designing-inspired-style-guides) -->
 
