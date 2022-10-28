@@ -7,7 +7,7 @@
 
 ## Zack
 
-<!--date d'ajout : 18/06/2022-->
+<!--date d’ajout : 18/06/2022-->
 
 The purpose and consumers of the contents need to be clarified first. How far you would like the principles to impact your internal orgs? Is it for [UX-internal] educating or align stakeholder expectations? Establish a common language in the whole company?
 
@@ -97,9 +97,89 @@ A good set of design principles, on the other hand, does the following:
 
 Instead of relying on gatekeepers to keep a high quality bar, better instead that everyone gets to agreement on a smaller set of guiding values, so that the best decisions get made in a consistent manner, scaling across many decisions, and even many designers.
 
+## Personal Notes
+
+*An attempt at consolidating the above into an actionable framework.*
+
+Principles are “a fundamental truth that serves as the fondation for a system of belief or a chain of reasoning” ([Julie Zhuo, 2015](https://medium.com/the-year-of-the-looking-glass/a-matter-of-principle-4f5e6ad076bb#.crmh0x42x)).
+
+Their point is to support alignment and decision-making, and to a lesser extent creativity.
+<!-- They’re relevant in several areas of an organization: strategy, gouvernance, marketing etc. -->
+<!-- In UX, they can informe entire strategies, more specific journeys, big redesigns, big new products, visual refreshes, etc. They are not relevant for “smaller” efforts. -->
+<!-- while always “true”, not worth the effort for smaller projects if not already there -->
+They can come from unmovable facts (business strategy, market constraints, technical limitations) or subjective choices (e.g. brand, personal preferences).
+
+Good design principles are MEMOSPADE:
+<!-- BAD POEMMS -->
+<!-- not all qualities are possible/desirable all the time etc -->
+
+**Memorable**
+
+Clear, concise and impactful so that they can be internalized, thus generative, rather than referred to, thus conformative.
+Use short, unambiguous, and well-illustrated statements. Quantify them when possible.
+
+For example, “discrete inputs over analog movements”.
+
+**Evolving**
+
+Reasonably iterated upon, to remain relevant as the product grows.
+<!-- stay in sync with the product as it grows -->
+Adjust their substance and scope, especially in the earlier phases when things are still in flux.
+
+**Meaningful**
+
+Impart a human-oriented sense of why, so that they’re memorable and motivating.
+Make the rationale interesting to the reader (designers or non-designers) rather than true to the system.
+
+<!-- For example, “stocky punctual items, wide range items”. -->
+
+**Outbound**
+
+Expressed in terms of end-user benefits rather than internal benefits.
+Don’t mention tools, technical capabilities or other similar internal properties.
+
+For example, replace "use push notifications" with "keep the user apprised timely".
+
+**Specific**
+
+Not a truism, indistinguishable from competitors, that doesn't help making decisions. Replace “always true” statements with opinionated visual preferences, focused guidelines or business idiosyncrasies.
+<!-- “we aim for quality and cost-effectiveness”: vacuous -->
+<!-- accomplish x (goal) through y x z (activities) -->
+
+For example, change “easy to use” to “clarity before efficiency”.
+
+**Prioritized**
+
+Ranked against one another, so as to provide a path to resolution for difficult use cases. Write principles as “x over y over z”, or make an explicit different between must have and nice to have.
+<!-- icons example -->
+
+**Applicable**
+
+Can be easily connected to designs, and acted upon. If a statement isn't actionable it’s a goal, not a principle; principles must support design activities.
+Make sure principles aren't completely abstract, demanding a lot of thinking to be applied to the product.
+
+For example, replace “make controls obvious” with “use shape to communicate actionability”.
+
+**Determinative**
+
+Allow to say no, to fairly pick between options. Otherwise the effort devolves into lowest common denominator without style nor conceptual integrity.
+Break down big statements into smaller, unambiguous ones. Write down explicitly their known consequences, positive or negative. Quantify if possible.
+
+For example, replace “meaningful icons” with “single meaning over several meanings”.
+<!-- an opinionated point of view allowing for prioritization -->
+<!-- Maintain icon governance -> avoid icon gaps/dupes; ensure brand compliance -->
+
+**Encompassing**
+
+Apply to entire classes of problems, now and in the future. Otherwise they’re a pass/fail criteria, not a supporting tool.
+<!-- Not just a point correction, but big impact on many things. -->
+Don’t be too detailed, e.g. principles covering one use case each.
+
+<!-- For example, provide a color guideline rather than a set of hex values. -->
+
 ## Examples
 
 - [La charte des « Décodeurs »](http://www.lemonde.fr/les-decodeurs/article/2014/03/10/la-charte-des-decodeurs_4365106_4355770.html) (FR)
-- [Gravity](https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26), that iterated on its principles
+- [Gravity](https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26), with interesting iterations based on experience
 - [Linear Method](https://linear.app/linear-method)
 - [Paste](https://paste.twilio.design/principles)
