@@ -101,83 +101,88 @@ Instead of relying on gatekeepers to keep a high quality bar, better instead tha
 
 *An attempt at consolidating the above into an actionable framework.*
 
-Principles are “a fundamental truth that serves as the fondation for a system of belief or a chain of reasoning” ([Julie Zhuo, 2015](https://medium.com/the-year-of-the-looking-glass/a-matter-of-principle-4f5e6ad076bb#.crmh0x42x)).
+Principles are “a fundamental truth that serves as the fondation for a system of belief or a chain of reasoning” ([Julie Zhuo](https://medium.com/the-year-of-the-looking-glass/a-matter-of-principle-4f5e6ad076bb#.crmh0x42x), 2015).
 
 Their point is to support alignment and decision-making, and to a lesser extent creativity.
-<!-- They’re relevant in several areas of an organization: strategy, gouvernance, marketing etc. -->
-<!-- In UX, they can informe entire strategies, more specific journeys, big redesigns, big new products, visual refreshes, etc. They are not relevant for “smaller” efforts. -->
-<!-- while always “true”, not worth the effort for smaller projects if not already there -->
-They can come from unmovable facts (business strategy, market constraints, technical limitations) or subjective choices (e.g. brand, personal preferences).
+They can come from external factors (business strategy, market constraints, technical limitations) or internal choices (e.g. brand, personal preferences).
+
+Principles are relevant in several areas of an organization: strategy, gouvernance, marketing etc.
+In UX, they can informe entire strategies, new products, big redesigns or specific journeys.
+On smaller efforts, they’re not as useful as more straightforward guidelines.
 
 Good design principles are MEMOSPADE:
-<!-- BAD POEMMS -->
-<!-- not all qualities are possible/desirable all the time etc -->
 
 **Memorable**
 
 Clear, concise and impactful so that they can be internalized, thus generative, rather than referred to, thus conformative.
 Use short, unambiguous, and well-illustrated statements. Quantify them when possible.
 
-For example, “discrete inputs over analog movements”.
+For example, Android’s “make important things fast”.
 
 **Evolving**
 
 Reasonably iterated upon, to remain relevant as the product grows.
-<!-- stay in sync with the product as it grows -->
 Adjust their substance and scope, especially in the earlier phases when things are still in flux.
+
+For example, Gravity replaced “be universal” with “inclusive”.
 
 **Meaningful**
 
 Impart a human-oriented sense of why, so that they’re memorable and motivating.
 Make the rationale interesting to the reader (designers or non-designers) rather than true to the system.
 
-<!-- For example, “stocky punctual items, wide range items”. -->
+For example, “small things matter, good and bad” from Windows UX.
 
 **Outbound**
 
 Expressed in terms of end-user benefits rather than internal benefits.
 Don’t mention tools, technical capabilities or other similar internal properties.
 
-For example, replace "use push notifications" with "keep the user apprised timely".
+For example, replace “use push notifications” with “keep the user apprised timely”.
 
 **Specific**
 
-Not a truism, indistinguishable from competitors, that doesn't help making decisions. Replace “always true” statements with opinionated visual preferences, focused guidelines or business idiosyncrasies.
-<!-- “we aim for quality and cost-effectiveness”: vacuous -->
-<!-- accomplish x (goal) through y x z (activities) -->
+Not a truism, indistinguishable from competitors, that doesn’t help making decisions. Replace “always true” statements with opinionated visual preferences, focused guidelines or business idiosyncrasies.
 
-For example, change “easy to use” to “clarity before efficiency”.
+For example, “clarity above all” rather than “easy to use”.
 
 **Prioritized**
 
 Ranked against one another, so as to provide a path to resolution for difficult use cases. Write principles as “x over y over z”, or make an explicit different between must have and nice to have.
-<!-- icons example -->
+
+For example, as per Salesforce: “clarity > efficiency > consistency > beauty”.
 
 **Applicable**
 
-Can be easily connected to designs, and acted upon. If a statement isn't actionable it’s a goal, not a principle; principles must support design activities.
-Make sure principles aren't completely abstract, demanding a lot of thinking to be applied to the product.
+Can be easily connected to designs, and acted upon. If a statement isn’t actionable it’s a goal, not a principle; principles must support design activities.
+Make sure principles aren’t completely abstract, demanding a lot of thinking to be applied to the product. Provide an high-level “how”.
 
-For example, replace “make controls obvious” with “use shape to communicate actionability”.
+For example, “use shape to communicate actionability” rather than “make controls obvious”.
 
 **Determinative**
 
 Allow to say no, to fairly pick between options. Otherwise the effort devolves into lowest common denominator without style nor conceptual integrity.
 Break down big statements into smaller, unambiguous ones. Write down explicitly their known consequences, positive or negative. Quantify if possible.
 
-For example, replace “meaningful icons” with “single meaning over several meanings”.
-<!-- an opinionated point of view allowing for prioritization -->
-<!-- Maintain icon governance -> avoid icon gaps/dupes; ensure brand compliance -->
+For example, “single meaning over several meanings” rather than “meaningful icons”.
 
 **Encompassing**
 
-Apply to entire classes of problems, now and in the future. Otherwise they’re a pass/fail criteria, not a supporting tool.
-<!-- Not just a point correction, but big impact on many things. -->
+Apply to entire classes of problems, now and in the future; otherwise they’re a pass/fail criteria, not a principle.
 Don’t be too detailed, e.g. principles covering one use case each.
 
-<!-- For example, provide a color guideline rather than a set of hex values. -->
+For example, “start with smart defaults” rather than “placeholder text in fields”.
+
+<!-- Having more than an handful principles is overwhelming; curate actively. Likewise, not all principles will have to be perfectly MEMOSPADE to be useful. -->
 
 ## Examples
+
+Aggregators:
+
+- [Design Principles](https://principles.adactio.com/)
+- [Design Principles FTW](https://www.designprinciplesftw.com/)
+
+Misc:
 
 - [La charte des « Décodeurs »](http://www.lemonde.fr/les-decodeurs/article/2014/03/10/la-charte-des-decodeurs_4365106_4355770.html) (FR)
 - [Gravity](https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26), with interesting iterations based on experience
