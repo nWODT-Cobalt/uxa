@@ -6,11 +6,11 @@
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
 
---- [Oliver Reichenstein](https://ia.net/topics/take-the-power-back/)
+— [Oliver Reichenstein](https://ia.net/topics/take-the-power-back/)
 
 >The way you communicate a thing creates the thing. The thing does not exist apart from its own communication.
 
---- [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
+— [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
 
 <!--BREAK-->
 
@@ -74,8 +74,7 @@ An overview is easy to internalize for the audience and provides a mental scaffo
 
 Moreover, an overview may be the only way to get acquainted with the material, as some audiences may not have the time, interest or prerequisites to go through more elaborate content.
 
-Good overviews are:
-
+[Properties of good overviews]
 | Property              | Description                                                                                     |
 | --------------------- | ----------------------------------------------------------------------------------------------- |
 | Short                 | Better be 80% right in a few words, than 99% right in a few pages                               |
@@ -83,15 +82,12 @@ Good overviews are:
 | Plain                 | Using everyday language                                                                         |
 | Focused on intentions | Exposing the intention or purpose is shorter than explaining behaviour or describing properties |
 
-<!-- > The definition of “design tokens” as an example:  
-“json kvp” = property-based description = bad (short-lived, could apply to many unrelated things)  
-“capture design decision” = behaviour-based description = bad (doesnt tell me why or how I could use it)  
-“tool for design spec & governance” = intention-based description = good -->
+![Examples of good and bad overviews for a given term](assets/overview-tokens-definitions@2x.png)
 
 It’s likewise recommended to expose guidelines, results, tips etc. upfront, for immediate actionability.
 Supporting data, rationales, technical details etc. can be printed afterwards or progressively disclosed.
 
-<!-- example of dimensions files conventions, where the guidance is there right away whereas details are progressively disclosed -->
+![Guidance is exposed upfront since its the most important element. Details are available through progressive disclosure.](assets/local-overview-libraries-best-practices@2x.png)
 
 ### 1.2 Capturing Context
 
@@ -99,7 +95,7 @@ Capture context about the work, within the work.
 
 Context-setting is critical to the audience, as it’s likely coming from a different background, level of expertise, organization or task than the practitioner. Such context has to be presented outwards, e.g. in an introduction section or slide.
 
-Context-setting is valuable to the practitioner too. Outward context intended for the audience will eventually be useful when coming back to an old project.  
+Context-setting is valuable to the practitioner too. Outward context intended for the audience will eventually be useful when coming back to an old project.
 Some further context, exclusive to the practitioner, should also be captured: that of conventions and intentions local to the work. Such context has to be presented inwards, e.g. in presenter’s notes or edit-mode only comments at the beginning of a file.
 
 The last benefit of capturing context is that trying to characterize the work often ends up focusing/curating it.
@@ -115,14 +111,12 @@ Frequently captured context elements:
 - Degree of maturity or stability, is the content a recommendation or an obligation
 
 Note that the negatives are as important as the positives, and should be captured too.
-E.g: “x is in scope but y is not” or “we’re assuming that a is desired but b is not”.
+E.g: “x is in scope but y is not” or “we’re assuming that x is desired but y is not”.
 <!-- Extend to: capture all “realization” that seem obvious in retrospect, but actually came out after some thinking/conversation-->
 
-<!-- Examples :
-- marked theme css header
-- token convention page
-- lib best practices page
-- something from a deckset or marked doc? -->
+![The introduction of a wiki page is outwards context, aimed at the audience.](assets/context-libraries-best-practices@2x.png)
+
+![Comments in a CSS file are inwards context, for the benefit of the practitioner.](assets/context-chromatophore-header@2x.png)
 
 <!-- [Assumed Audiences](https://maggieappleton.com/assumed-audience) -->
 
@@ -132,7 +126,9 @@ Strive to communicate through media other than text.
 
 While text is often the default choice, it isn’t necessarily the best. Depending on the situation, comparison tables, data tables, decision trees, flowcharts, diagrams, illustrations, etc. can be more efficient to output and learn.
 
-When text is unavoidable, it can often be reworked into more efficient shapes such as lists, key-value pairs, presentations, etc.
+When text is unavoidable, it can often be reworked into more efficient shapes such as lists, key-value pairs, FAQs, presentations, etc.
+
+![A structured layout demonstrates the token naming scheme better than if it had been shown as plain text.](assets/examples-token-naming-schema@2x.png)
 
 ### 1.4 Delineating Ideas
 
@@ -194,7 +190,7 @@ Do not use footnotes for attribution.
 
 <!-- ### 1.6 Curating Examples
 
-fpr Pedagogical Quality
+fo Pedagogical Quality
 
 notion of it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating -->
 
@@ -325,7 +321,7 @@ Semantic line breaks are currently well supported in Marked but not in Deckset t
 
 >The greatest value of a picture is when it forces us to notice what we never expected to see.
 
---- John Tukey, Exploratory Data Analysis, 1977
+— John Tukey, Exploratory Data Analysis, 1977
 
 <!-- ### 3.1 Usage
 
@@ -383,10 +379,10 @@ While the canonical 1600 × 900 px artboard size is well-suited to full-screen r
 
 Artboards contain various guides helping to lay out content quickly and consistently:
 
-1. Artboard: export frame of the figure
-2. Measurement origin: virtual border from which all content should be measured and aligned. Set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard, that doesn’t support it by default.
-3. Visual clearance: 40 px for docs, 40/80 px for slides (against canvas edge, not safe area edge. Exceptionally 10px, eg screenshot (and most dont qualify to begin with). full bleed only for impact, on bg stuff.
-4. Content keylines: optional preferred positions for content
+1. Artboard: export frame of the figure,
+2. Measurement origin: virtual border from which all content should be measured and aligned, set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard,
+3. Visual clearance: whitespace around the content; 40 px for documents, 40 or 80 px for presentations. When editorial impact is desired, the clearance can be as small as 8 px or ignored altogether.
+4. Content keylines: preferred alignment guides for content.
 
 ![Layout Templates](assets/layout-templates@2x.png)
 
@@ -410,7 +406,7 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 [Preferred Sizes]
 | Priority | Rythm (px) | Sample values (px)                                    |
 | -------- | ---------- | ----------------------------------------------------- |
-| 1        | 8 × 10     | 80, 160, 240, 420, 400, 480, 560, 640, 720, 800, etc. |
+| 1        | 8 × 10     | 80, 160, 240, 320, 400, 480, 560, 640, 720, 800, etc. |
 | 2        | 4 × 10     | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
 | 3        | 8 × 1      | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
 
