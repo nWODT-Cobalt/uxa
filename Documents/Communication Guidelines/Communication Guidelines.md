@@ -235,6 +235,8 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 
 <!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu’à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n’a aucune valeur. <proposer une meilleure definition> -->
 
+<!-- ne pas expliquer le mot à l'aide du mot (tautologie) eg "preferences is where the ee sets their preferences" -->
+
 ### 2.3 Spelling
 
 Use American spelling. When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/).

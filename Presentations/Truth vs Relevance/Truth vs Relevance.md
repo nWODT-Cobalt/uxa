@@ -1,5 +1,7 @@
 # Truth vs Relevance
 
+<!-- a shorter parable: "the sun is larger than 2 football fields" -->
+
 <!--
 Credits:
 
