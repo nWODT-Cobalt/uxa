@@ -186,5 +186,6 @@ Misc:
 
 - [La charte des « Décodeurs »](http://www.lemonde.fr/les-decodeurs/article/2014/03/10/la-charte-des-decodeurs_4365106_4355770.html) (FR)
 - [Gravity](https://medium.com/buildit/introducing-buildits-gravity-design-system-44c3fe7a1d26), with interesting iterations based on experience
+- [Hey Elon: Let Me Help You Speed Run The Content Moderation Learning Curve](https://www.techdirt.com/2022/11/02/hey-elon-let-me-help-you-speed-run-the-content-moderation-learning-curve/), an orthogonal but convincing depiction of iterating on principles
 - [Linear Method](https://linear.app/linear-method)
 - [Paste](https://paste.twilio.design/principles)
