@@ -11,7 +11,7 @@
 
 The purpose and consumers of the contents need to be clarified first. How far you would like the principles to impact your internal orgs? Is it for [UX-internal] educating or align stakeholder expectations? Establish a common language in the whole company?
 
-Product Design [can be] a supporting org/subset of Prod Dev, so PM and Dev are involved in signing-off. The principles need to be widely-relatable/educable so that they actually accelerate the buy-in process. Something to watch out for to manage stakeholder expectations.
+Product Design can be a supporting org/subset of Prod Dev, so PM and Dev are involved in signing-off. The principles need to be widely-relatable/educable so that they actually accelerate the buy-in process. Something to watch out for to manage stakeholder expectations.
 
 ## Fredrik Matheson
 
@@ -181,6 +181,7 @@ Aggregators:
 
 - [Design Principles](https://principles.adactio.com/)
 - [Design Principles FTW](https://www.designprinciplesftw.com/)
+- [principles.design](https://principles.design/)
 
 Misc:
 
