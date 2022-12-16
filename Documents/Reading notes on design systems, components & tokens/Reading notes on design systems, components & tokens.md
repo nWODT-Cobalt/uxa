@@ -240,12 +240,21 @@ Unless it’s a part of your build (or dev process), your styleguide is just mor
 
 ---
 
+## Component naming problems
+
+<https://twitter.com/Amy_Hupe/status/1603113982671429634>
+<!--date d'ajout : 14/12/2022-->
+
+Design system component naming problems are nearly *always* scoping problems in disguise.
+
+99% of the time, when we’re struggling to name a component, it’s because we’re not yet clear on what its purpose, parameters and applications are.
+
 ## Component QA in Design Systems
 
 <https://medium.com/eightshapes-llc/component-qa-in-design-systems-b18cb4decb9c>
 <!--date d’ajout : 18/03/2018-->
 
-*Good inventory of the properties of quality components, such as* Sufficient States & Variations, Content Resilience, Composability, *etc.*
+*Solid inventory of the properties of quality components, such as* Sufficient States & Variations, Content Resilience, Composability, *etc.*
 
 ## Components
 
