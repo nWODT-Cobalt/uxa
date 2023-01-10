@@ -2,6 +2,24 @@
 
 <!--BREAK-->
 
+## Your design system is a dashboard
+
+<https://twitter.com/vingar/status/1608141621933273092>
+<!--date d'ajout : 30/12/2022-->
+
+Your design system is the work-in-progress dashboard of your organization's growth and concerns.
+
+*Similaire, via [Dan Mall](https://danmall.com/posts/what-is-a-design-system/) : *
+<!--date d'ajout : 09/01/2023-->
+
+>The official story of how your organization designs and builds digital interfaces.
+
+— Brad Frost, [Design systems are for user interfaces](https://bradfrost.com/blog/post/design-systems-are-for-user-interfaces/)
+
+>Any set of decisions governed across an organization.
+
+— Hayley Hughes, [Trust Between Teams](https://www.youtube.com/watch?v=1kxTYp2Y0FU&t=660s)
+
 ## Your design system contribution practice is doomed to fail
 
 <https://amyhupe.co.uk/articles/your-contribution-model-is-doomed>
