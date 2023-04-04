@@ -2,6 +2,22 @@
 
 <!--BREAK-->
 
+## The Best Design Systems Are a Shared Work Language
+
+<https://medium.com/demagsign/the-best-design-systems-are-a-shared-work-language-7f2daea7d967>
+<!--date d'ajout : 04/04/2023-->
+
+From our experience, a design system creates a lasting impact when a shared language — including the vision, mindset, and process — is established from the beginning, then evolved with the input of a cross-disciplinary group of stakeholders.
+
+At its core, design systems create a model to repeatedly create and ship efficient, meaningful, and sustainable products at scale.
+
+While working with GoFundMe, we created dedicated sections for each discipline (product design, engineering, marketing, data, etc.) to personalize onboarding, contributions, and best practices for cross-disciplinary collaboration.
+
+We often say that a design system should solve 80% of the basics and give guidance on how to build new patterns.
+
+The correct method for governance (the workflows, internal processes, and organizational structure) is as unique as the organization itself. It is often influenced by factors like product scale, number of design team members, and product roadmap.
+
+
 ## Your design system is a dashboard
 
 <https://twitter.com/vingar/status/1608141621933273092>
