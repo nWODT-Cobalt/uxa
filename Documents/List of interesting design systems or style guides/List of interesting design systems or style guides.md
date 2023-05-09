@@ -13,11 +13,11 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Biings Design System](https://biings.design/#/)
 - [Blueprint](http://blueprintjs.com/) by Palantir
 - [Canada.ca design system](https://www.canada.ca/en/government/about/design-system.html), interesting goals and content; few components, but a lot of governance
-- [Cedar Design System](https://rei.github.io/rei-cedar-docs/), very interesting Patterns section
-- [Designing for Playdate](https://sdk.play.date/1.11.1/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
+- [Cedar Design System](https://rei.github.io/rei-cedar-docs/), very interesting patterns section
+- [Designing for Playdate](https://sdk.play.date/1.13.7/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
 - [Duolingo](https://www.duolingo.com/design/)
 - [Evergeen](https://evergreen.segment.com/), nice CMS and component props
-- [Goldman Sachs](https://design.gs.com/home), a lot of brawl but still a couple of interesting industry- or scale-specific things
+- [Goldman Sachs](https://design.gs.com/home), a couple of interesting industry- or scale-specific things
 - [GOV.UK Design System](https://design-system.service.gov.uk/)
 - [If Design System](https://design.if.eu/), fresh look & feel, solid data visualization section
 - [Lexicon](https://lexicondesign.io/)
@@ -32,6 +32,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Spectrum](https://spectrum.adobe.com/)
 - [Uniform](http://uniform.hudl.com/)
 - [Wanda](https://design.wonderflow.ai/), solid presentation and guidance, interesting taxonomy, delightful animations
+- [Wise](https://wise.design/), fantastic presentation and content, including patterns and “foundations” far beyond the usual tokens
 - [Workday Canvas](https://design.workday.com/)
 
 ## Style Guides (product/brand-centric)
@@ -41,6 +42,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Chicago Design System](https://design.chicago.gov/), lighthearted, focused on compliance/governance, with a solid accessibility section
 - [Driveclub](https://www.youtube.com/watch?v=IKaiXA4Xx74), in video format
 - [The Guardian digital design style guide](https://design.theguardian.com/)
+- [Heliograph](https://brand.mixpanel.com/) (Mixpanel)
 - [Helsinki Visual Identity Guidelines](https://brand.hel.fi/en/)
 - [Instagram](https://about.instagram.com/brand/)
 - [A List Apart](http://alistapart.com/about/style-guide)
