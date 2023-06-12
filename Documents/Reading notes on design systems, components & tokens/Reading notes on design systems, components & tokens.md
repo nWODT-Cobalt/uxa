@@ -274,6 +274,46 @@ Unless it’s a part of your build (or dev process), your styleguide is just mor
 
 ---
 
+## Boringness in Design Systems
+
+<https://daverupert.com/2023/05/boringness-in-design-systems/>
+<!--date d'ajout : 05/06/2023-->
+
+The component must be defensively designed and built against any permutation of author-supplied content. What was once a humble visual display component is now a content workhorse. *Une douzaine de props, sans parler des slots.*
+
+Any component has the potential to become a little machine filled with a myriad of rules and requirements. In Storybook and Figma these lil’ state machines manifest as knobs and dropdowns. Knobs provide an interface for the large underlying feature matrices of properties, showing the programmable pieces allowing experimenters to flip them on and off or change properties at will. These if-statements have a cost as each component swells with atomic business logic. If you’re lucky, someone is keeping track of these intents in a test suite, otherwise it will be even harder to change later.
+
+Quick and radical changes are always harder in a complex system. It’s tough to “be funky” in the confines of a strict system.
+
+All these complexities dilute the component towards a bland defensive design, averaging itself against every possible permutation of content. As utility goes up, so does boringness in a design system.
+
+*« Boringness » est une tension, un équilibre ; pas nécessairement une mesure de non-qualité ni un marqueur d’échec.*
+
+## Customization vs. Configuration in Evolving Design Systems
+
+<https://engineering.atspotify.com/2021/04/customization-vs-configuration-in-evolving-design-systems/>
+<!--date d'ajout : 05/06/2023-->
+
+Customization — Custom styles are added external to the component. These styles reference HTML elements and touch CSS properties directly. A low level of abstraction.
+
+Pros: Autonomy, speed, innovation
+
+Cons: Lack of coherency, loss of maintainability, potential duplication
+
+Configuration — The original component is made more flexible. Additional parameters are passed to the component for more varied behavior. A high level of abstraction.
+
+Pros: Consistency, contribution, maintainability
+
+Cons: Can become a bottleneck, rigidness, vocabulary awareness
+
+<!-- Property passthroughs: These strategies pass the elements and properties through to ultimately be rendered to the page. Children, className, and props allow feature developers to pass their custom styles and components into the design system’s components. -->
+
+When evolving a design system, there is a range of strategies you can take. A more abstract configuration approach can increase consistency and maintainability, but at the risk of the system being a bottleneck for outgoing features. The less abstract customization approach enables quicker feature development; however, overall consistency of the product can suffer as a result.
+
+The more mature a product or feature is, the more beneficial and feasible a configuration approach is. However, the iterative and low-level nature of customization makes it more suitable for prototyping and features which are bespoke, or are still subject to change.
+
+How to decide which approach to use : feature maturity, product maturity, timeline, reusability.
+
 ## Component naming problems
 
 <https://twitter.com/Amy_Hupe/status/1603113982671429634>
