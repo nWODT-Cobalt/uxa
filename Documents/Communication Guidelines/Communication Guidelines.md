@@ -8,6 +8,8 @@
 
 — [Oliver Reichenstein](https://ia.net/topics/take-the-power-back/)
 
+<br>
+
 >The way you communicate a thing creates the thing. The thing does not exist apart from its own communication.
 
 — [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
@@ -89,6 +91,8 @@ Supporting data, rationales, technical details etc. can be printed afterwards or
 
 ![Guidance is exposed upfront since its the most important element. Details are available through progressive disclosure.](assets/local-overview-libraries-best-practices@2x.png)
 
+<!-- beware of tautologies -->
+
 ### 1.2 Capturing Context
 
 Capture context about the work, within the work.
@@ -153,6 +157,8 @@ The preferred length of paragraphs is three or four sentences, but five or six a
 
 <!-- Keep annotations terse. Economy of concepts and terms is a primary goal. -->
 
+<!-- beware of "améliorer la productivité / la qualité / l'innovation", always useless -->
+
 ### 1.5 Sourcing & Attribution
 
 #### 1.5.1 Sourcing
@@ -216,12 +222,12 @@ Be very mindful of vocabulary.
 
 Prefer generic terms over terms of art. Terms of art (words or phrases that have a precise, specialized meaning within a particular field or profession) are an essential communication tool, but should only be used to capture crucial meaning that would otherwise be lost. The only reason to use a technical term rather than a more common word is that it precisely expresses something that would otherwise be ambiguous or unclear.
 
-Define technical terms, uncommon words and common words that are used in an unusual or special way. Define them immediately following their first occurrence in the text.
+Define acronyms, technical terms, uncommon words and common words that are used in an unusual or special way. Define them immediately following their first occurrence in the text.
 
 Avoid abbreviations.
 
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
-Include it in the document, or contribute and link to the **Vocabulary** (to be published).
+Include it in the document, or contribute and link to the **Vocabulary** (tbd).
 
 Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
@@ -285,6 +291,7 @@ Be mindful about typographic signs. In particular:
 - Apostrophes and quote marks: curly instead of straight. Run the [smart-quotes-plus](https://atom.io/packages/smart-quotes-plus) package to sanitize deliverables.
 - Fractions: real fractions like ¼ instead of fake ones like 1/4. Real fractions are supported by Inter and iA Writer Quattro.
 - Multiplication signs: × instead of the letter x.
+- Interpuncts: · instead of bullet points •.
 
 Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or ⚠.
 
@@ -406,11 +413,11 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 <!-- the half module series are identical: n(4 × 10) = n(8 × 5) -->
 
 [Preferred Sizes]
-| Priority | Rythm (px) | Sample values (px)                                    |
-| -------- | ---------- | ----------------------------------------------------- |
-| 1        | 8 × 10     | 80, 160, 240, 320, 400, 480, 560, 640, 720, 800, etc. |
-| 2        | 4 × 10     | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
-| 3        | 8 × 1      | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
+| Priority | Rythm (px)      | Sample values (px)                                    |
+| -------- | --------------- | ----------------------------------------------------- |
+| 1        | 8 × 10          | 80, 160, 240, 320, 400, 480, 560, 640, 720, 800, etc. |
+| 2        | 8 × 5 or 4 × 10 | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
+| 3        | 8 × 1           | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
 
 Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
 
@@ -452,12 +459,12 @@ Export to SVG by default.
 SVG files are scalable, interoperable, programmatically manipulable and lightweight.
 Some specific use cases may require other formats:
 
-| Priority | Format | Scaling | Usage                                            |
-| -------- | ------ | ------- | ------------------------------------------------ |
-| 1        | SVG    | 1x      | Vector figures without text (e.g. illustrations) |
-| 2        | PDF    | 1x      | Vector figures with text (e.g. diagrams)         |
-| 3        | PNG    | 2x      | Screenshots, UI mockups                          |
-| 4        | JPG    | 2x      | Photos, scanned documents                        |
+| Priority | Format | Scaling | Usage                                                            |
+| -------- | ------ | ------- | ---------------------------------------------------------------- |
+| 1        | SVG    | 1x      | Vector figures without text nor blend modes (e.g. illustrations) |
+| 2        | PDF    | 1x      | Vector figures with text or blend modes (e.g. diagrams)          |
+| 3        | PNG    | 2x      | Screenshots, UI mockups                                          |
+| 4        | JPG    | 2x      | Photos, scanned documents                                        |
 
 Set an illustration background color, `Gris 0106 Béton Clair` by default.
 <!-- Marked-only? -->
