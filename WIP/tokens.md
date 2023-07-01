@@ -37,6 +37,14 @@ depict the whole thing so that allocation is clear and quantitative comparison e
 <!-- https://medium.com/@NateBaldwin/component-level-design-tokens-are-they-worth-it-d1ae4c6b19d4 "multidimensional" -->
 <!-- A fully component-level system like we had used in Spectrum is only valuable when you fit a specific scenario, such as: xyz -->
 
+<!-- https://www.radix-ui.com/docs/colors/palette-composition/understanding-the-scale
+interesting numbering scheme but ultimately it's just "naming with numbers" rather than an actual numerical correlation -->
+
+<!-- https://uxdesign.cc/naming-design-tokens-9454818ed7cb
+another complex set-up, for examples/synonyms -->
+
+<!-- https://bootcamp.uxdesign.cc/creating-crafting-a-design-token-system-b661a9ba9d55 -->
+
 ## Decision Criteria
 
 go further than ~descriptions with guidance for discussion/decision.

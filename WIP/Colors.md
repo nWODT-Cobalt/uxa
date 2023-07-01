@@ -10,6 +10,7 @@
 <https://adobe.design/stories/design-for-scale/reinventing-adobe-spectrum-s-colors>
 <https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/>
 <https://colorandcontrast.com/#/>
+<https://primer.style/prism/>
 
 color picking + color palettes generation for complex product
 

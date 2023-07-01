@@ -1,5 +1,13 @@
 # En vrac
 
+« Levels of abstraction » à ajouter en synonyme de map-territory, type-token etc. Bon exemple avec le « where do you live? » à 5 niveaux
+
+~separation of concerns as a UXAXIOM
+
+every time you make a typo, the errorists win
+
+USB-C ou prises électriques comme exemples UXA/FWK
+
 Prioritize learning over delivery
 
 Every decision you make is a hypothesis
@@ -177,6 +185,23 @@ Conceptual Integrity:
 # Pratiques et concepts
 
 *Applicables au-delà des design systems, mais pas fonctionnel unitairement.*
+
+##  What it means to design a platform
+
+<https://matthewstrom.com/writing/platform-design/>
+<!--date d'ajout : 01/07/2023-->
+
+Biggest differences between platform and application design:
+
+**Interfaces** are the points of contact between elements, where simplicity and flexibility can lead to efficiency at scale.
+
+**Incentives** drive the motivation of both platform- and end- users. By designing incentives, we can re-invest users’ energy, amplifying desired outcomes and preventing undesired results.
+
+**Emergence** is the open-ended feedback loop that platforms can create and maintain. By designing for emergence, not against it, we enable users to discover applications we never imagined.
+
+**Second-order thinking** lets us plan for, and potentially tame, the complexities that threaten to turn platforms into dead ends — or worse.
+
+By putting these concepts together, designers can take advantage of the unique leverage platform design provides, efficiently solving thorny problems at scale.
 
 ## The \#1 architectural mistake
 
