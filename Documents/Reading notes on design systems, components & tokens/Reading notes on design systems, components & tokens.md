@@ -2,10 +2,23 @@
 
 <!--BREAK-->
 
+## Beyond design systems for interfaces: a mega system of design systems
+
+<https://medium.com/@mluvinh/beyond-design-systems-for-interfaces-an-megasystem-of-design-systems-4f87dd6d8df8>
+<!--date d’ajout : 01/07/2023-->
+
+*Interesting as a characterization of maturity. Not necessarily practical, as it doesn’t map to structure or incentives of most orgs.*
+
+- **Level 5: Design systems for interfaces** which relate to how an organisation designs and builds its interfaces (based on the definition framed by Brad Frost in 2021). This could be a digital interface, but also another channel or medium if your services include physical touch points.
+- **Level 4: Design Systems for products** which relate to how an organisation designs their products, whether consumer-facing or not.
+- **Level 3: Design Systems for services** which relate to how an organisation designs and orchestrates its services. By services, I mean here large(r) end-to-end services in the economic/business sense (e.g. “online food delivery platform”) rather than functional microservices (e.g. “authentication/logging in”)
+- **Level 2: Design Systems for brands** which relate to how an organisation envisions, designs and shapes their brand(s). Design systems for brands might include components and guidelines on how to create new (sub)brands but in many cases, there’s only 1 brand at play. Thus the design system might focus on the different expression and direction of the brand, and all related guidelines. Brands might be internally-facing or externally facing to customers.
+- **Level 1: Design approach of the organisation** which relates to overarching design-related guidelines that transcend every design system level.
+
 ## The Best Design Systems Are a Shared Work Language
 
 <https://medium.com/demagsign/the-best-design-systems-are-a-shared-work-language-7f2daea7d967>
-<!--date d'ajout : 04/04/2023-->
+<!--date d’ajout : 04/04/2023-->
 
 From our experience, a design system creates a lasting impact when a shared language — including the vision, mindset, and process — is established from the beginning, then evolved with the input of a cross-disciplinary group of stakeholders.
 
@@ -21,12 +34,12 @@ The correct method for governance (the workflows, internal processes, and organi
 ## Your design system is a dashboard
 
 <https://twitter.com/vingar/status/1608141621933273092>
-<!--date d'ajout : 30/12/2022-->
+<!--date d’ajout : 30/12/2022-->
 
-Your design system is the work-in-progress dashboard of your organization's growth and concerns.
+Your design system is the work-in-progress dashboard of your organization’s growth and concerns.
 
 *Similaire, via [Dan Mall](https://danmall.com/posts/what-is-a-design-system/) : *
-<!--date d'ajout : 09/01/2023-->
+<!--date d’ajout : 09/01/2023-->
 
 >The official story of how your organization designs and builds digital interfaces.
 
@@ -39,7 +52,7 @@ Your design system is the work-in-progress dashboard of your organization's grow
 ## Your design system contribution practice is doomed to fail
 
 <https://amyhupe.co.uk/articles/your-contribution-model-is-doomed>
-<!--date d'ajout : 27/09/2022-->
+<!--date d’ajout : 27/09/2022-->
 
 When Nathan Curtis interviewed a group of design system leads in 2020, they told him that although contribution was valuable for other reasons, they “do not reduce workload and do not make [a] system produce more”.
 
@@ -50,7 +63,7 @@ In fact, in *my* experience, contributions actually increase workload and make o
 ## Truthish.
 
 <https://ethanmarcotte.com/wrote/truthish/>
-<!--date d'ajout : 22/08/2022-->
+<!--date d’ajout : 22/08/2022-->
 
 I’ve written before that design systems often widen the gap between design and engineering teams. In practice, this frequently means each “side” maintains its own workspaces, processes, and documents. I’d go so far as to say most design systems feel like several discipline-specific artifacts stacked underneath a single trenchcoat: inventories and audits conducted by the content team, a component library owned by engineers, a set of visual standards maintained by designers, and so on.
 
@@ -63,7 +76,7 @@ There’s an interesting tension here. Because practically, this means most desi
 ## Consistency vs Flexibility: The Myth of Creative Restraint in Design Systems
 
 <https://sparkbox.com/foundry/design_system_consistency_versus_flexibility_design_system_constraints>
-<!--date d'ajout : 13/06/2022-->
+<!--date d’ajout : 13/06/2022-->
 
 But the work is not only technical, it’s cultural. If you want to build a systematic design practice, you’ll have to let go of the tools and the techniques and focus on the people. Consistent output comes from organizations that are culturally consistent—aligned on values and principles. In other words, an organization is successful when it aligns people behind a shared vision, so that everyone’s “wants” match the needs of the business.
 
@@ -274,10 +287,12 @@ Unless it’s a part of your build (or dev process), your styleguide is just mor
 
 ---
 
+<!--BREAK-->
+
 ## Boringness in Design Systems
 
 <https://daverupert.com/2023/05/boringness-in-design-systems/>
-<!--date d'ajout : 05/06/2023-->
+<!--date d’ajout : 05/06/2023-->
 
 The component must be defensively designed and built against any permutation of author-supplied content. What was once a humble visual display component is now a content workhorse. *Une douzaine de props, sans parler des slots.*
 
@@ -292,7 +307,7 @@ All these complexities dilute the component towards a bland defensive design, av
 ## Customization vs. Configuration in Evolving Design Systems
 
 <https://engineering.atspotify.com/2021/04/customization-vs-configuration-in-evolving-design-systems/>
-<!--date d'ajout : 05/06/2023-->
+<!--date d’ajout : 05/06/2023-->
 
 Customization — Custom styles are added external to the component. These styles reference HTML elements and touch CSS properties directly. A low level of abstraction.
 
@@ -317,7 +332,7 @@ How to decide which approach to use : feature maturity, product maturity, timeli
 ## Component naming problems
 
 <https://twitter.com/Amy_Hupe/status/1603113982671429634>
-<!--date d'ajout : 14/12/2022-->
+<!--date d’ajout : 14/12/2022-->
 
 Design system component naming problems are nearly *always* scoping problems in disguise.
 
@@ -345,10 +360,12 @@ The point of this is to think about everything as an interoperable system. You c
 
 ---
 
+<!--BREAK-->
+
 ## Design Tokens Technical Reports
 
 <https://tr.designtokens.org/>
-<!--date d'ajout : 05/06/2022-->
+<!--date d’ajout : 05/06/2022-->
 
 *Normative. The action is really at <https://tr.designtokens.org/format/>.*
 
@@ -368,7 +385,7 @@ The reason for this conclusion is because the purpose of a design token is to ex
 ## Design tokens — What are they & how will they help you?
 
 <https://lukasoppermann.medium.com/design-tokens-what-are-they-how-will-they-help-you-b73f80f602ab>
-<!--date d'ajout : 28/01/2021-->
+<!--date d’ajout : 28/01/2021-->
 
 - Design tokens are a methodology to extract design decisions into a separate space. They are stored technology agnostic to be used on any platform.
 - The two types of design tokens are choices & decisions.
