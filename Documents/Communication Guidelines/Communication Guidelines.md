@@ -87,7 +87,7 @@ Moreover, an overview may be the only way to get acquainted with the material, a
 ![Examples of good and bad overviews for a given term](assets/overview-tokens-definitions@2x.png)
 
 It’s likewise recommended to expose guidelines, results, tips etc. upfront, for immediate actionability.
-Supporting data, rationales, technical details etc. can be printed afterwards or progressively disclosed.
+Supporting data, rationale, technical details etc. can be printed afterwards or progressively disclosed.
 
 ![Guidance is exposed upfront since its the most important element. Details are available through progressive disclosure.](assets/local-overview-libraries-best-practices@2x.png)
 
@@ -143,6 +143,7 @@ Each idea should be one section and one only.
 First, express the idea in a few words.  
 In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately.
 <!-- Moreover, trading depth for breadth allows for a quick “initial overview”. -->
+<!-- whats "the direct expression" though? -->
 
 Afterwards, consider adding supporting information: rationale/justification, details, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies). All considerations are optional, but if present must remain in this order.
 
@@ -150,7 +151,7 @@ Don’t hesitate to emphasize the core idea from its supporting information thro
 
 <!-- WHAT ABOUT EXEMPLES/ILLUSTRATIONS? if only one: right after the idea. If several: colocated. -->
 
-![Organizing Ideas. Note the boldface on the idea expression.](assets/notion-morphology@2x.png)
+![Organizing ideas. Note the boldface on the idea expression.](assets/notion-morphology@2x.png)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
@@ -160,6 +161,8 @@ The preferred length of paragraphs is three or four sentences, but five or six a
 <!-- beware of "améliorer la productivité / la qualité / l'innovation", always useless -->
 
 ### 1.5 Sourcing & Attribution
+
+<!-- diff between sourcing and attribution? -->
 
 #### 1.5.1 Sourcing
 
@@ -181,8 +184,8 @@ Reference attribution, separate from the material and gathered at the end of the
 
 If the author asks for a specific an attribution format, use it. If not, use the following:
 
-- Inline: `<work title>, <author name>, <work year>`
-- Reference: `<page/slide number>: <work title>, <author name>, <work year>`
+- Inline: `<work title>, <author name>, <year of publication>`
+- Reference: `<page/slide number>: <work title>, <author name>, <year of publication>`
 
 Do not use footnotes for attribution.
 
@@ -237,7 +240,7 @@ Avoid fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
 
 When referring to existing content, such as a UI or a diagram, spell commands, labels or messaging exactly as they appear in situ.
 
-Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of agreement, to the detriment of actionability. Spot them and replace them with clearer explanations.
+Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of consensus, to the detriment of actionability. Spot them and replace them with clearer explanations.
 
 <!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu’à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n’a aucune valeur. <proposer une meilleure definition> -->
 
@@ -249,8 +252,8 @@ Use American spelling. When in doubt, check the [Merriam-Webster dictionary](htt
 
 ### 2.4 Tone & Voice
 
-For descriptions, use the present tense and the active form (“Selecting a value triggers validation”).
-For instructions, use the second person imperative (“Remove test set”).
+For descriptions, use the present tense and the active form (e.g. “Selecting a value triggers validation”).
+For instructions, use the second person imperative (e.g. “Remove test set”).
 
 Prefer positive wording, and statements directed to what’s true rather than what’s false; it’s quicker to check.  
 Use negative wording for prohibition or to correct misconceptions.
@@ -299,21 +302,21 @@ Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or �
 
 #### 2.5.4 Number and Dates
 
-*These guidelines are for American English, which is the language we use as a base before translating to other languages. However, dates, numbers, and measurements may be formatted differently in other languages.*
+<!-- These guidelines are for American English, which is the language we use as a base before translating to other languages. However, dates, numbers, and measurements may be formatted differently in other languages. -->
 
 Numbers representing quantities of 10 or more must be expressed in numerals ; those representing quantities less than 10 must be expressed in words. If a number is the first word in a sentence, it must be expressed in words.
 
 Use commas for numbers with four or more digits. Whenever possible, don’t truncate numbers.
 
-Use an en dash without a space on either side for number ranges (88–110).
+Use an en dash without a space on either side for number ranges (e.g. "88–110").
 
 <!-- Preferred date/time format, units formats and spaces etc -->
 
 <!-- Don’t use ordinal indicators, which are words representing position or rank in a sequential order (1st, 2nd, 3rd, and so on). -->
 
-In all cases, include a space between the number and the unit.
+In all cases, include a non-breaking space (`option + space`) between the number and the unit.
 
-When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number (and include a space).
+When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number and include a space.
 
 When possible, use the month’s full name, for example, October. If there are space constraints, use 3-letter abbreviations, for example, Oct.
 <!-- Don’t write dates numerically, for example, 07-02-14. -->
@@ -322,7 +325,7 @@ When possible, use the month’s full name, for example, October. If there are s
 
 Use [semantic line breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html), a.k.a. [ventilated prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html), whenever possible.
 
-Semantic line breaks are currently well supported in Marked but not in Deckset that parses them like alineas, altering the rendering of the presentation.
+Semantic line breaks are  supported in Marked but not in Deckset. Deckset parses them like alineas, altering the rendering of the presentation.
 
 <!--BREAK-->
 
@@ -386,7 +389,7 @@ While the canonical 1600 × 900 px artboard size is well-suited to full-screen r
 | 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points) |
 | 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)    |
 
-Artboards contain various guides helping to lay out content quickly and consistently:
+Various guides help lay out content quickly and consistently:
 
 1. Artboard: export frame of the figure,
 2. Measurement origin: virtual border from which all content should be measured and aligned, set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard,
@@ -419,7 +422,7 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 | 2        | 8 × 5 or 4 × 10 | 40, 80, 120, 160, 200, 240, 280, 320, 360, 400, etc.  |
 | 3        | 8 × 1           | 8, 16, 24, 32, 40, 48, 56, 64, 72, 80, etc.           |
 
-Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts would require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
+Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
 
 <!-- ### 3.4 Composition
 
@@ -477,13 +480,14 @@ Moreover, some photos may not have a 16:9 aspect ratio meaning the document back
 Do not pick an arbitrary background color for editorial purposes, like calling for attention or impact.
 <!-- divider entre recommendations marked et recommendations deckset ? peu d’overlap au final -->
 
-![Background Color](assets/background-color@2x.png)
+![Background colors](assets/background-color@2x.png)
 
 <!--BREAK-->
 
 ## 4 Tools
 
 Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for publishing UXA material.
+<!-- thats a description when everything else is an instruction -->
 
 ### 4.1 Marked
 
