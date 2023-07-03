@@ -289,6 +289,15 @@ Unless it’s a part of your build (or dev process), your styleguide is just mor
 
 <!--BREAK-->
 
+##  All the user-facing states
+
+<https://ericwbailey.website/published/all-the-user-facing-states/>
+<!--date d'ajout : 03/07/2023-->
+
+User-facing state is what someone experiences when they interact with an element in some capacity.
+
+*30+ states!*
+
 ## Boringness in Design Systems
 
 <https://daverupert.com/2023/05/boringness-in-design-systems/>
