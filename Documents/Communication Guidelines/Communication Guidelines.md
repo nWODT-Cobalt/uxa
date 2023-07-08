@@ -2,6 +2,8 @@
 
 **(alpha release)**
 
+<!-- pictooooo -->
+
 <br>
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
@@ -18,16 +20,15 @@
 
 ## Introduction
 
-Communication is integral, not additive, to architecture --- because it clarifies thinking, enables collaboration and supports scale.
+Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
+This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. It's relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
+
+Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
 
 <!-- quick and easy for the author, consistent and memorable for the reader -->
 
-This document is relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
 <!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
-<!-- expected audience?
-“this document” repetition -->
 
 <!--BREAK-->
 
@@ -62,13 +63,13 @@ Section
 
 <!--BREAK-->
 
-## 1 Content
+## 1. Content
 
 What to communicate, in what order, to what level of detail.
 <!-- what to write OR illustrate. notions apply to both; the point is to communicate clearly, not have detailed paperwork -->
 <!-- outline -->
 
-### 1.1 Providing an Overview
+### 1.1. Providing an Overview
 
 Expose an overview before the details.
 
@@ -93,7 +94,7 @@ Supporting data, rationale, technical details etc. can be printed afterwards or 
 
 <!-- beware of tautologies -->
 
-### 1.2 Capturing Context
+### 1.2. Capturing Context
 
 Capture context about the work, within the work.
 
@@ -124,7 +125,7 @@ E.g: “x is in scope but y is not” or “we’re assuming that x is desired b
 
 <!-- [Assumed Audiences](https://maggieappleton.com/assumed-audience) -->
 
-### 1.3 Shaping Content
+### 1.3. Shaping Content
 
 Strive to communicate through media other than text.
 
@@ -134,7 +135,7 @@ When text is unavoidable, it can often be reworked into more efficient shapes su
 
 ![A structured layout demonstrates the token naming scheme better than if it had been shown as plain text.](assets/examples-token-naming-schema@2x.png)
 
-### 1.4 Delineating Ideas
+### 1.4. Delineating Ideas
 
 <!-- if plain text, then… -->
 
@@ -160,11 +161,11 @@ The preferred length of paragraphs is three or four sentences, but five or six a
 
 <!-- beware of "améliorer la productivité / la qualité / l'innovation", always useless -->
 
-### 1.5 Sourcing & Attribution
+### 1.5. Sourcing & Attribution
 
 <!-- diff between sourcing and attribution? -->
 
-#### 1.5.1 Sourcing
+#### 1.5.1. Sourcing
 
 Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used.
 
@@ -174,7 +175,7 @@ This can be achieved through various means, like an open-source license or the p
 <!-- Heh == prefer authoritative data -->
 <!-- authoritative sourcing != legal sourcing -->
 
-#### 1.5.2 Attribution
+#### 1.5.2. Attribution
 
 Most documents or presentations are built upon on other people’s ideas, data or work. It’s important to only ever use authorized material, and credit it properly.
 
@@ -207,7 +208,7 @@ notion of it has to be simplified, caricatural, true enough to not suspend disbe
 
 ## 2. Writing Style
 
-### 2.1 Actionability
+### 2.1. Actionability
 
 <!-- Syntax -->
 
@@ -219,7 +220,7 @@ Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don�
 <!-- Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction. -->
 
-### 2.2 Vocabulary
+### 2.2. Vocabulary
 
 Be very mindful of vocabulary.
 
@@ -246,11 +247,11 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 
 <!-- ne pas expliquer le mot à l'aide du mot (tautologie) eg "preferences is where the ee sets their preferences" -->
 
-### 2.3 Spelling
+### 2.3. Spelling
 
 Use American spelling. When in doubt, check the [Merriam-Webster dictionary](https://www.merriam-webster.com/).
 
-### 2.4 Tone & Voice
+### 2.4. Tone & Voice
 
 For descriptions, use the present tense and the active form (e.g. “Selecting a value triggers validation”).
 For instructions, use the second person imperative (e.g. “Remove test set”).
@@ -270,14 +271,14 @@ In any case be assertive, impersonal and use the [singular *they*](https://en.wi
 
 <!-- A lot to cover. We’re only highlighting the most important points/recurring errors. Overall rule of thumb: be consistent with previous work and with the rest of the deliverable, mindful of typesetting. -->
 
-#### 2.5.1 Capitalization, Style & Weight
+#### 2.5.1. Capitalization, Style & Weight
 
 - Headings must be title case,
 - Everything else, including figure captions, must be sentence case,
 - Keywords must be bolded. Boldface could also be used for emphasis.
 - Foreign words must be italicized, and immediately followed by their translation in parentheses.
 
-#### 2.5.2 Punctuation
+#### 2.5.2. Punctuation
 
 - Avoid parentheses. Use commas or rephrase.
 - Print periods in abbreviations (e.g., etc., i.e.)
@@ -287,7 +288,7 @@ In any case be assertive, impersonal and use the [singular *they*](https://en.wi
 	- Plural nouns that don’t end in s: add ‘s (women’s, men’s)
 	- Plural nouns that end in s: add an apostrophe (boxes’, customers’)
 
-#### 2.5.3 Typographic Signs
+#### 2.5.3. Typographic Signs
 
 Be mindful about typographic signs. In particular:
 
@@ -300,7 +301,7 @@ Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or �
 
 <!-- Don’t use ampersands (&). They attract attention to the least important part of the sentence. Spell out the word “and.” -->
 
-#### 2.5.4 Number and Dates
+#### 2.5.4. Number and Dates
 
 <!-- These guidelines are for American English, which is the language we use as a base before translating to other languages. However, dates, numbers, and measurements may be formatted differently in other languages. -->
 
@@ -321,7 +322,7 @@ When listing out multiple measurements in a row, put the unit of measurement at 
 When possible, use the month’s full name, for example, October. If there are space constraints, use 3-letter abbreviations, for example, Oct.
 <!-- Don’t write dates numerically, for example, 07-02-14. -->
 
-#### 2.5.5 Misc
+#### 2.5.5. Misc
 
 Use [semantic line breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html), a.k.a. [ventilated prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html), whenever possible.
 
@@ -329,7 +330,7 @@ Semantic line breaks are  supported in Marked but not in Deckset. Deckset parses
 
 <!--BREAK-->
 
-## 3 Illustrating Style
+## 3. Illustrating Style
 
 >The greatest value of a picture is when it forces us to notice what we never expected to see.
 
@@ -347,37 +348,29 @@ Make sure full-page illustrations are commented in *presenter’s notes* (see xx
 
 Don’t illustrate bad practices. In the rare case a bad practice has to be depicted, always depict the corresponding good practice immediately next to it. -->
 
-### 3.1 Style
+### 3.1. Style
 
 Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
-### 3.2 Grid
+### 3.2. Grid
 
 This guidance is most relevant for heavily templated tools like Deckset or Marked, that offer little control over the size, position or treatment of images. Manually laid out documents may go past the conventions covered here.
 
 Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the OS. They are hereafter noted as pixels for clarity.
 
-<!-- A **unit** is the smallest measure a vertex can be positioned at accurately. It depends on the physical and logical resolution of the device, and can be expressed as pixels (px), points (pt), dips (dp). Units are hereafter noted as pixels for clarity. -->
+<!-- A **unit** is the smallest measure a vertex can be positioned at in entire values. It depends on the physical and logical resolution of the device. -->
 
-#### 3.2.1 Parameters
+#### 3.2.1. Parameters
 
 The UXA grid is set to an 8 px module.
 
 <!-- module: The recurring measure/multiplier vertices are anchored at -->
 
-<!--
-| Parameter     | Value         | Definition                                               |
-| ------------- | ------------- | -------------------------------------------------------- |
-| Module        | 8 px          | The recurring measure vertices are anchored at           |
-| Aspect ratio  | 16:9          | The relative size of the width to the height of an image |
-| Artboard size | 1600 × 900 px | The absolute size of an image                            |
- -->
-
 ![Grid Parameters](assets/grid-parameters@2x.png)
 
-#### 3.2.2 Form Factors/Layout
+#### 3.2.2. Form Factors/Layout
 
 While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
 
@@ -393,6 +386,7 @@ Various guides help lay out content quickly and consistently:
 
 1. Artboard: export frame of the figure,
 2. Measurement origin: virtual border from which all content should be measured and aligned, set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard,
+<!-- origin correction -->
 3. Visual clearance: whitespace around the content; 40 px for documents, 40 or 80 px for presentations. When editorial impact is desired, the clearance can be as small as 8 px or ignored altogether.
 4. Content keylines: preferred alignment guides for content.
 
@@ -404,16 +398,13 @@ try and catch a preferred size.
 
 ![Inline illustration shortening](assets/inline-illo-shortening@2x.png) -->
 
-#### 3.2.3 Preferred Sizes
+#### 3.2.3. Preferred Sizes
 
 Specific values along the 8 px grid are preferred when working on editorial layouts.
 
 While an 8 px module is appropriate for fine work like UI design, it’s too granular for illustrations or pages layout, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
 
 The preferred values are multiples of 8 (the UXA grid module) and 10 (another frequent grid module), ensuring scale and compatibility. Multiples of 4 (half UXA grid module) and 10 are also possible, as a second choice. Straight multiples of 8 are the last resort.
-
-<!-- scales, series, stop points? major, minor, module? preferred, possible, fallback? -->
-<!-- the half module series are identical: n(4 × 10) = n(8 × 5) -->
 
 [Preferred Sizes]
 | Priority | Rythm (px)      | Sample values (px)                                    |
@@ -454,9 +445,7 @@ Don’t burn explanation text in illustrations, as it incurs extra maintenance. 
 
 Don’t call out every part of the wireframe. Instead, focus on the key parts that you intend to explain in the annotations. -->
 
-### 3.4 Export
-
-<!-- svg > pdf > png > jpg -->
+### 3.4. Export
 
 Export to SVG by default.  
 SVG files are scalable, interoperable, programmatically manipulable and lightweight.
@@ -484,12 +473,12 @@ Do not pick an arbitrary background color for editorial purposes, like calling f
 
 <!--BREAK-->
 
-## 4 Tools
+## 4. Tools
 
 Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for publishing UXA material.
 <!-- thats a description when everything else is an instruction -->
 
-### 4.1 Marked
+### 4.1. Marked
 
 One-time Marked configuration:
 
@@ -506,7 +495,7 @@ Recurring document preparation:
 
 <!-- A user document shall have a table of contents unless it has fewer than three divisions or fewer than six pages. A table of contents shall include: (a) at least two levels of the headings and subheadings of the document, (b) appendixes if they exist, (d) list of exhibits, illustrations, figures and tables if they exist, and (e) the original page number of each item listed. The table of contents shall begin on a right-hand page. -->
 
-### 4.2 Deckset
+### 4.2. Deckset
 
 Present or export Deckset files with the [UXASF1](https://github.com/nWODT-Cobalt/uxa/tree/main/Resources/Deckset) theme.
 
@@ -529,7 +518,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 
 <!--BREAK-->
 
-## 5 Sources
+## 5. Sources
 
 - Règles de rédaction et de présentation des ouvrages scientifiques et techniques, Michel Foulon, 2003
 - [Grammar and mechanics — Shopify Polaris](https://polaris.shopify.com/foundations/content/grammar-and-mechanics), Shopify, 2022
@@ -558,7 +547,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 - style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase. color variation/blending is possible, except on the core black/grey/blue, that should always be most of the opaque pixels of the figure
 - <https://plain-words.com/>
 - Organize technical guidance after the process it’s a part of, eg icons or libs guidance
-- Governance: wo does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
+- Governance: who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - replace document, too generic, with ~report or so
 
 ---
