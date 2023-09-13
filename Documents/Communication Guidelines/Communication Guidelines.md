@@ -152,7 +152,7 @@ Don’t hesitate to emphasize the core idea from its supporting information thro
 
 <!-- WHAT ABOUT EXEMPLES/ILLUSTRATIONS? if only one: right after the idea. If several: colocated. -->
 
-![Organizing ideas. Note the boldface on the idea expression.](assets/notion-morphology@2x.png)
+![Organizing ideas.](assets/notion-morphology@2x.png)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
@@ -370,7 +370,7 @@ The UXA grid is set to an 8 px module.
 
 ![Grid Parameters](assets/grid-parameters@2x.png)
 
-#### 3.2.2. Form Factors/Layout
+#### 3.2.2. Form Factors
 
 While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
 
@@ -382,6 +382,8 @@ While the canonical 1600 × 900 px artboard size is well-suited to full-screen r
 | 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points) |
 | 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)    |
 
+#### 3.2.3. Layout
+
 Various guides help lay out content quickly and consistently:
 
 1. Artboard: export frame of the figure,
@@ -390,7 +392,7 @@ Various guides help lay out content quickly and consistently:
 3. Visual clearance: whitespace around the content; 40 px for documents, 40 or 80 px for presentations. When editorial impact is desired, the clearance can be as small as 8 px or ignored altogether.
 4. Content keylines: preferred alignment guides for content.
 
-![Layout Templates](assets/layout-templates@2x.png)
+![Layout Templates](assets/grid-layout-templates.pdf)
 
 <!-- Inline doc: shave vertically as much as possible (to not disrupt reading flow).
 Can be vertically shortened (only at export time, so that it’s easy to get back to nominal).
@@ -530,6 +532,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 
 <!--
 
+- desc for all img and tables
 - overall reorganize as “high-level considerations” that require thinking (eg overview before details) vs “settings to just know”, eventually lintable (eg punctuation) / boilerplate f(type of document)
 - mettre juste après l’intro un recap ~normatif en 5-10 pts pour lancer le monde (pas juste les praticiens UXA) (et linker chaque point vers sa section etc). Genre le premier truc à donner à qqun qui commencerait. noter que tjrs applicable, à différents niveaux, et pas juste pour marked/deckset. sous forme de slides plutot, et juste mentionné ici ?
 - Handbook / IND6408 / IND6402
