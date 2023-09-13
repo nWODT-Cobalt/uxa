@@ -14,6 +14,8 @@ Every decision you make is a hypothesis
 
 at scale, all edge cases are common
 
+encapsulation
+
 Design systems extension ideas: design IDE, bidirectional integration with dev IDE, visual & behavioral regression testing, self-service 3rd party integration (to be broken down), design APIs, theming (not just colors but scale factors, hardware factors, ui form factors etc), integrated telemetry, task patterns, etc.
 
 Functionalism: design for function and it will be beautiful *(pwoooo risqué)*
@@ -186,6 +188,8 @@ Conceptual Integrity:
 
 *Applicables au-delà des design systems, mais pas fonctionnel unitairement.*
 
+<https://google.github.io/typograms/>
+
 ##  What it means to design a platform
 
 <https://matthewstrom.com/writing/platform-design/>
@@ -257,13 +261,6 @@ Classes that interact with each other can also be culprits of tight coupling. Yo
 *Cohesion* is a measure of how much the various different program units belong together. A high level of cohesion is good and adds clarity to code blocks; a low level of cohesion is bad and leads to much confusion.
 
 Repeated code is a sure sign of low cohesion. Similar lines of code should be broken into functions, and similar functions should be broken into classes.
-
-## Keep a Changelog
-
-<http://keepachangelog.com/en/1.0.0/>
-<!--date d'ajout : 18/03/2018-->
-
-*Et [Semver](https://semver.org/) et <https://speakerdeck.com/apistrat/api-versioning-at-stripe>.*
 
 ## How To Be More Organized While Designing UI
 
