@@ -32,6 +32,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Spectrum](https://spectrum.adobe.com/)
 - [Uniform](http://uniform.hudl.com/)
 - [Wanda](https://design.wonderflow.ai/), solid presentation and guidance, interesting taxonomy, delightful animations
+- [WHO Data Design Language](https://apps.who.int/gho/data/design-language/index.html)
 - [Wise](https://wise.design/), fantastic presentation and content, including patterns and “foundations” far beyond the usual tokens
 - [Workday Canvas](https://design.workday.com/)
 
