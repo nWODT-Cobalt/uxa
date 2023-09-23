@@ -118,6 +118,7 @@ Frequently captured context elements:
 Note that the negatives are as important as the positives, and should be captured too.
 E.g: “x is in scope but y is not” or “we’re assuming that x is desired but y is not”.
 <!-- Extend to: capture all “realization” that seem obvious in retrospect, but actually came out after some thinking/conversation-->
+<!-- aka non-goals -->
 
 ![The introduction of a wiki page is outwards context, aimed at the audience.](assets/context-libraries-best-practices@2x.png)
 
@@ -220,9 +221,9 @@ Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don�
 <!-- Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction. -->
 
-### 2.2. Vocabulary
+### 2.2. Terminology
 
-Be very mindful of vocabulary.
+Be very mindful of wording.
 
 Prefer generic terms over terms of art. Terms of art (words or phrases that have a precise, specialized meaning within a particular field or profession) are an essential communication tool, but should only be used to capture crucial meaning that would otherwise be lost. The only reason to use a technical term rather than a more common word is that it precisely expresses something that would otherwise be ambiguous or unclear.
 
@@ -231,7 +232,7 @@ Define acronyms, technical terms, uncommon words and common words that are used 
 Avoid abbreviations.
 
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
-Include it in the document, or contribute and link to the **Vocabulary** (tbd).
+Include it in the document, or contribute and link to the **Terminology** (tbd).
 
 Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
@@ -558,7 +559,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 How to write normative templates/definitions (eg for publishing to a platform)
 
 - Be explicit and exclusive
-- (local) unambiguous vocabulary/anatomy
+- (local) unambiguous terminology/anatomy
 - best practices/intention/expectations/examples
 - responsabilities: product designer/stakeholders provide domain input, DLS/platform people provide templates/channels/actual publication/outputs
 

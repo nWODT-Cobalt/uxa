@@ -72,7 +72,10 @@ A start:
 - "React" in context of the reading
 - Can turn into interactive playgrounds
 
-E.g. <https://www.nan.fyi/>
+E.g:
+
+- <https://www.nan.fyi/>
+- <https://www.nathanmanousos.com/posts/chonky-menu>
 
 ## Recommended
 

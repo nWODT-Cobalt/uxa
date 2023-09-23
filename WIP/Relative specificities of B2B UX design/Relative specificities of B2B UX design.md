@@ -27,12 +27,14 @@ Through:
 
 - Composability
 - Portability
-- Configurability
+- Configurability (goes very deep, from component props to full-on admin areas, inclu branding, etc; some customers will have deep customization/deviance, and will tend to produce more content/transactions then B2C products, where user input is minimal or heavily controlled)
+- Business processes
 - Modularity
 - Interfacing
 - Orchestration
 - Multi-channeling
 - Admin areas
+- platforms
 
 <!-- As opposed to:
 
