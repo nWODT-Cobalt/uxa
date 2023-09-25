@@ -23,7 +23,7 @@ Worse, their presence and vagueness add noise to the conversation, slowing it do
 
 <!-- Cataxonomies must be avoided. -->
 
-![right](assets/definition.pdf)
+![right](assets/definition@2x.png)
 
 ^Note that this isnt “ill defined” nor “untrue”. It’s “irrelevant”. The words can be 100% true, they are just useless. “Ok cool. Now what?”.
 
