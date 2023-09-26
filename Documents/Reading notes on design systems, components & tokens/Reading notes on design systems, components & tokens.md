@@ -2,6 +2,17 @@
 
 <!--BREAK-->
 
+## Documentation Is a Living Thing: How We Talk Informs What We Make
+
+<https://www.supernova.io/blog/documentation-is-a-living-thing-how-we-talk-informs-what-we-make>
+<!--date d'ajout : 25/09/2023-->
+
+*Well articulated means and ends of design system documentation.*
+
+Documentation isn't a snapshot in time; it's a living entity. Regular updates ensure the documentation remains aligned with the current thinking, empowering teams to create innovative solutions while upholding the core principles. In this context, documentation isn't a mere record; it's an ongoing conversation that changes over time.
+
+The lifecycle of documents: Temporary insights -> Progressive foundations -> Structured collaborations -> Reflection and evolution.
+
 ## Beyond design systems for interfaces: a mega system of design systems
 
 <https://medium.com/@mluvinh/beyond-design-systems-for-interfaces-an-megasystem-of-design-systems-4f87dd6d8df8>
