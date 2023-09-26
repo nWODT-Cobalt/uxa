@@ -13,7 +13,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Biings Design System](https://biings.design/#/)
 - [Blueprint](http://blueprintjs.com/) by Palantir
 - [Canada.ca design system](https://www.canada.ca/en/government/about/design-system.html), interesting goals and content; few components, but a lot of governance
-- [Cedar Design System](https://rei.github.io/rei-cedar-docs/), very interesting patterns section
+- [Cedar Design System](https://cedar.rei.com/), very interesting patterns section (updated in 2023 with a neat look and feel)
 - [Designing for Playdate](https://sdk.play.date/1.13.7/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
 - [Duolingo](https://www.duolingo.com/design/)
 - [Evergeen](https://evergreen.segment.com/), nice CMS and component props
