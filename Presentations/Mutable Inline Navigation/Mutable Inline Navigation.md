@@ -7,9 +7,10 @@ autoscale: true
 
 ---
 
-## Pattern
+## Definition
 
-**A secondary navigation utility,
+**Mutable inline navigation:
+a secondary navigation utility,
 slightly changing in appearance and functionality upon content scroll.**
 
 <!-- **A secondary navigation device,
