@@ -77,6 +77,10 @@ E.g:
 - <https://www.nan.fyi/>
 - <https://www.nathanmanousos.com/posts/chonky-menu>
 
+### State Charts
+
+state-diagrams + depth + orthogonality + broadcast-communication (+ automatic resolution thereof)
+
 ## Recommended
 
 ### Changelogs

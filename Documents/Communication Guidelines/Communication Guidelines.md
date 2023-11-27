@@ -553,6 +553,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 - Organize technical guidance after the process it’s a part of, eg icons or libs guidance
 - Governance: who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - replace document, too generic, with ~report or so
+- <https://classnames.paulrobertlloyd.com/>
 
 ---
 
