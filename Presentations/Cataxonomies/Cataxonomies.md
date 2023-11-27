@@ -4,6 +4,7 @@ autoscale: true
 # Cataxonomies
 
 <!-- Cacaxonomies -->
+<!-- Timely Nielsen post on a tangential topic: [UX Vocabulary Inflation](https://jakobnielsenphd.substack.com/p/ux-vocabulary-inflation) -->
 
 ---
 
@@ -15,11 +16,9 @@ An accumulation of words that are technically true, but don’t immediately driv
 
 <!-- An accumulation of words that looks like a taxonomy, but doesn’t actually drive action or decision. -->
 
-Worse, their presence and vagueness add noise to the conversation, slowing it down for no upside.
+Worse, their presence and vagueness slow down the conversation, by only adding noise to it.
 
 <!-- dead weight -->
-
-<!-- It is therefore just noise, and ultimately has no other impact on operations than slowness and confusion. -->
 
 <!-- Cataxonomies must be avoided. -->
 
@@ -44,23 +43,18 @@ Worse, their presence and vagueness add noise to the conversation, slowing it do
 
 ^A.k.a. the no-no list: “framework”, “platform”, “system”, “workspace”, etc.
 
-^Cool sounding words *can* be mistaken for cool ideas, i.e. map-territory fallacy
-
 ---
 
 ## Best Practices: Fixing
 
 - Check for up-to-dateness, wholeness, concision and consistency
 - Remove problematic words
-- Evaluate whether they need replacement at all; if yes break them down, replace them with generic alternative and/or define them locally
+- Evaluate whether problematic words need replacement at all;
+if yes break them down, replace them with generic alternative, or define them locally
 
 ^If the authors get sentimental (e.g. afraid to “lose” something, or feeling that “we worked a lot on that”), problematic words can be moved to drafts or archives rather than outright deleted. The point is to remove them from taxonomy consumers’ point of view.
 
-<!-- must/could/should its consequences -->
-
-Cataxonomies are often a symptom of a weak underlying conceptual model. Consider fixing the latter first.
-
-<!-- Consider clarifying it before attempting to fix the related cataxonomies. -->
+Cataxonomies are often a symptom of a weak underlying conceptual model. Consider fixing the model first.
 
 ---
 
@@ -70,4 +64,4 @@ Cataxonomies are often a symptom of a weak underlying conceptual model. Consider
 - Curate and maintain continuously
 - Consider formats that could handle better some or all of the content: flowcharts, figures, post-it boards, terminology, etc.
 
-^Perspective: that of stakeholders x, y or z, users, technical dependencies, etc.
+^Perspective: that of stakeholders x-y-or-z, users, technical dependencies, etc.

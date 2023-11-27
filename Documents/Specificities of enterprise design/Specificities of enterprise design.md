@@ -1,4 +1,4 @@
-# A tentative list of specificities of enterprise design
+# A tentative look at the specificities of enterprise design
 
 <!--BREAK-->
 
@@ -21,12 +21,14 @@ Here’s a tentative list of practice/outcomes/considerations which are importan
 - 3rd party integration
 - 3rd party support
 
+<!-- Framework (fwk): a black-box genie’s lamp lol service deterministically prescribing a holistic design solution (where, how, when, who; not what) who/what/where/when/how  for cross-suite features fed a complex use case.
+They’re partially or completely automated;  through templating, governance and programmation. They’re owned and operated by suitex designers. -->
+
 This can be achieved through:
 
 - Business processes
 - Composability
 - Configurability (wide and deep, from component props to full-on admin areas)
-<!-- incl. branding, etc; some customers will have deep customization/deviance, and will tend to produce more content/transactions then B2C products, where user input is minimal or heavily controlled) -->
 - Interfacing
 - Modularity
 - Multi-channeling
@@ -34,6 +36,8 @@ This can be achieved through:
 - Platforms
 - Portability
 - Themeability
+
+<!-- incl. branding, etc; some customers will have deep customization/deviance, and will tend to produce more content/transactions then B2C products, where user input is minimal or heavily controlled) -->
 
 <!--
 As opposed to:
@@ -54,3 +58,8 @@ At a higher level:
 - Governance
 - Partnerships
 -->
+
+<!--
+Knowing that the ecological context is different since:
+- The buyers aren't the users, the users aren't the buyers
+- The user devices, apps, networks etc can be company-provided and/or controlled -->
