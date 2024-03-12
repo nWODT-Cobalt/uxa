@@ -77,6 +77,8 @@ E.g:
 - <https://www.nan.fyi/>
 - <https://www.nathanmanousos.com/posts/chonky-menu>
 
+<!-- <https://twitter.com/DanHollick/status/1745735801454174616> -->
+
 ### State Charts
 
 state-diagrams + depth + orthogonality + broadcast-communication (+ automatic resolution thereof)

@@ -507,7 +507,7 @@ A content boilerplate file [is available](https://github.com/nWODT-Cobalt/uxa/tr
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
 
-Do not hesitate to format Deckset presenter’s notes; they will render so on Deckset and on Github.
+Do not hesitate to format Deckset presenter’s notes; they will render so in Deckset and on Github.
 
 <!--BREAK-->
 

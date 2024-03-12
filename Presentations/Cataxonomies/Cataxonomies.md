@@ -4,7 +4,6 @@ autoscale: true
 # Cataxonomies
 
 <!-- Cacaxonomies -->
-<!-- Timely Nielsen post on a tangential topic: [UX Vocabulary Inflation](https://jakobnielsenphd.substack.com/p/ux-vocabulary-inflation) -->
 
 ---
 
@@ -14,17 +13,17 @@ autoscale: true
 
 An accumulation of words that are technically true, but don’t immediately drive action or decision.
 
-<!-- An accumulation of words that looks like a taxonomy, but doesn’t actually drive action or decision. -->
-
 Worse, their presence and vagueness slow down the conversation, by only adding noise to it.
 
-<!-- dead weight -->
+<!-- Avoid cataxonomies. -->
 
-<!-- Cataxonomies must be avoided. -->
-
-![right](assets/definition@2x.png)
+![right](assets/definition.pdf)
 
 ^Note that this isn’t “ill defined” nor “untrue”, it’s “irrelevant”. The words can be 100% true, they are just useless. “Ok cool. Now what?”.
+
+^Semi-related Nielsen post: [UX Vocabulary Inflation](https://jakobnielsenphd.substack.com/p/ux-vocabulary-inflation)
+
+<!-- Hot take: Atomic Design is a cataxonomy for UX practitioners. -->
 
 ---
 

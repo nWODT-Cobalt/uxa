@@ -4,7 +4,7 @@
 
 <br>
 
-Pedagogical, reference or evangelization material for **User Experience Architecture** practitioners.
+Pedagogical, reference or advocacy material for **User Experience Architecture** practitioners.
 
 This material aims to support UI, UX or product designers working at scale, and helping others in an organization to do so. It covers topics like design systems, design principles, tokens, components, semantics, creativity techniques, applied cognition, etc.
 

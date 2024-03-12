@@ -30,7 +30,7 @@ Relevance is defined by actionability and indispensability.
 
 ![](assets/thermal-conductivity.pdf)
 
-^Classified by thermal conductivity: true, and narrowly relevant. It’s matching some usage. For example if we’re designing a heatsink, well now we know we should go for copper, because it has excellent thermal conductivity. So that’s something we can work with. However that’s as far as we can go with this one value. We couldn’t tell whether we should use copper for a beam (we don’t know its tensile strength), for a flywheel (we don’t know its density), or for an wire (we don’t know it’s electrical conductivity).
+^Classified by thermal conductivity: true, and narrowly relevant. It’s matching some usage. For example if we’re designing a heatsink, well now we know we should go for copper, because it has excellent thermal conductivity. So that’s something we can work with. However that’s as far as we can go with this one value. We couldn’t tell whether we should use copper for a beam (we don’t know its tensile strength), for a flywheel (we don’t know its density), or for an wire (we don’t know its electrical conductivity).
 For example lithium is a key element of batteries, but there’s no way to tell from this one (thermal conductivity) value.
 
 ---

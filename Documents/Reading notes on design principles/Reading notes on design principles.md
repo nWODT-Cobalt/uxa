@@ -5,7 +5,7 @@
 *Most design principles tend to be consensual statements of good intentions, read once and instantly forgotten as they’re of no use day-to-day.*
 *This document tracks best practices for eliciting and writing useful principles.*
 
-## Zack
+## Zack Yu
 
 <!--date d’ajout : 18/06/2022-->
 

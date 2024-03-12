@@ -63,3 +63,5 @@ At a higher level:
 Knowing that the ecological context is different since:
 - The buyers aren't the users, the users aren't the buyers
 - The user devices, apps, networks etc can be company-provided and/or controlled -->
+
+<https://www.betterbydesign.cc/p/7-insights-for-navigating-b2b-design>
