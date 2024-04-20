@@ -16,6 +16,10 @@
 
 — [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
 
+>Everything is vague to a degree you do not realize until you have tried to make it precise.
+
+— Bertrand Russell
+
 <!--BREAK-->
 
 ## Introduction

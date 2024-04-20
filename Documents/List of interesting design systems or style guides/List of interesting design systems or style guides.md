@@ -2,7 +2,7 @@
 
 <!--BREAK-->
 
-There are exhaustive aggregators of quality design documentation, such as [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs), [The Component Gallery](https://component.gallery/) or [styleguides.io](http://styleguides.io/). The sample below is subjectively curated, for quick reference or inspiration.
+There are exhaustive aggregators of quality design documentation, such as [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs), [The Component Gallery](https://component.gallery/), [styleguides.io](http://styleguides.io/) or the [Component Name Matrix](https://open-ui.org/research/component-matrix/). The sample below is subjectively curated, for quick reference or inspiration.
 
 <!-- [Designing Inspired Style Guides](https://speakerdeck.com/malarkey/designing-inspired-style-guides) -->
 
@@ -14,6 +14,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Blueprint](http://blueprintjs.com/) by Palantir
 - [Canada.ca design system](https://www.canada.ca/en/government/about/design-system.html), interesting goals and content; few components, but a lot of governance
 - [Cedar Design System](https://cedar.rei.com/), very interesting patterns section (updated in 2023 with a neat look and feel)
+- [Cloudscape](https://cloudscape.design/), strong focus on patterns and demos
 - [Designing for Playdate](https://sdk.play.date/1.13.7/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
 - [Duolingo](https://www.duolingo.com/design/)
 - [Evergeen](https://evergreen.segment.com/), nice CMS and component props
@@ -25,6 +26,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Nord ](https://nordhealth.design/), solid presentation and governance, well-researched content
 - [OpenBridge](https://openbridge-ds.webflow.io), “user interfaces for the maritime industry”
 - [Orbit](https://orbit.kiwi/), for its dashboard-like home page and search
+- [PIE](https://pie.design/)
 - [Pulse](https://pulse.heartbeat.ua/), cool style
 - [Royal Canin](http://developer.royalcanin.com/), interesting presentation and industry-specific content
 - [Ruter Design System](https://components.ruter.as/), overall excellent, neat contrast testing tool
