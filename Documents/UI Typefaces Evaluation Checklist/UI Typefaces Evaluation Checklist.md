@@ -9,7 +9,7 @@
 **Letterforms**
 
 - Tall x-height
-- Open counters and big bowls
+- Open counters, big bowls
 - Differentiation of ambiguous glyphs (`aceo`, `Il1`, `o0`, etc.)
 - Simplicity of knotty glyphs (`a`, `g`, `1`, `7`, etc.)
 
@@ -23,7 +23,7 @@
 Optional:
 
 - Lining and historical numerals
-- Alternate styles (for some characters)
+- Alternate styles (on a few characters)
 - Grading
 
 **Range**
