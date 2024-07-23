@@ -14,7 +14,7 @@
 
 *Tools seemingly missing for recurring tasks.*
 
-### AI Linter
+### AI linter
 
 Fed by `Communication Guidelines` et al; doing QA on write-ups and design files.
 
@@ -23,6 +23,10 @@ Fed by `Communication Guidelines` et al; doing QA on write-ups and design files.
 How to visually sketch conversational flows (including branching, conditionality, parameterization etc). Then how to have it interactive. Then live, hooked to a real service.
 
 Ideally x-raying intents, who provides what data/services etc.
+
+### Color System
+
+Proper color generation/compliance tool etc eg P1 and OKlab. Color space transformations. Derivation with constant S, L or contrast ratios, uniform steps, predictable interpolations etc.
 
 ### Decision tree builder/navigator
 
@@ -65,6 +69,10 @@ E.g:
 ### State Charts
 
 state-diagrams + depth + orthogonality + broadcast-communication (+ automatic resolution thereof)
+
+### Structured screenshots gallery
+
+Being able to capture quickly a full page + name + URL of any web/app. Then have it tagged or matrixed for easy comparison/retrieval.
 
 ### Misc charts
 
