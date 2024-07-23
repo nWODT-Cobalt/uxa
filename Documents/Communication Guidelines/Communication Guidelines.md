@@ -236,13 +236,13 @@ Define acronyms, technical terms, uncommon words and common words that are used 
 Avoid abbreviations.
 
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
-Include it in the document, or contribute and link to the **Terminology** (tbd).
+Include it in the document, or contribute and link to the **Terminology** (TBD).
 
 Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
 Replace or clarify terms that could be interpreted in different ways. E.g. it is not clear if an “alert” is about an error message, a business rule, a push notification or an exception indicator.
 
-Avoid fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
+Reconcile fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
 
 When referring to existing content, such as a UI or a diagram, spell commands, labels or messaging exactly as they appear in situ.
 
@@ -251,6 +251,8 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 <!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu’à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n’a aucune valeur. <proposer une meilleure definition> -->
 
 <!-- ne pas expliquer le mot à l'aide du mot (tautologie) eg "preferences is where the ee sets their preferences" -->
+
+<!-- Naming: [Naming things needn’t be hard](https://classnames.paulrobertlloyd.com/) -->
 
 ### 2.3. Spelling
 
@@ -528,10 +530,10 @@ Names: case sensitive, no spaces (within a project, not between projects)
 ## 5. Sources
 
 - Règles de rédaction et de présentation des ouvrages scientifiques et techniques, Michel Foulon, 2003
-- [Grammar and mechanics — Shopify Polaris](https://polaris.shopify.com/foundations/content/grammar-and-mechanics), Shopify, 2022
-- [Human Factors Design Standard (HFDS)](https://hf.tc.faa.gov/hfds/), FAA, 2003
+- Grammar and mechanics — Shopify Polaris, Shopify, 2022 ([link](https://polaris.shopify.com/foundations/content/grammar-and-mechanics))
+- Human Factors Design Standard (HFDS), FAA, 2003 ([link](https://hf.tc.faa.gov/hfds/))
 - IND6406 Ergonomie Cognitive — Les procédures de travail, Jean-Marc Robert, 2009
-- [Swift API Design Guidelines](https://swift.org/documentation/api-design-guidelines/), Apple, 2020
+- Swift API Design Guidelines, Apple, 2020 ([link](https://swift.org/documentation/api-design-guidelines/))
 
 <!--BREAK-->
 
