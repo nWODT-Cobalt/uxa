@@ -1,4 +1,4 @@
-# UI Typeface Evaluation Checklist
+# UI Typeface Evaluation
 
 <!--BREAK-->
 
