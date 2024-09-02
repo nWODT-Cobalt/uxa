@@ -2,7 +2,7 @@
 
 <!--BREAK-->
 
-There are exhaustive aggregators of quality design documentation, such as [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs), [The Component Gallery](https://component.gallery/), [styleguides.io](http://styleguides.io/) or the [Component Name Matrix](https://open-ui.org/research/component-matrix/). The sample below is subjectively curated, for quick reference or inspiration.
+There are exhaustive aggregators of quality design documentation, such as [Design Systems Index](https://rubenferreiraduarte.notion.site/4d6689eec17a46bc84ecfedbd7c85220?v=0260afd5987042bf809d8229d6f7e34b), [Beautiful Docs](https://github.com/PharkMillups/beautiful-docs), [The Component Gallery](https://component.gallery/), [styleguides.io](http://styleguides.io/) or the [Component Name Matrix](https://open-ui.org/research/component-matrix/). The sample below is subjectively curated, for quick reference or inspiration.
 
 <!-- [Designing Inspired Style Guides](https://speakerdeck.com/malarkey/designing-inspired-style-guides) -->
 
@@ -32,6 +32,7 @@ There are exhaustive aggregators of quality design documentation, such as [Beaut
 - [Ruter Design System](https://components.ruter.as/), overall excellent, neat contrast testing tool
 - [SAP Fiori](http://experience.sap.com/fiori-guidelines/)
 - [Spectrum](https://spectrum.adobe.com/)
+- [UAE Design System](https://designsystem.gov.ae/), modern, non-trivial language support (including Arabic and French)
 - [Uniform](http://uniform.hudl.com/)
 - [Wanda](https://design.wonderflow.ai/), solid presentation and guidance, interesting taxonomy, delightful animations
 - [WHO Data Design Language](https://apps.who.int/gho/data/design-language/index.html)
