@@ -4,6 +4,7 @@ autoscale: true
 # Cataxonomies
 
 <!-- Cacaxonomies -->
+<!-- Ataxonomies -->
 
 ---
 
@@ -41,6 +42,8 @@ Worse, their presence and vagueness slow down the conversation, by only adding n
 <!-- Red flag, polysemic -->
 
 ^A.k.a. the no-no list: “framework”, “platform”, “system”, “workspace”, etc.
+
+<!-- dashboard, landing page, summary, topic, workspace, hub page -->
 
 ---
 

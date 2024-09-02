@@ -2,6 +2,26 @@
 
 <!--BREAK-->
 
+---
+
+
+"a quick intro at/quick considerations about enterprise design"
+
+look for "B2B" design lit
+
+NB: B2B != enterprise design. B2B can be "for experts by experts" eg medical imagery, flight sims etc
+
+the customer isnt the user
+
+<!--
+Knowing that the ecological context is different since:
+- The buyers aren't the users, the users aren't the buyers
+- The user devices, apps, networks etc can be company-provided and/or controlled -->
+
+<https://www.betterbydesign.cc/p/7-insights-for-navigating-b2b-design>
+
+---
+
 Whatever it is, “enterprise design” is different from consumer, e-commerce, product, social, community, blogging, news, etc design.
 Here’s a tentative list of practice/outcomes/considerations which are important in “enterprise design”, compared to other fields of UX design:
 
@@ -58,10 +78,3 @@ At a higher level:
 - Governance
 - Partnerships
 -->
-
-<!--
-Knowing that the ecological context is different since:
-- The buyers aren't the users, the users aren't the buyers
-- The user devices, apps, networks etc can be company-provided and/or controlled -->
-
-<https://www.betterbydesign.cc/p/7-insights-for-navigating-b2b-design>

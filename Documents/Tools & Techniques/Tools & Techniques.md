@@ -66,6 +66,10 @@ E.g:
 <!-- <https://twitter.com/DanHollick/status/1745735801454174616> -->
 <!-- <https://twitter.com/_B_Y_P_/status/1648197769142714368> -->
 
+### KJ / Affinity Diagrams
+
+Wouldn't mind a good starting template + time per step f(# of participants.)
+
 ### State Charts
 
 state-diagrams + depth + orthogonality + broadcast-communication (+ automatic resolution thereof)
