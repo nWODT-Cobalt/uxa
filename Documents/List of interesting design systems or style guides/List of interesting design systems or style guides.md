@@ -22,6 +22,7 @@ There are exhaustive aggregators of quality design documentation, such as [Desig
 - [GOV.UK Design System](https://design-system.service.gov.uk/)
 - [If Design System](https://design.if.eu/), fresh look & feel, solid data visualization section
 - [Lexicon](https://lexicondesign.io/)
+- [Momentum Design](https://momentum.design/) (Webex), impactful “Philosophy” section, thoughtful componentization
 - [Morningstar](http://designsystem.morningstar.com/)
 - [Nord ](https://nordhealth.design/), solid presentation and governance, well-researched content
 - [OpenBridge](https://openbridge-ds.webflow.io), “user interfaces for the maritime industry”
