@@ -76,7 +76,15 @@ state-diagrams + depth + orthogonality + broadcast-communication (+ automatic re
 
 ### Structured screenshots gallery
 
-Being able to capture quickly a full page + name + URL of any web/app. Then have it tagged or matrixed for easy comparison/retrieval.
+Being able to capture quickly a full page (static or short vid) + name + URL of any web/app. Then have it tagged or matrixed for easy comparison/retrieval.
+
+### Flows gallery
+
+Extension of the previous tool, into whole flows.
+
+### AI/Conversational Flowcharts
+
+How to quickly depict probabilistic, branching convo flows. Ideally with clear markings from inputs & context, eg user utterance, LLM response, RAG response, sensor input etc.
 
 ### Misc charts
 
