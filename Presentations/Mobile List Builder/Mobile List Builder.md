@@ -82,7 +82,7 @@ inline edit (direct manipulation on the result, eg iphone widgets) when content 
 ## Decision Criteria
 
 - How long is the list; how many items are available, or expected to be selected
-- How important is it to see details of items; in the available set, in the selected subset or in both
+- How important is it to see details of items; in the available set, in the selected subset, or in both
 - Do selected items have to be configured; if so, do they have to be configured on the spot or are good defaults enough to get started
 
 ---
