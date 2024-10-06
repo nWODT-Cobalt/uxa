@@ -361,6 +361,8 @@ Don’t illustrate bad practices. In the rare case a bad practice has to be depi
 
 Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
+<!-- Also Midjourney's `--sref` and `--p` (code?) -->
+
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
 ### 3.2. Grid
@@ -466,8 +468,8 @@ Some specific use cases may require other formats:
 | -------- | ------ | ------- | ---------------------------------------------------------------- |
 | 1        | SVG    | 1x      | Vector figures without text nor blend modes (e.g. illustrations) |
 | 2        | PDF    | 1x      | Vector figures with text or blend modes (e.g. diagrams)          |
-| 3        | PNG    | 2x      | Screenshots, UI mockups                                          |
-| 4        | JPG    | 2x      | Photos, scanned documents                                        |
+| 3        | PNG    | 3x      | Screenshots, UI mockups                                          |
+| 4        | JPG    | 3x      | Photos, scanned documents                                        |
 
 Set an illustration background color, `Gris 0106 Béton Clair` by default.
 <!-- Marked-only? -->
@@ -515,7 +517,10 @@ A content boilerplate file [is available](https://github.com/nWODT-Cobalt/uxa/tr
 <!-- Keep it focused, keep it small. 5 slides or less is perfectly fine. People can’t remember more than 3 points from a speech. (KK) -->
 <!-- Actually: make small, focused documents all the time -->
 
-Do not hesitate to format Deckset presenter’s notes; they will render so in Deckset and on Github.
+Consider formatting Deckset presenter’s notes; they will render so in Deckset and on Github.
+
+Vector figures (SVG or PDF) often render with slight visual artefacts during playback or export. Pair them with bitmap exports (PNG or JPG), and use those assets instead.
+Keep the vector figures. The file duplication is not significant, while the potential for reuse is.
 
 <!--BREAK-->
 
