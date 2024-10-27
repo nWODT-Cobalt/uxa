@@ -2,16 +2,9 @@
 
 <!--BREAK-->
 
-## Documentation Is a Living Thing: How We Talk Informs What We Make
+# Strategy, Advocacy, Positioning of Design Systems
 
-<https://www.supernova.io/blog/documentation-is-a-living-thing-how-we-talk-informs-what-we-make>
-<!--date d'ajout : 25/09/2023-->
-
-*Well articulated means and ends of design system documentation.*
-
-Documentation isn't a snapshot in time; it's a living entity. Regular updates ensure the documentation remains aligned with the current thinking, empowering teams to create innovative solutions while upholding the core principles. In this context, documentation isn't a mere record; it's an ongoing conversation that changes over time.
-
-The lifecycle of documents: Temporary insights -> Progressive foundations -> Structured collaborations -> Reflection and evolution.
+<!--BREAK-->
 
 ## Beyond design systems for interfaces: a mega system of design systems
 
@@ -41,7 +34,6 @@ We often say that a design system should solve 80% of the basics and give guidan
 
 The correct method for governance (the workflows, internal processes, and organizational structure) is as unique as the organization itself. It is often influenced by factors like product scale, number of design team members, and product roadmap.
 
-
 ## Your design system is a dashboard
 
 <https://twitter.com/vingar/status/1608141621933273092>
@@ -60,30 +52,6 @@ Your design system is the work-in-progress dashboard of your organization’s gr
 
 — Hayley Hughes, [Trust Between Teams](https://www.youtube.com/watch?v=1kxTYp2Y0FU&t=660s)
 
-## Your design system contribution practice is doomed to fail
-
-<https://amyhupe.co.uk/articles/your-contribution-model-is-doomed>
-<!--date d’ajout : 27/09/2022-->
-
-When Nathan Curtis interviewed a group of design system leads in 2020, they told him that although contribution was valuable for other reasons, they “do not reduce workload and do not make [a] system produce more”.
-
-In fact, in *my* experience, contributions actually increase workload and make our systems produce less.
-
-*Contributions are often implicitly following a socialist model, whereas the org and the individuals work after a capitalistic one. Hence misaligned incentives, leading to poor results. Contributions can even reinforce systemic inequalities.*
-
-## Truthish.
-
-<https://ethanmarcotte.com/wrote/truthish/>
-<!--date d’ajout : 22/08/2022-->
-
-I’ve written before that design systems often widen the gap between design and engineering teams. In practice, this frequently means each “side” maintains its own workspaces, processes, and documents. I’d go so far as to say most design systems feel like several discipline-specific artifacts stacked underneath a single trenchcoat: inventories and audits conducted by the content team, a component library owned by engineers, a set of visual standards maintained by designers, and so on.
-
-I’m not here to critique this multiple-artifact model, mind you. Until tooling improves to the point where cross-discipline collaboration doesn’t require expensive, custom-built solutions, designers and engineers will continue to work in the environments available to them. As they should!
-
-Despite this, most design system teams position the component library as the “source of truth” for the entire design system.
-
-There’s an interesting tension here. Because practically, this means most design systems contain *multiple* sources of truth, while formally acknowledging only one. It’s one of the surest ways that hyperobject feeling can creep in.
-
 ## Consistency vs Flexibility: The Myth of Creative Restraint in Design Systems
 
 <https://sparkbox.com/foundry/design_system_consistency_versus_flexibility_design_system_constraints>
@@ -92,6 +60,59 @@ There’s an interesting tension here. Because practically, this means most desi
 But the work is not only technical, it’s cultural. If you want to build a systematic design practice, you’ll have to let go of the tools and the techniques and focus on the people. Consistent output comes from organizations that are culturally consistent—aligned on values and principles. In other words, an organization is successful when it aligns people behind a shared vision, so that everyone’s “wants” match the needs of the business.
 
 Your design system can be a catalyst for that alignment, but it won’t create it on its own. That is the unspoken and deeply challenging mandate of a design system team. The reward is a system flexible enough to enable innovation alongside digital products that are authentically consistent. It will take time to get there, but don’t settle for anything less.
+
+## The Way We Build
+
+<http://airbnb.design/the-way-we-build/>
+<!--date d’ajout : 25/05/2016-->
+
+Here’s the simple truth: you can’t innovate on products without first innovating the way you build them.
+
+Christopher Alexander states that “nothing which is not simple and direct can survive the slow transmission from person to person.”
+
+## Style Guide Best Practices at Beyond Tellerrand
+
+<http://bradfrost.com/blog/post/style-guide-best-practices-at-beyond-tellerrand/>
+<!--date d’ajout : 14/12/2015-->
+
+*Solid recap.*
+
+The 6 Flavors of Style Guide: Brand Identity Guidelines, Design Language, Voice and Tone, Writing, Code, Pattern Libraries *([covered here](http://bradfrost.com/blog/post/style-guides/))*.
+
+And if the boss says no, then do it anyways. I firmly believe this. I’m very much a proponent of asking forgiveness not permission. And this is especially true with establishing a pattern library and design system. Because guess what? In order to make the new website, you have to establish the parts of that whole anyways. Instead of this, which technically you can make some stuff out of a disheveled box of Legos. But by taking just a little bit of time to organize those pieces, then you’re able to do that work a lot more efficiently. It doesn’t seem like rocket science, but boy, does it not happen as much as it should.
+
+Instead of thinking “we’re making websites” we need to say “we’re making design systems that are making that website”. The website is one instantiation of our design system. That is a fundamental shift that I really think sets you up for long-term success because it forces you to go through your design system in order to make updates and changes to your site.
+
+There’s this concept of the Holy Grail, and this is something that anyone that’s been talking about pattern libraries has been pursuing. What we want is this magical setup where we have our pattern library with all of our Lego bricks that make up our final website, and if we make a change to one of those Lego bricks, anywhere that Lego brick is included will just magically update. That is awesome. Very very few people have made this idea come to life. Ian Feather and his team at Lonely Planet have done exactly this. They created their design system, wrote an API for their pattern library, and their production environment eats their pattern library. Which is amazing. And what this allows them to do is crank out new pages and new features all the time. They can make tweaks, make performance tweaks, make accessibility tweaks, and they’ll just roll out automatically to their production environment, which is amazing.
+
+In order to make style guides cross-disciplinary, they need to be attractive looking. This sounds like a no-brainer; well-designed things will get used more. So taking the time to create these good-looking, approachable style guides lead to more people using them. They become more valuable.
+
+Style guides serves as a huge recruitment tool.
+
+<!--BREAK-->
+
+# DesignOps of Design Systems
+
+<!--BREAK-->
+
+## How to Measure Design System at Scale
+
+<https://www.uber.com/en-CA/blog/design-system-at-scale/>
+<!--date d’ajout : 22/10/2024-->
+
+*Neat automated coverage metric. Shared and trackable OKR.*
+*What separates it from usual design system usage monitoring is that it’s granular/precise (“traversing the tree”, as opposed to simply counting instances) and observable (visualization and scoring).*
+
+## Documentation Is a Living Thing: How We Talk Informs What We Make
+
+<https://www.supernova.io/blog/documentation-is-a-living-thing-how-we-talk-informs-what-we-make>
+<!--date d’ajout : 25/09/2023-->
+
+*Well articulated means and ends of design system documentation.*
+
+Documentation isn’t a snapshot in time; it’s a living entity. Regular updates ensure the documentation remains aligned with the current thinking, empowering teams to create innovative solutions while upholding the core principles. In this context, documentation isn’t a mere record; it’s an ongoing conversation that changes over time.
+
+The lifecycle of documents: Temporary insights -> Progressive foundations -> Structured collaborations -> Reflection and evolution.
 
 ##  Functions and the future of design systems
 
@@ -102,21 +123,6 @@ Today, most design systems work like dictionaries, composed of a finite set of d
 Design systems are starting to use functions that recreate the design decision making process, responding appropriately to any input they are given. The early uses of functions do a great job of extending the reach of design systems. But the potential is vast.
 
 *For example: color palette or typographic scale generation.*
-
-## Design System Communications
-
-<https://medium.com/eightshapes-llc/design-system-communications-ca679ffc36d3>
-<!--date d’ajout : 02/03/2019-->
-
-For design systems, outcomes that matter include:
-
-- Adoption incrementally deeper over time
-- Awareness of new, upcoming features
-- Satisfaction through open participation
-- Trust through inclusiveness and transparency
-- Alignment with other objectives and programs
-- Feedback to redirect focus
-- Celebration of adoption and contribution
 
 ## Scenario-Driven Design Systems
 
@@ -181,6 +187,74 @@ Alan Kay:
 
 >The key in making great and growable systems is much more to design how its modules communicate rather than what their internal properties and behaviors should be.
 
+## The Language of Modular Design
+
+<http://alistapart.com/article/language-of-modular-design>
+<!--date d’ajout : 15/08/2015-->
+
+As many of us move away from designing pages toward designing systems, one concept keeps cropping up: modularity. We often hear about the benefits of a modular approach; modules are scalable, replaceable, reusable, easy to test, quick to put together—“They’re just like LEGO!”
+
+Modularity might appear to be a simple concept at first, but making it work for your team demands significant effort and commitment.
+
+The biggest challenges around modularity are all the decisions that need to be reached: when to reuse a module and when to design a new one, how to make modules distinct enough, how to combine them, how to avoid duplications with the modules other designers and teams create, and so on. When modularizing an existing design or building a new one, it’s not always clear where to begin.
+
+The biggest obstacle teams face is the lack of a shared language. To help establish that shared language, she suggests that we discuss, vet, and document our ontological decisions in the form of “controlled vocabularies.”
+
+The defining step toward thinking modularly was going through the process of building a pattern library as a team, which took several months (and is still in progress).
+
+Name things collaboratively, based on their high-level function.
+
+In the process of naming an element, you work out the function as a group and reach an agreement. It’s not so much about giving something a great name (although, of course, that’s an ideal to aspire to), but *agreeing* on the name.
+
+Naming things together is a useful habit for your team to develop, because in the process of trying to give something a name that makes sense, you work out its function and, most importantly, reach consensus.
+
+Make an effort to refer to the elements by the name you agreed on—no matter how strange this might sound in everyday conversations. It takes more effort initially to call something a “whisper box” (yes, we have an element called “whisper box”) rather than “that thing with the lines and an icon in the middle.” But until you start referring to an element by its proper name, it doesn’t exist in your modular system as a solid, actionable block. Every time you use the name you agreed on, you strengthen the element you call on and evolve your design language.
+
+<!--BREAK-->
+
+# Governance of Design Systems
+
+<!--BREAK-->
+
+## Your design system contribution practice is doomed to fail
+
+<https://amyhupe.co.uk/articles/your-contribution-model-is-doomed>
+<!--date d’ajout : 27/09/2022-->
+
+When Nathan Curtis interviewed a group of design system leads in 2020, they told him that although contribution was valuable for other reasons, they “do not reduce workload and do not make [a] system produce more”.
+
+In fact, in *my* experience, contributions actually increase workload and make our systems produce less.
+
+*Contributions are often implicitly following a socialist model, whereas the org and the individuals work after a capitalistic one. Hence misaligned incentives, leading to poor results. Contributions can even reinforce systemic inequalities.*
+
+## Truthish.
+
+<https://ethanmarcotte.com/wrote/truthish/>
+<!--date d’ajout : 22/08/2022-->
+
+I’ve written before that design systems often widen the gap between design and engineering teams. In practice, this frequently means each “side” maintains its own workspaces, processes, and documents. I’d go so far as to say most design systems feel like several discipline-specific artifacts stacked underneath a single trenchcoat: inventories and audits conducted by the content team, a component library owned by engineers, a set of visual standards maintained by designers, and so on.
+
+I’m not here to critique this multiple-artifact model, mind you. Until tooling improves to the point where cross-discipline collaboration doesn’t require expensive, custom-built solutions, designers and engineers will continue to work in the environments available to them. As they should!
+
+Despite this, most design system teams position the component library as the “source of truth” for the entire design system.
+
+There’s an interesting tension here. Because practically, this means most design systems contain *multiple* sources of truth, while formally acknowledging only one. It’s one of the surest ways that hyperobject feeling can creep in.
+
+## Design System Communications
+
+<https://medium.com/eightshapes-llc/design-system-communications-ca679ffc36d3>
+<!--date d’ajout : 02/03/2019-->
+
+For design systems, outcomes that matter include:
+
+- Adoption incrementally deeper over time
+- Awareness of new, upcoming features
+- Satisfaction through open participation
+- Trust through inclusiveness and transparency
+- Alignment with other objectives and programs
+- Feedback to redirect focus
+- Celebration of adoption and contribution
+
 ## “I Made This. Does It Go in the System?”
 
 <https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531>
@@ -227,83 +301,16 @@ Components are commodities. The magic happens in the guidelines that come with t
 
 Design systems, like code frameworks, are no place for untested ideas. Extract proven ideas from production interfaces.
 
-## The GE Design System and Thoughts about Craft at Scale
+<!--BREAK-->
 
-<https://vimeo.com/132580829>
-<!--date d’ajout : 04/06/2016-->
-
-No one ever follows style guides. Maybe it’s more like LEGOs than it is a set of rules. It’s a kit of parts that snap together and that you can make things of. Tools not rules.
-
-## The Way We Build
-
-<http://airbnb.design/the-way-we-build/>
-<!--date d’ajout : 25/05/2016-->
-
-Here’s the simple truth: you can’t innovate on products without first innovating the way you build them.
-
-Christopher Alexander states that “nothing which is not simple and direct can survive the slow transmission from person to person.”
-
-## Style Guide Best Practices at Beyond Tellerrand
-
-<http://bradfrost.com/blog/post/style-guide-best-practices-at-beyond-tellerrand/>
-<!--date d’ajout : 14/12/2015-->
-
-*Solid recap.*
-
-The 6 Flavors of Style Guide: Brand Identity Guidelines, Design Language, Voice and Tone, Writing, Code, Pattern Libraries *([covered here](http://bradfrost.com/blog/post/style-guides/))*.
-
-And if the boss says no, then do it anyways. I firmly believe this. I’m very much a proponent of asking forgiveness not permission. And this is especially true with establishing a pattern library and design system. Because guess what? In order to make the new website, you have to establish the parts of that whole anyways. Instead of this, which technically you can make some stuff out of a disheveled box of Legos. But by taking just a little bit of time to organize those pieces, then you’re able to do that work a lot more efficiently. It doesn’t seem like rocket science, but boy, does it not happen as much as it should.
-
-So how do we actually create a sound UI design system? What does this actually look like? How can we create not just good final work, but also leave behind these great underlying UI design systems.
-
-What I think needs to happen instead is this. Instead of thinking “we’re making websites” we need to say “we’re making design systems that are making that website”. The website is one instantiation of our design system. That is a fundamental shift that I really think sets you up for long-term success because it forces you to go through your design system in order to make updates and changes to your site.
-
-There’s this concept of the Holy Grail, and this is something that anyone that’s been talking about pattern libraries has been pursuing. What we want is this magical setup where we have our pattern library with all of our Lego bricks that make up our final website, and if we make a change to one of those Lego bricks, anywhere that Lego brick is included will just magically update. That is awesome. Very very few people have made this idea come to life. Ian Feather and his team at Lonely Planet have done exactly this. They created their design system, wrote an API for their pattern library, and their production environment eats their pattern library. Which is amazing. And what this allows them to do is crank out new pages and new features all the time. They can make tweaks, make performance tweaks, make accessibility tweaks, and they’ll just roll out automatically to their production environment, which is amazing.
-
-It’s definitely not impossible, but it takes some thought and set up, and it’s well worth your time.
-
-In order to make style guides cross-disciplinary, they need to be attractive looking. This sounds like a no-brainer; well-designed things will get used more. So taking the time to create these good-looking, approachable style guides lead to more people using them. They become more valuable.
-
-Their style guide serves as a huge recruitment tool.
-
-## The Language of Modular Design
-
-<http://alistapart.com/article/language-of-modular-design>
-<!--date d’ajout : 15/08/2015-->
-
-As many of us move away from designing pages toward designing systems, one concept keeps cropping up: modularity. We often hear about the benefits of a modular approach; modules are scalable, replaceable, reusable, easy to test, quick to put together—“They’re just like LEGO!”
-
-Modularity might appear to be a simple concept at first, but making it work for your team demands significant effort and commitment.
-
-The biggest challenges around modularity are all the decisions that need to be reached: when to reuse a module and when to design a new one, how to make modules distinct enough, how to combine them, how to avoid duplications with the modules other designers and teams create, and so on. When modularizing an existing design or building a new one, it’s not always clear where to begin.
-
-The biggest obstacle teams face is the lack of a shared language. To help establish that shared language, she suggests that we discuss, vet, and document our ontological decisions in the form of “controlled vocabularies.”
-
-The defining step toward thinking modularly was going through the process of building a pattern library as a team, which took several months (and is still in progress).
-
-Name things collaboratively, based on their high-level function.
-
-In the process of naming an element, you work out the function as a group and reach an agreement. It’s not so much about giving something a great name (although, of course, that’s an ideal to aspire to), but *agreeing* on the name.
-
-Naming things together is a useful habit for your team to develop, because in the process of trying to give something a name that makes sense, you work out its function and, most importantly, reach consensus.
-
-Make an effort to refer to the elements by the name you agreed on—no matter how strange this might sound in everyday conversations. It takes more effort initially to call something a “whisper box” (yes, we have an element called “whisper box”) rather than “that thing with the lines and an icon in the middle.” But until you start referring to an element by its proper name, it doesn’t exist in your modular system as a solid, actionable block. Every time you use the name you agreed on, you strengthen the element you call on and evolve your design language.
-
-## Unless it’s a part of your build
-
-<https://twitter.com/operatino/status/652414383759446016>
-<!--date d’ajout : 30/11/2015-->
-
-Unless it’s a part of your build (or dev process), your styleguide is just more documentation to maintain.
-
----
+# Components
 
 <!--BREAK-->
 
 ##  All the user-facing states
 
 <https://ericwbailey.website/published/all-the-user-facing-states/>
-<!--date d'ajout : 03/07/2023-->
+<!--date d’ajout : 03/07/2023-->
 
 User-facing state is what someone experiences when they interact with an element in some capacity.
 
@@ -378,7 +385,9 @@ Naming things is hard, there’s no debate there, but when you start to categori
 
 The point of this is to think about everything as an interoperable system. You can slice and dice components in any way you see fit, and these components are likely to change and be fine tuned as a system is developed. Premature optimization is a trap that’s easy to fall into. Embrace the chaos as you build. Patterns will emerge from the primordial goop of UI that is your product, and by consistently thinking about a composable system you’ll probably come up with something more flexible and more robust than if one person dictates a dogmatic framework to work within.
 
----
+<!--BREAK-->
+
+# Tokens
 
 <!--BREAK-->
 
