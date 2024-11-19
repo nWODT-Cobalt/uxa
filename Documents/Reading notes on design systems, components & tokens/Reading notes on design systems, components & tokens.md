@@ -6,6 +6,21 @@
 
 <!--BREAK-->
 
+## Calculating the ROI of Your Design System
+
+<https://zeroheight.com/blog/calculating-the-roi-of-your-design-system/>
+<!--date d'ajout : 18/11/2024-->
+
+Spoiler alert: there are no silver bullet ways to prove the value. However, but we have collected some useful proxy measures that have helped teams.
+
+One of our favorite buzzwords when it comes to design systems is efficiency. The promise is that the design system, once in the adoption phase, will save the organization tons of time. It can be true, but most times you should be aiming for consistency and more thoughtful design decisions.
+
+Reports vary on how much time will be saved. Personally, I just take 33%.
+
+This results in an average ROI per component of $575k per component.
+
+Team happiness. Outcome-based metrics.
+
 ## Beyond design systems for interfaces: a mega system of design systems
 
 <https://medium.com/@mluvinh/beyond-design-systems-for-interfaces-an-megasystem-of-design-systems-4f87dd6d8df8>
