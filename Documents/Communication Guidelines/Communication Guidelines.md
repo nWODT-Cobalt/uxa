@@ -8,13 +8,13 @@
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
 
-— [Oliver Reichenstein](https://ia.net/topics/take-the-power-back/)
+— Oliver Reichenstein
 
 <br>
 
 >The way you communicate a thing creates the thing. The thing does not exist apart from its own communication.
 
-— [Matt LeMay](https://twitter.com/mattlemay/status/1389961793175310344)
+— Matt LeMay
 
 <br>
 
@@ -28,7 +28,7 @@
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. It's relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
+This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. It’s relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
 
 Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
 
@@ -151,7 +151,7 @@ Each idea should be one section and one only.
 First, express the idea in a few words.  
 In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately.
 <!-- Moreover, trading depth for breadth allows for a quick “initial overview”. -->
-<!-- whats "the direct expression" though? -->
+<!-- whats “the direct expression” though? -->
 
 Afterwards, consider adding supporting information: rationale/justification, details, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies). All considerations are optional, but if present must remain in this order.
 
@@ -166,7 +166,7 @@ The preferred length of paragraphs is three or four sentences, but five or six a
 
 <!-- Keep annotations terse. Economy of concepts and terms is a primary goal. -->
 
-<!-- beware of "améliorer la productivité / la qualité / l'innovation", always useless -->
+<!-- beware of “améliorer la productivité / la qualité / l’innovation”, always useless -->
 
 ### 1.5. Sourcing & Attribution
 
@@ -224,6 +224,8 @@ Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanic
 
 Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
+<!-- also “must not” and “don’t have to” -->
+
 <!-- Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction. -->
 
@@ -252,7 +254,7 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 
 <!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu’à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n’a aucune valeur. <proposer une meilleure definition> -->
 
-<!-- ne pas expliquer le mot à l'aide du mot (tautologie) eg "preferences is where the ee sets their preferences" -->
+<!-- ne pas expliquer le mot à l’aide du mot (tautologie) eg “preferences is where the ee sets their preferences” -->
 
 <!-- Naming: [Naming things needn’t be hard](https://classnames.paulrobertlloyd.com/) -->
 
@@ -318,7 +320,7 @@ Numbers representing quantities of 10 or more must be expressed in numerals ; th
 
 Use commas for numbers with four or more digits. Whenever possible, don’t truncate numbers.
 
-Use an en dash without a space on either side for number ranges (e.g. "88–110").
+Use an en dash without a space on either side for number ranges (e.g. “88–110”).
 
 <!-- Preferred date/time format, units formats and spaces etc -->
 
@@ -361,7 +363,7 @@ Don’t illustrate bad practices. In the rare case a bad practice has to be depi
 
 Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
-<!-- Also Midjourney's `--sref` and `--p` (code?) -->
+<!-- Also Midjourney’s `--sref` and `--p` (code?) -->
 
 Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 

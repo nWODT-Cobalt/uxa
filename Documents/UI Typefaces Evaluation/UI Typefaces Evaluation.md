@@ -57,7 +57,7 @@ Use the [Web Font Specimen](http://webfontspecimen.com/).
 
 ## Tools
 
-To check or complete vendor specs.
+To verify or complete vendor specs.
 
 - [CharSet Checker](https://www.alphabet-type.com/tools/charset-checker/): scripts and symbols support
 - [FontDrop!](https://fontdrop.info/): languages, metadata, OpenType features

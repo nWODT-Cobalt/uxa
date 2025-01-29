@@ -108,7 +108,23 @@ Style guides serves as a huge recruitment tool.
 
 # DesignOps of Design Systems
 
+<!-- ~engagement -->
+
 <!--BREAK-->
+
+## How to start building community around your design system
+
+<https://zeroheight.com/blog/how-to-start-building-community-around-your-design-system/>
+<!--date d'ajout : 19/01/2025-->
+
+The Rosenblatt Engagement Pyramid when applied to design systems:
+
+- Leading: people deciding design system strategies, leaders who are directly accountable
+- Owning: design system team, design system advocates, people who are active in planning
+- Contributing: internal champions, Contributors to the design system, people who input into goals and budget decisions
+- Endorsing: active users of the design system, occasional feedback-givers
+- Following: less-active users, people who are “forced” to use the system, leadership who are impacted
+- Observing: other leaders, everyone else in your org, external parties
 
 ## How to Measure Design System at Scale
 

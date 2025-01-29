@@ -18,11 +18,17 @@
 
 Fed by `Communication Guidelines` et al; doing QA on write-ups and design files.
 
+Update: hack with Chat GPT or Claude
+
 ### AI conversation prototyper
 
 How to visually sketch conversational flows (including branching, conditionality, parameterization etc). Then how to have it interactive. Then live, hooked to a real service.
 
 Ideally x-raying intents, who provides what data/services etc.
+
+### Allocation table builder
+
+Visualize what's been moved, merged, split, renamed, added or deleted between 2 lists of 10–100 items.
 
 ### Color System
 

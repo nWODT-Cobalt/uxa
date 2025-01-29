@@ -17,6 +17,7 @@ There are exhaustive aggregators of quality design documentation, such as [Desig
 - [Cloudscape](https://cloudscape.design/), strong focus on patterns and demos
 - [Designing for Playdate](https://sdk.play.date/1.13.7/Designing%20for%20Playdate.html), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
 - [Duolingo](https://www.duolingo.com/design/)
+- [eBay Evo](https://playbook.ebay.com/) : “brand and design system”, modern and leaning hard into the product it supports
 - [Evergeen](https://evergreen.segment.com/), nice CMS and component props
 - [Goldman Sachs](https://design.gs.com/home), a couple of interesting industry- or scale-specific things
 - [GOV.UK Design System](https://design-system.service.gov.uk/)
@@ -46,6 +47,7 @@ There are exhaustive aggregators of quality design documentation, such as [Desig
 - [Brand Estonia](https://brand.estonia.ee/?lang=en)
 - [Chicago Design System](https://design.chicago.gov/), lighthearted, focused on compliance/governance, with a solid accessibility section
 - [Driveclub](https://www.youtube.com/watch?v=IKaiXA4Xx74), in video format
+- [Dropbox](https://brand.dropbox.com/)
 - [The Guardian digital design style guide](https://design.theguardian.com/)
 - [Heliograph](https://brand.mixpanel.com/) (Mixpanel)
 - [Helsinki Visual Identity Guidelines](https://brand.hel.fi/en/)
