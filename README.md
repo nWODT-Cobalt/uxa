@@ -8,12 +8,11 @@ Pedagogical, reference or advocacy material for **User Experience Architecture**
 
 This material aims to support UI, UX or product designers working at scale, and helping others in an organization to do so. It covers topics like design systems, design principles, tokens, components, semantics, creativity techniques, applied cognition, etc.
 
-It's very much an early, ongoing work. The initial focus is on defining basic notions to facilitate conversation.
+Very much an early, ongoing work. The initial focus is on defining core notions to facilitate conversation.
 
 ## Content
 
-- `Documents`: long form writing
-- `Presentations`: slide decks
+- `Library`: actual material, as long form writing or slide decks
 - `Resources`: templates, themes, source files for figures, etc.
 - `WIP`: work in progress
 
