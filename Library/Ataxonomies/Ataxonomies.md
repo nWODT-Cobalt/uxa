@@ -1,16 +1,16 @@
 theme: UXASF1
 autoscale: true
 
-# Cataxonomies
+# Ataxonomies
 
 <!-- Cacaxonomies -->
-<!-- Ataxonomies -->
+<!-- Cataxonomies -->
 
 ---
 
 ## Definition
 
-**Cataxonomy: excessive labeling that ends up impairing communication.**
+**Ataxonomy: excessive labeling that ends up impairing communication.**
 
 An accumulation of words that are technically true, but don’t immediately drive action or decision.
 
@@ -24,7 +24,7 @@ Worse, their presence and vagueness slow down the conversation, by only adding n
 
 ^Semi-related Nielsen post: [UX Vocabulary Inflation](https://jakobnielsenphd.substack.com/p/ux-vocabulary-inflation)
 
-<!-- Hot take: Atomic Design is a cataxonomy for UX practitioners. -->
+<!-- Hot take: Atomic Design is an ataxonomy for UX practitioners. -->
 
 ---
 
@@ -56,13 +56,13 @@ if yes break them down, replace them with generic alternative, or define them lo
 
 ^If the authors get sentimental (e.g. afraid to “lose” something, or feeling that “we worked a lot on that”), problematic words can be moved to drafts or archives rather than outright deleted. The point is to remove them from taxonomy consumers’ point of view.
 
-Cataxonomies are often a symptom of a weak underlying conceptual model. Consider fixing the model first.
+Ataxonomies are often a symptom of a weak underlying conceptual model. Consider fixing the model first.
 
 ---
 
 ## Best Practices: Preventing
 
-- Ensure a clear scope, goals and ideally perspective
+- Ensure a clear scope, goals and ideally point of view
 - Curate and maintain continuously
 - Consider formats that could handle better some or all of the content: flowcharts, figures, post-it boards, terminology, etc.
 
