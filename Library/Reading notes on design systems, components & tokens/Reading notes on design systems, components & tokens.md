@@ -286,6 +286,11 @@ For design systems, outcomes that matter include:
 - Feedback to redirect focus
 - Celebration of adoption and contribution
 
+## Should it be a pattern decision tree
+
+<https://coggle.it/diagram/V0hkiP976OIbGpy8>
+<!--date d'ajout : 18/03/2018-->
+
 ## “I Made This. Does It Go in the System?”
 
 <https://medium.com/eightshapes-llc/i-made-this-does-it-go-in-the-system-3b67b9894531>
@@ -421,6 +426,14 @@ The point of this is to think about everything as an interoperable system. You c
 # Tokens
 
 <!--BREAK-->
+
+## designtokens.fyi
+
+<https://designtokens.fyi>
+
+<!--date d'ajout : 06/04/2025-->
+
+*Un petit dico sympa.*
 
 ## Design Tokens Technical Reports
 

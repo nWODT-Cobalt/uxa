@@ -98,11 +98,6 @@ Learn to articulate ideas using vocabulary of abstraction and system design. By 
 
 Boring solutions: Use the most simple and boring solution for a problem. You can always make it more complex later if that is needed. The speed of innovation for our organization and product is constrained by the total complexity we have added so far, so every little reduction in complexity helps. Don't pick an interesting technology just to make your work more fun, using code that is popular will ensure many bugs are already solved and its familiarity makes it easier for others to contribute.
 
-## Should it be a pattern decision tree
-
-<https://coggle.it/diagram/V0hkiP976OIbGpy8>
-<!--date d'ajout : 18/03/2018-->
-
 ## Coding with Clarity
 
 <https://alistapart.com/article/coding-with-clarity>
