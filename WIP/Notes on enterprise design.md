@@ -115,24 +115,24 @@ UXA stock, à voir :
 Relevant signals
 
 • Deliverables
-• Flowcharts (a lot of them), decision trees, state charts
-• Entity-relationship diagrams, domain models
-• Tables & matrixes of all kinds, rich lists
-• Templates of all kinds (Figma, wiki, plain text, YAML, JSON, md)
-• Reference material of all kinds (ditto)
+    • Flowcharts (a lot of them), decision trees, state charts
+    • Entity-relationship diagrams, domain models
+    • Tables & matrixes of all kinds, rich lists
+    • Templates of all kinds (Figma, wiki, plain text, YAML, JSON, md)
+    • Reference material of all kinds (ditto)
 • Activities (and proof thereof, e.g. through the deliverables above)
-• Pitching to leadership, training to contributors, advocacy to all
-• Governance, guidance, office hours
+    • Pitching to leadership, training to contributors, advocacy to all
+    • Governance, guidance, office hours
 • Keywords
-• Modular, composable, interface, interplay
-• Parameters, attributes, properties, configuration
-• Services, frameworks, platforms, orchestration
-• Patterns, emergent behaviors, rules & relationships
-• Terminology, ontology, taxonomy
+    • Modular, composable, interface, interplay
+    • Parameters, attributes, properties, configuration
+    • Services, frameworks, platforms, orchestration
+    • Patterns, emergent behaviors, rules & relationships
+    • Terminology, ontology, taxonomy
 • All of it packaged
-• As living artefacts
-• Geared towards a product-design-dev audience, not just a dev one
-• With clear delineation of responsibilities (what's owned by "the platform", what's opened to or expected from "partners")
+    • As living artefacts
+    • Geared towards a product-design-dev audience, not just a dev one
+    • With clear delineation of responsibilities (what's owned by "the platform", what's opened to or expected from "partners")
 - Business processes
 - Composability
 - Configurability (wide and deep, from component props to full-on admin areas)
@@ -158,15 +158,11 @@ At a higher level:
 
 Irrelevant signals
 
-• Keywords like information architecture, card sorting, visual hierarchy, design
-systems, patterns
-• Those are table stakes, and not indicative of an architectural practice
-• Especially when design systems are "tokens and components" rather
-than patterns, frameworks, screen flows, utilities, usage guidelines etc.
-• Especially when patterns are "big components" rather than "abstraction
-of a solution"
-• Mentions of "strategy", "scalability", "consistency", "reuse" without further
-detail
+• Keywords like information architecture, card sorting, visual hierarchy, design systems, patterns
+    • Those are table stakes, and not indicative of an architectural practice
+    • Especially when design systems are "tokens and components" rather than patterns, frameworks, screen flows, utilities, usage guidelines etc.
+    • Especially when patterns are "big components" rather than "abstraction of a solution"
+• Mentions of "strategy", "scalability", "consistency", "reuse" without further details
 - Layout
 - Responsiveness
 - Style
