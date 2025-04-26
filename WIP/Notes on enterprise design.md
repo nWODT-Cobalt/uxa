@@ -5,28 +5,25 @@
 ## Overview
 
 <!-- Boo! Better titles/outline -->
+<!-- streamline and define terminology, esp “enterprise design products”, end-users vs employees vs individuals etc -->
 
 “Enterprise design” is a design practice targeted at enterprise rather than individuals customers.
-It's for example the business of Dassault, IBM, Oracle, Salesforce, SAP, ServiceNow etc.
+It’s for example the business of Dassault, IBM, Oracle, Salesforce, SAP, ServiceNow etc.
 
 Enterprise design has different goals, business models, metrics, roles, audiences, tools, engagement, culture, practices etc than consumer product design.
 
 This document is an early mind sweep, that may eventually grow into proper reference material.
 For now it can be helpful for designers curious about the enterprise design space, as training material, interview framework or conversation support.
 
-<!-- whether they're seasoned consumer product designers or  -->
-
 <!-- more complete, nuanced definition: -->
-<!-- could also be "institutional" or "organizational" design, to account for gov work, NGOs, associations etc -->
+<!-- could also be “institutional” or “organizational” design, to account for gov work, NGOs, associations etc -->
 <!-- Define B2B vs enterprise design vs UXA vs SuiteX vs B2B vs B2C vs… -->
 <!-- “the customer isn’t the user” -->
 <!-- NB different from “productivity”. Some productivity is B2C eg office vs google docs vs iwork, or self accounting software, or Trello etc -->
 
 <!-- only describes ecological context; doesn’t offer a practice to solve for it -->
 
-This first version has been generally simplified to large SaaS companies with thousands of employees, with dozens of designers.
-
-<!-- , and makes the following assumptions -->
+This first version has been generally simplified to large SaaS companies with thousands of employees, including dozens of designers.
 
 <!-- - technically could be on prem, hybrid native etc -->
 <!-- - (technically could be small orgs) some B2B apps have a very small scale (eg medical tools) some B2C products have a very large scale (eg social networks) -->
@@ -35,21 +32,56 @@ This first version has been generally simplified to large SaaS companies with th
 ## Notes
 
 <!-- What a messy outline. Structure better. Causes-consequences? Topics? -->
-<!-- sort as causes vs consequences and/or in themes legal vs technical vs financial -->
 <!-- in any case, eventually derive actions (if not a process) for designers -->
+<!-- TOC as a TL:DR? -->
 
-**The customer isn't the user**
+**The customer isn’t the user**
 
-- Managing multi-persona dynamics/the customer isnt the user
-- The distinction between buyer and user is a big one. For me, that meant designing mostly for the security engineer (the user) but delivering enough value to the Chief InfoSec Officer (the buyer) for them to see it was worth spending hundreds of thousands or millions of dollars per year on our product. In some cases, other third-party employees could torpedo the sales process too (like if a CTO or Chief Architect decided they didn’t want to accommodate our architecture).
-- For a Professional, expert audience
+<!-- The single biggest difference between consumer product design and enterprise design is it’s foundational definition: the fact that the customer isn’t the user. -->
 
-**Products are configured**
+Enterprise design products are selected at the executive level (e.g. by the CIO[^cio] or CTO[^cto]), then used by the rest of the company. In other words, they are
 
-- By companies/sys admins
-- super important. business rules, business workflows, business processes, automation, administration etc
-- RBAC/user access management/security
-- Last, if at all, by employees
+Whereas employees may care about speed, ease of access, ease of use or personalization, enterprise buyers will rather look at  TCO[^tco], security, scalability, compatibility or compliance. They will consult with legal, brand or technical experts, pushing further away personal considerations.
+
+<!-- Managing multi-persona dynamics
+
+For me, that meant designing mostly for the security engineer (the user) but delivering enough value to the Chief InfoSec Officer (the buyer) for them to see it was worth spending hundreds of thousands or millions of dollars per year on our product. In some cases, other third-party employees could torpedo the sales process too (like if a CTO or Chief Architect decided they didn’t want to accommodate our architecture). -->
+
+[^cio]: Chief Information Officer
+[^cto]: Chief Technology Officer
+[^tco]: Total cost of ownership
+
+**Users are experts**
+
+The users of enterprise design products are likely to be a professional audience, experts in their field.
+
+Deep knowledge, strong opinions. Designing for them means internalizing a lot of domain knowledge.
+
+This isn’t necessarily the same as being tech-savvy or computing experts. E.g. just because a surgeon has great medical proficiency doesn’t mean that they know all of Excel’s shortcuts.
+
+**The ecological environment is controlled**
+
+Devices and apps are company-provided and controlled.
+
+Personal devices may not be able to be brought in the workplace (e.g. nurses or retail staff leaving smartphones and smartwatches in the locker). Software outside of a very restrictive allowlist may not be installed. Many sites, apps or services may not be allowed on a monitored network.
+
+<!-- Identity too (SSO) -->
+
+In extreme cases, devices can be air-gapped into LANs[^lan] without Internet connection. Hardware too can be locked down: tin cast into ports, computer physically bound to furniture or wall.
+
+<!-- huge impact on MFA, CDN, releases etc -->
+
+[^lan]: Local area network
+
+**Enterprise products are configured**
+
+Enterprise products are usually highly configurable in order to support business processes, regulations, topologies etc.
+
+<!-- For a product to be configured, it needs be configurable. A huge area of design on its own -->
+<!-- == no two instances will be the same, design and deliverables for modularity etc -->
+
+System admins will work hand-in-hand with the vendor to initially deploy the product, and will then maintain and extend it on their own. User access, security, business rules etc will drive who can access what, and how.
+End-users may still be able to set their own preferences. If they exist, they will be downstream of layers of company-driven decisions.
 
 [The parameters potentially affecting what end-users have access to. Each a subset of the previous one.]
 | Name          | Description                                                                                | Owner              |
@@ -60,10 +92,7 @@ This first version has been generally simplified to large SaaS companies with th
 | Preferences   | Personal, work or convenience settings                                                     | End-users          |
 | Context       | Day-to-day, business- or task-specific factors                                             | N/A                |
 
-**End-user ecological environment is controlled/restricted**
-
-- The user devices, apps, networks etc can be company-provided and/or controlled
-- Identity too (SSO)
+<!-- Move to a/the “configuration in enterprise” note -->
 
 **Acquisition/implementation is difficult**
 
@@ -119,22 +148,23 @@ This first version has been generally simplified to large SaaS companies with th
 - At least on interaction design/visual design as understood nowadays; or for clouds/apps applications
 - Because there could be a lot of HFE work by public (powerplants in Europe) or private sector (eg Bell, CAE)
 - design org not well considered/involved
-- np "design founder" here, possibly not even at the first 1-2 execs level
+- np “design founder” here, possibly not even at the first 1-2 execs level
 
 **Different success metrics**
 
 - The business metrics are different (eg PEPM, net dollar retention, retention, churn)
 - subs,  not ads
 
-
-
 **Regulatory Compliance**
 
 <!-- Legal Frameworks -->
 
 Regulatory compliance is much more prominent in enterprise than in consumer design.
-Because of the demanding audience, criticity of service, engagement with government or sheer scale, regulations are either enforced or assessed as likely to be: localization in countries of operation, privacy laws such as GDPR, accessibility laws like WCAG, etc.
-Most verticals add their own standards like ISO 9341, ISO 1347, ISO 16290, NF EN 1325, MILSTD, ICAO or IATA norms etc. Sometimes not *de jure*, but nonetheless *de facto*.
+
+Because of the demanding audience, criticality of service, engagement with government or just sheer scale, regulations are either enforced or assessed as likely to be: localization in countries of operation, privacy laws such as GDPR, accessibility laws like WCAG, etc.
+
+Most verticals add their own standards like ISO 9341, ISO 1347, ISO 16290, NF EN 1325, MILSTD, ICAO or IATA norms etc.
+Sometimes not *de jure*, but nonetheless *de facto*.
 
 **The best branding is no branding**
 
@@ -142,10 +172,19 @@ Most verticals add their own standards like ISO 9341, ISO 1347, ISO 16290, NF EN
     - some customers will have deep customization/deviance, and will tend to produce more content/transactions then B2C products, where user input is minimal or heavily controlled
 - 3rd party integration, 3rd party support (composing, being composed)
 - the product isnt a brand of its own, rather it must support the customers brand (eg the exact opposite of Dropbox, Spotify or Steam)
-- technicakky it has a brand, but there again it is geared towards its enterprise customers (being reliable, configurable, feature-rich, etc) rather than individuals/end-users (where it'd have to be enticing, easy to use, differentiated, etc).
+- technicakky it has a brand, but there again it is geared towards its enterprise customers (being reliable, configurable, feature-rich, etc) rather than individuals/end-users (where it’d have to be enticing, easy to use, differentiated, etc).
 
-- Frontstage vs. Backstage Customer opportunities
-    - design can be at another level than “the app”
+**Frontstage vs. Backstage Customer opportunities**
+
+design can be at another level than “the app”
+
+a wider surface area
+
+<!-- eg configuration, administration, multi-actor workflows/orchestration; any interface thereof -->
+
+<!-- business workflows, business processes, automation, administration etc: missing a whole section on the “actual business” side of things!-->
+
+---
 
 *Some items from [7 Insights for Navigating B2B Design](https://www.unknownarts.co/p/7-insights-for-navigating-b2b-design).*
 
