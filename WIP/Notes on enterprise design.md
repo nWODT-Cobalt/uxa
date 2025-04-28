@@ -31,7 +31,7 @@ This first version has been generally simplified to large SaaS companies with th
 
 ## Notes
 
-<!-- What a messy outline. Structure better. Causes-consequences? Topics? -->
+<!-- What a messy outline. Structure better. Causes-consequences? Topics? eg the space vs the work vs releasing vs… -->
 <!-- in any case, eventually derive actions (if not a process) for designers -->
 <!-- TOC as a TL:DR? -->
 
@@ -39,7 +39,9 @@ This first version has been generally simplified to large SaaS companies with th
 
 <!-- The single biggest difference between consumer product design and enterprise design is it’s foundational definition: the fact that the customer isn’t the user. -->
 
-Enterprise design products are selected at the executive level (e.g. by the CIO[^cio] or CTO[^cto]), then used by the rest of the company. In other words, they are
+<!-- rewrite with: buyer (the person, a decision maker as opposed to an employee) vs customer (the comopany) -->
+
+Enterprise design products are selected at the executive level (e.g. by the CIO[^cio] or CTO[^cto]), then used by the rest of the company.
 
 Whereas employees may care about speed, ease of access, ease of use or personalization, enterprise buyers will rather look at  TCO[^tco], security, scalability, compatibility or compliance. They will consult with legal, brand or technical experts, pushing further away personal considerations.
 
@@ -51,7 +53,7 @@ For me, that meant designing mostly for the security engineer (the user) but del
 [^cto]: Chief Technology Officer
 [^tco]: Total cost of ownership
 
-**Users are experts**
+**Expert users**
 
 The users of enterprise design products are likely to be a professional audience, experts in their field.
 
@@ -59,7 +61,7 @@ Deep knowledge, strong opinions. Designing for them means internalizing a lot of
 
 This isn’t necessarily the same as being tech-savvy or computing experts. E.g. just because a surgeon has great medical proficiency doesn’t mean that they know all of Excel’s shortcuts.
 
-**The ecological environment is controlled**
+**Controlled ecological environment**
 
 Devices and apps are company-provided and controlled.
 
@@ -73,7 +75,7 @@ In extreme cases, devices can be air-gapped into LANs[^lan] without Internet con
 
 [^lan]: Local area network
 
-**Enterprise products are configured**
+**Configured products and services**
 
 Enterprise products are usually highly configurable in order to support business processes, regulations, topologies etc.
 
@@ -94,7 +96,7 @@ End-users may still be able to set their own preferences. If they exist, they wi
 
 <!-- Move to a/the “configuration in enterprise” note -->
 
-**Acquisition/implementation is difficult**
+**Difficult acquisition/implementation**
 
 - Implementation costs are huge for the customers, in money, time, expertise, trust
     - As a result, so are switching costs
@@ -110,30 +112,44 @@ End-users may still be able to set their own preferences. If they exist, they wi
 - some features/product can be built for a single customer, if big enough
     - much more customer-driven, vs ~gut/vision driven innovation
 
-**Different “voice of the customer” (to/from)**
+**Weaker relationship with end-users**
 
-- Design wasn’t the sole “voice of the customer.” We had entire teams in professional services and customer success who were in constant contact with users and whose job it was to represent their needs. This shifted my focus to be more on leaning into those relationships, interpreting the constant flow of feedback, and synthesizing it into smarter design choices.
-- dedicated research roles/team
-- customers only partially convey needs of users
-- the issue you’ve identified goes beyond product design and product experience into feature prioritization
-- Real, human support
-- Support/expert communities
+The direct line of communication between designer and user may be weaker.
 
-**Change is difficult**
+On one hand, designers are less in touch with the audience.
+Companies of a certain size will have dedicated research roles, rather than designers performing research tasks.
+Likewise, there may be entire departments like sales, customer success, support or professional services who are much closer to the action, and whose insights are considered the primary reference material.
 
-- High-stakes design changes
-    - The stakes of making changes were very high. If we made a poor design decision that resulted in a major error it could take down our customer’s systems (and the other businesses that depended on that company’s services). This meant we needed to “measure a hundred times to cut once” and be very deliberate in our prototyping and rollout process.
-    - Change management
-- Higher value on reliability/~“stability over time”
-    - Since users *rely* on the service, for doing their job or running their business, as opposed to consuming it for entertainment or as their optional volition
-    - Often captured in contracts/SLAs; contractual agreements, levels of service, levels of uptime, legal liability
-- Testing is “managed”
-    - No live A/B testing etc
-    - But beta programs in partnership with customers
-    - feature flags / feature toggle
-    - launching darkly
-- difficult to know what to change, difficult to actually proceed with the change, to iterate
-- the org may not be set up for or interested in agile follow-up anyway
+<!-- in constant contact with users and whose job it was to represent their needs -->
+<!-- there may be ad-hoc Support/expert communities -->
+
+On the other hand, the audience itself is different.
+The primary contacts may be customers rather than end-users—the former only partially conveying the need of the latter.
+
+<!-- Design wasn’t the sole “voice of the customer.” -->
+<!-- lean more into those relationships -->
+<!-- the issue you’ve identified goes beyond product design and product experience into feature prioritization -->
+
+**Difficult changes (as in “software updates”, not as in “org transformation”)**
+
+A very high value is placed on reliability and stability, since users rely on the service for doing their job or running their business.
+
+<!-- as opposed to consuming it for entertainment or as their optional volition -->
+
+Those metrics are often explicitly laid out in contracts and SLAs[^sla], with quantified levels of service, levels of uptime and the associated penalties.
+
+[^sla]: Service level agreement
+
+Changes are thus high stakes. Testing and releases are managed through formal programs, such as beta partnership with costumers, launching darkly with feature toggles, rather than live A/B testing and continuous releases. The deployment of a new version is contingent to explicit customer acceptance, and may be very slow or not happening at all.
+
+<!-- If we made a poor design decision that resulted in a major error it could take down our customer’s systems (and the other businesses that depended on that company’s services). This meant we needed to “measure a hundred times to cut once” and be very deliberate in our prototyping and rollout process. -->
+
+<!-- Change management -->
+
+<!-- difficult to know what to change, difficult to actually proceed with the change, to iterate
+the org may not be set up for or interested in agile follow-up anyway -->
+
+<!-- no continuous releases, esp with zero notes, heads-up of speedbumps like in the consumer world -->
 
 **Older, mature, sticky tech stacks**
 
@@ -150,12 +166,17 @@ End-users may still be able to set their own preferences. If they exist, they wi
 - design org not well considered/involved
 - np “design founder” here, possibly not even at the first 1-2 execs level
 
-**Different success metrics**
+**Different business success metrics**
 
-- The business metrics are different (eg PEPM, net dollar retention, retention, churn)
-- subs,  not ads
+<!-- thus different design success metrics too -->
 
-**Regulatory Compliance**
+The monetization is usually different: recurring subscription revenue, expressed in PEPM[^pepm] dollars rather than freemium or ad-supported.
+
+[^pepm]: Per user per month
+
+<!-- net dollar retention, retention, churn -->
+
+**Enforced regulations**
 
 <!-- Legal Frameworks -->
 
@@ -164,23 +185,35 @@ Regulatory compliance is much more prominent in enterprise than in consumer desi
 Because of the demanding audience, criticality of service, engagement with government or just sheer scale, regulations are either enforced or assessed as likely to be: localization in countries of operation, privacy laws such as GDPR, accessibility laws like WCAG, etc.
 
 Most verticals add their own standards like ISO 9341, ISO 1347, ISO 16290, NF EN 1325, MILSTD, ICAO or IATA norms etc.
-Sometimes not *de jure*, but nonetheless *de facto*.
+If not *de jure*, at least *de facto*.
 
-**The best branding is no branding**
+<!-- SLAs and other contractual agreements vs no one caring about a EULA -->
 
-- Brandability, Themeability, customization, White-labeling
-    - some customers will have deep customization/deviance, and will tend to produce more content/transactions then B2C products, where user input is minimal or heavily controlled
-- 3rd party integration, 3rd party support (composing, being composed)
-- the product isnt a brand of its own, rather it must support the customers brand (eg the exact opposite of Dropbox, Spotify or Steam)
-- technicakky it has a brand, but there again it is geared towards its enterprise customers (being reliable, configurable, feature-rich, etc) rather than individuals/end-users (where it’d have to be enticing, easy to use, differentiated, etc).
+**Different or “no” branding**
 
-**Frontstage vs. Backstage Customer opportunities**
+<!-- actually two-tiered branding -->
 
-design can be at another level than “the app”
+Enterprise branding will focus for what matters to its audience: reliability, configurability, feature-richness, etc over being enticing, ease of use, differentiation.
 
-a wider surface area
+<!-- better connect to previous such enum -->
 
-<!-- eg configuration, administration, multi-actor workflows/orchestration; any interface thereof -->
+Moreover, customers company often theme the product to their own brand, because they offer it internally to their employees or because they bundle it as part of their products. The initial brand collaterals may never show up.
+
+<!-- thats hiding the much bigger composability/integration practice -->
+
+<!-- This message may never reach end-users because it's not intended for them to begin with -->
+
+<!-- Moreover, enterprise products very often have to be themable/white-labeled, . -->
+
+Bonus: building such white-labeling theming capabilities is a typical enterprise design project!
+
+<!-- Brandability, Themeability, customization, White-labeling, 3rd party integration -->
+
+**Frontstage vs backstage opportunities**
+
+Since enterprise design covers not just end-users but also the many areas enabling them, the surface for design and innovation is broader than in exclusively consumer products.
+
+Configuration, administration, orchestration and the many intersections thereof are as many points where designers can intervene.
 
 <!-- business workflows, business processes, automation, administration etc: missing a whole section on the “actual business” side of things!-->
 
