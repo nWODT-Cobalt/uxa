@@ -29,6 +29,22 @@ This first version has been generally simplified to large SaaS companies with th
 <!-- - (technically could be small orgs) some B2B apps have a very small scale (eg medical tools) some B2C products have a very large scale (eg social networks) -->
 <!-- - Scale comes with its own set of considerations “eg at scale, all edge cases are frequent” *heh, not germane* -->
 
+## Summary
+
+- The customer isn’t the user
+- Expert users
+- Controlled environment
+- Configured products and services
+- Difficult implementation
+- Weaker relationship with end-users
+- Difficult changes
+- Enduring tech stacks
+- Lesser design culture/outcomes
+- Different business success metrics
+- Enforced regulations
+- Different to “no” branding
+- Backstage opportunitie
+
 ## Notes
 
 <!-- What a messy outline. Structure better. Causes-consequences? Topics? eg the space vs the work vs releasing vs… -->
@@ -61,7 +77,7 @@ Deep knowledge, strong opinions. Designing for them means internalizing a lot of
 
 This isn’t necessarily the same as being tech-savvy or computing experts. E.g. just because a surgeon has great medical proficiency doesn’t mean that they know all of Excel’s shortcuts.
 
-**Controlled ecological environment**
+**Controlled environment**
 
 Devices and apps are company-provided and controlled.
 
@@ -96,21 +112,30 @@ End-users may still be able to set their own preferences. If they exist, they wi
 
 <!-- Move to a/the “configuration in enterprise” note -->
 
-**Difficult acquisition/implementation**
+**Difficult implementation**
 
-- Implementation costs are huge for the customers, in money, time, expertise, trust
-    - As a result, so are switching costs
-    - As a result, stickiness
-    - As a result, reputation is key
-    - Much higher cost of error / favors “nobody gets fired for buying IBM” / low risk-taking (on both sides)
+<!--   -->
+
+Implementation costs for the customer are huge in money and time.
+
+Switching costs are very high, in turn making enterprise products very sticky.
+
+A successful deployment can take months. An unsuccessful one, years.
+
+
+Much higher cost of error / favors “nobody gets fired for buying IBM” / low risk-taking (on both sides)
+
+
 - high barrier to entry
     - Another reason why good design is less found in large enterprise software is because the barrier of entry to building something useful for B2B is a lot higher than B2C. You usually need a certain amount of industry knowledge and experience to create any semblance of a useful / usable product. Also B2B often needs a lot more features to be “sellable,” plus a sales engine. This already weeds out a lot of potential founders, willing investors, and thus good options in the market.
+
+<!-- **Difficult acquisition**
 
 - Active sales process, sales teams
     - VS “just” online marketing, word of mouth, virality etc
     - Long standing relationships
 - some features/product can be built for a single customer, if big enough
-    - much more customer-driven, vs ~gut/vision driven innovation
+    - much more customer-driven, vs ~gut/vision driven innovation -->
 
 **Weaker relationship with end-users**
 
@@ -130,7 +155,9 @@ The primary contacts may be customers rather than end-users—the former only pa
 <!-- lean more into those relationships -->
 <!-- the issue you’ve identified goes beyond product design and product experience into feature prioritization -->
 
-**Difficult changes (as in “software updates”, not as in “org transformation”)**
+**Difficult changes**
+
+<!-- as in “software updates”, not as in “org transformation” -->
 
 A very high value is placed on reliability and stability, since users rely on the service for doing their job or running their business.
 
@@ -151,26 +178,32 @@ the org may not be set up for or interested in agile follow-up anyway -->
 
 <!-- no continuous releases, esp with zero notes, heads-up of speedbumps like in the consumer world -->
 
-**Older, mature, sticky tech stacks**
+**Enduring tech stacks**
 
-- Concurrent/Backwards compatibility
-- Low key a hindrance to progress
-- Eg COBOL for banks or secure languages for rigs or the military
-- But really, the same characterization for all aspects of the org
+<!-- Older, mature, sticky -->
 
-**Lesser design culture/outcomes**
+The tech stack in enterprise design can trail the leading edge by years.
 
-- Lower emphasis on design overall
-- At least on interaction design/visual design as understood nowadays; or for clouds/apps applications
-- Because there could be a lot of HFE work by public (powerplants in Europe) or private sector (eg Bell, CAE)
-- design org not well considered/involved
-- np “design founder” here, possibly not even at the first 1-2 execs level
+<!-- practice too -->
+
+This isn’t just a function of big and mature organizations, but also a commercial interest or a contractual obligation to support older version of the product, thus older version of its implementation.
+It’s compounded by the fact that *change is difficult*.
+
+**Lesser design culture**
+
+<!-- thus maturity, outcomes etc -->
+
+Enterprise vendors have historically put less emphasis on user experience than their consumer counterparts. To this day, C-level design voices are very rare, and “design founders” virtually inexistant.
+
+Note that in some industries, there can be a strong design function that's not about UX design, but HFE[^hfe].
+
+[^hfe]: Human factors engineering
 
 **Different business success metrics**
 
 <!-- thus different design success metrics too -->
 
-The monetization is usually different: recurring subscription revenue, expressed in PEPM[^pepm] dollars rather than freemium or ad-supported.
+The monetization is usually different: recurring subscription revenue expressed in PEPM[^pepm] dollars, rather than freemium or ad-supported.
 
 [^pepm]: Per user per month
 
@@ -189,7 +222,7 @@ If not *de jure*, at least *de facto*.
 
 <!-- SLAs and other contractual agreements vs no one caring about a EULA -->
 
-**Different or “no” branding**
+**Different to “no” branding**
 
 <!-- actually two-tiered branding -->
 
@@ -197,11 +230,12 @@ Enterprise branding will focus for what matters to its audience: reliability, co
 
 <!-- better connect to previous such enum -->
 
-Moreover, customers company often theme the product to their own brand, because they offer it internally to their employees or because they bundle it as part of their products. The initial brand collaterals may never show up.
+Moreover, customers company often theme the product to their own brand, because they offer it internally to their employees or bundle it as part of their products.
+The initial brand collaterals may never reach end-users.
 
 <!-- thats hiding the much bigger composability/integration practice -->
 
-<!-- This message may never reach end-users because it's not intended for them to begin with -->
+<!-- This message may never reach end-users because it’s not intended for them to begin with -->
 
 <!-- Moreover, enterprise products very often have to be themable/white-labeled, . -->
 
@@ -209,7 +243,7 @@ Bonus: building such white-labeling theming capabilities is a typical enterprise
 
 <!-- Brandability, Themeability, customization, White-labeling, 3rd party integration -->
 
-**Frontstage vs backstage opportunities**
+**Backstage opportunities**
 
 Since enterprise design covers not just end-users but also the many areas enabling them, the surface for design and innovation is broader than in exclusively consumer products.
 
