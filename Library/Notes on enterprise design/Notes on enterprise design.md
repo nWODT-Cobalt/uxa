@@ -7,10 +7,10 @@
 <!-- Boo! Better titles/outline -->
 <!-- streamline and define terminology, esp “enterprise design products”, end-users vs employees vs individuals etc -->
 
-“Enterprise design” is a design practice targeted at enterprise rather than individuals customers.
+“Enterprise design” is the design practice at companies that serve other companies, rather than individuals customers.
 It’s for example the business of Dassault, IBM, Oracle, Salesforce, SAP, ServiceNow etc.
 
-Enterprise design has different goals, business models, metrics, roles, audiences, tools, engagement, culture, practices etc than consumer product design.
+Enterprise design has different goals, business models, metrics, roles, audiences, tools, engagement, culture and practices than consumer product design.
 
 This document is an early mind sweep, that may eventually grow into proper reference material.
 For now it can be helpful for designers curious about the enterprise design space, as training material, interview framework or conversation support.
@@ -23,7 +23,7 @@ For now it can be helpful for designers curious about the enterprise design spac
 
 <!-- only describes ecological context; doesn’t offer a practice to solve for it -->
 
-This first version has been generally simplified to large SaaS companies with thousands of employees, including dozens of designers.
+This first version has been simplified to large SaaS companies with thousands of employees, including dozens of designers.
 
 <!-- - technically could be on prem, hybrid native etc -->
 <!-- - (technically could be small orgs) some B2B apps have a very small scale (eg medical tools) some B2C products have a very large scale (eg social networks) -->
@@ -35,7 +35,7 @@ This first version has been generally simplified to large SaaS companies with th
 - Expert users
 - Controlled environment
 - Configured products and services
-- Difficult implementation
+- Complex deployment
 - Weaker relationship with end-users
 - Difficult changes
 - Enduring tech stacks
@@ -43,7 +43,7 @@ This first version has been generally simplified to large SaaS companies with th
 - Different business success metrics
 - Enforced regulations
 - Different to “no” branding
-- Backstage opportunitie
+- Backstage opportunities
 
 ## Notes
 
@@ -59,7 +59,7 @@ This first version has been generally simplified to large SaaS companies with th
 
 Enterprise design products are selected at the executive level (e.g. by the CIO[^cio] or CTO[^cto]), then used by the rest of the company.
 
-Whereas employees may care about speed, ease of access, ease of use or personalization, enterprise buyers will rather look at  TCO[^tco], security, scalability, compatibility or compliance. They will consult with legal, brand or technical experts, pushing further away personal considerations.
+Whereas employees may care about speed, ease of access, ease of use or personalization, enterprise buyers will rather first look at  TCO[^tco], security, scalability, compatibility or compliance. They will consult with their internal legal, brand or technical representatives, further pushing away personal considerations.
 
 <!-- Managing multi-persona dynamics
 
@@ -71,21 +71,19 @@ For me, that meant designing mostly for the security engineer (the user) but del
 
 **Expert users**
 
-The users of enterprise design products are likely to be a professional audience, experts in their field.
+The users of enterprise design products are likely to be a professional audience, experts in their field with deep knowledge and strong opinions. Designing for them means internalizing a lot of domain knowledge.
 
-Deep knowledge, strong opinions. Designing for them means internalizing a lot of domain knowledge.
-
-This isn’t necessarily the same as being tech-savvy or computing experts. E.g. just because a surgeon has great medical proficiency doesn’t mean that they know all of Excel’s shortcuts.
+This isn’t necessarily the same as being tech-savvy or computing experts. E.g. just because a surgeon has great medical proficiency doesn’t mean they know all of Excel’s shortcuts.
 
 **Controlled environment**
 
 Devices and apps are company-provided and controlled.
 
-Personal devices may not be able to be brought in the workplace (e.g. nurses or retail staff leaving smartphones and smartwatches in the locker). Software outside of a very restrictive allowlist may not be installed. Many sites, apps or services may not be allowed on a monitored network.
+Personal devices may not be able to be brought in the workplace, for example nurses or retail staff leaving smartphones in the locker. Software outside of a very restrictive allowlist may not be installed. Many sites, apps or services may not be allowed on a monitored network.
 
 <!-- Identity too (SSO) -->
 
-In extreme cases, devices can be air-gapped into LANs[^lan] without Internet connection. Hardware too can be locked down: tin cast into ports, computer physically bound to furniture or wall.
+In extreme cases, devices can be air-gapped into LANs[^lan] without Internet connection. Hardware too can be locked down: tin cast into ports, computer physically bound to furniture.
 
 <!-- huge impact on MFA, CDN, releases etc -->
 
@@ -93,13 +91,14 @@ In extreme cases, devices can be air-gapped into LANs[^lan] without Internet con
 
 **Configured products and services**
 
-Enterprise products are usually highly configurable in order to support business processes, regulations, topologies etc.
+Enterprise products are usually highly configurable in order to support business processes, regulations, org topologies etc.
 
 <!-- For a product to be configured, it needs be configurable. A huge area of design on its own -->
 <!-- == no two instances will be the same, design and deliverables for modularity etc -->
 
-System admins will work hand-in-hand with the vendor to initially deploy the product, and will then maintain and extend it on their own. User access, security, business rules etc will drive who can access what, and how.
-End-users may still be able to set their own preferences. If they exist, they will be downstream of layers of company-driven decisions.
+System admins will work hand-in-hand with the vendor to initially deploy the product, and may then maintain and extend it on their own. User access, security, business rules etc will drive who can access what, and how.
+
+End-users may still be able to set their own preferences. If so, it will be downstream of layers of company-driven decisions.
 
 [The parameters potentially affecting what end-users have access to. Each a subset of the previous one.]
 | Name          | Description                                                                                | Owner              |
@@ -112,22 +111,22 @@ End-users may still be able to set their own preferences. If they exist, they wi
 
 <!-- Move to a/the “configuration in enterprise” note -->
 
-**Difficult implementation**
+**Complex deployment**
 
-<!--   -->
-
-Implementation costs for the customer are huge in money and time.
-
-Switching costs are very high, in turn making enterprise products very sticky.
-
+The effort to implement or deploy an enterprise system can be huge for the customer, in money and time.
 A successful deployment can take months. An unsuccessful one, years.
 
+This leads to many consequences:
 
-Much higher cost of error / favors “nobody gets fired for buying IBM” / low risk-taking (on both sides)
+- Mistakes are very expensive, favoring a conservative approach/low risk-taking for both the vendor and the customer. “Nobody gets fired for buying ~~IBM~~ Atlassian.”
 
+<!-- even small estimation / assessment mistakes, not just technical mishaps -->
 
-- high barrier to entry
-    - Another reason why good design is less found in large enterprise software is because the barrier of entry to building something useful for B2B is a lot higher than B2C. You usually need a certain amount of industry knowledge and experience to create any semblance of a useful / usable product. Also B2B often needs a lot more features to be “sellable,” plus a sales engine. This already weeds out a lot of potential founders, willing investors, and thus good options in the market.
+- Switching costs are very high, in turn making enterprise products very sticky and creating a high barrier to entry for competitors
+
+<!-- All of those are n:n, not just results of “Complex deployment”. They should be split into their own section. -->
+
+- Lead cycles are very long, with 3–5 years long contracts, and renewal negotiated quarters or years in advance
 
 <!-- **Difficult acquisition**
 
@@ -160,6 +159,7 @@ The primary contacts may be customers rather than end-users—the former only pa
 <!-- as in “software updates”, not as in “org transformation” -->
 
 A very high value is placed on reliability and stability, since users rely on the service for doing their job or running their business.
+Especially more so since *deployment is complex*.
 
 <!-- as opposed to consuming it for entertainment or as their optional volition -->
 
@@ -195,9 +195,11 @@ It’s compounded by the fact that *change is difficult*.
 
 Enterprise vendors have historically put less emphasis on user experience than their consumer counterparts. To this day, C-level design voices are very rare, and “design founders” virtually inexistant.
 
-Note that in some industries, there can be a strong design function that's not about UX design, but HFE[^hfe].
+Note that in some industries, there can be a strong design function that’s not about UX design, but HFE[^hfe].
 
 [^hfe]: Human factors engineering
+
+<!-- Another reason why good design is less found in large enterprise software is because the barrier of entry to building something useful for B2B is a lot higher than B2C. You usually need a certain amount of industry knowledge and experience to create any semblance of a useful / usable product. Also B2B often needs a lot more features to be “sellable,” plus a sales engine. This already weeds out a lot of potential founders, willing investors, and thus good options in the market. -->
 
 **Different business success metrics**
 
@@ -216,9 +218,11 @@ The monetization is usually different: recurring subscription revenue expressed 
 Regulatory compliance is much more prominent in enterprise than in consumer design.
 
 Because of the demanding audience, criticality of service, engagement with government or just sheer scale, regulations are either enforced or assessed as likely to be: localization in countries of operation, privacy laws such as GDPR, accessibility laws like WCAG, etc.
-
-Most verticals add their own standards like ISO 9341, ISO 1347, ISO 16290, NF EN 1325, MILSTD, ICAO or IATA norms etc.
 If not *de jure*, at least *de facto*.
+
+Most verticals add their own standards like MILSTD, or IATA/ICAO norms.
+
+<!-- ISO 9341, 1347, 16290; NF EN 1325 -->
 
 <!-- SLAs and other contractual agreements vs no one caring about a EULA -->
 
@@ -226,7 +230,7 @@ If not *de jure*, at least *de facto*.
 
 <!-- actually two-tiered branding -->
 
-Enterprise branding will focus for what matters to its audience: reliability, configurability, feature-richness, etc over being enticing, ease of use, differentiation.
+Enterprise branding will focus for what matters to its audience: reliability, configurability, feature-richness, etc over being enticing, easy to use, differentiated.
 
 <!-- better connect to previous such enum -->
 
@@ -239,7 +243,7 @@ The initial brand collaterals may never reach end-users.
 
 <!-- Moreover, enterprise products very often have to be themable/white-labeled, . -->
 
-Bonus: building such white-labeling theming capabilities is a typical enterprise design project!
+<!-- Bonus: building such white-labeling theming capabilities is a typical enterprise design project! -->
 
 <!-- Brandability, Themeability, customization, White-labeling, 3rd party integration -->
 
@@ -253,7 +257,7 @@ Configuration, administration, orchestration and the many intersections thereof 
 
 ---
 
-*Some items from [7 Insights for Navigating B2B Design](https://www.unknownarts.co/p/7-insights-for-navigating-b2b-design).*
+Further reading: [7 Insights for Navigating B2B Design](https://www.unknownarts.co/p/7-insights-for-navigating-b2b-design)
 
 <!-- **subsequent practice**
 
