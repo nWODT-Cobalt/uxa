@@ -41,7 +41,7 @@ There are exhaustive aggregators of quality design documentation, such as [Desig
 - [Wise](https://wise.design/), fantastic presentation and content, including patterns and “foundations” far beyond the usual tokens
 - [Workday Canvas](https://design.workday.com/)
 
-## Style Guides (product/brand-centric)
+## Style Guides (brand-centric)
 
 - [Aesop Taxonomy of Design](http://taxonomyofdesign.com/#!/), “the creative processes, materials and features that distinguish Aesop spaces”
 - [Brand Estonia](https://brand.estonia.ee/?lang=en)
@@ -60,3 +60,4 @@ There are exhaustive aggregators of quality design documentation, such as [Desig
 ## Other
 
 - [IACCM Contract Design Pattern Library](https://contract-design.iaccm.com/), “contract usability and understandability”
+- IBM’s [Technical diagrams](https://www.ibm.com/design/language/infographics/technical-diagrams/design) guidance
