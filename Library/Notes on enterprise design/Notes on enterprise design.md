@@ -7,7 +7,7 @@
 <!-- Boo! Better titles/outline -->
 <!-- streamline and define terminology, esp “enterprise design products”, end-users vs employees vs individuals etc -->
 
-“Enterprise design” is the design practice at companies that serve other companies, rather than individuals customers.
+“Enterprise design” is the design practice at companies that serve other companies, rather than individual customers.
 It’s for example the business of Dassault, IBM, Oracle, Salesforce, SAP, ServiceNow etc.
 
 Enterprise design has different goals, business models, metrics, roles, audiences, tools, engagement, culture and practices than consumer product design.
@@ -259,7 +259,17 @@ Configuration, administration, orchestration and the many intersections thereof 
 
 Further reading: [7 Insights for Navigating B2B Design](https://www.unknownarts.co/p/7-insights-for-navigating-b2b-design)
 
-<!-- **subsequent practice**
+<!--
+
+**Constant consideration for scalability**
+
+*From Loren Mack*
+
+What would be a nice and easy design for consumers often needs to change to accommodate oceans of data. Search primary models. Limiting server calls and their payload size.
+The need for bulk data manipulation and update. The need for large data set analytics, assessments, and diagnostics.
+Being able to pre-test or rollback large transactions before deciding to 'keep them', AKA Impact Analysis. Stuff like that.
+
+**subsequent practice**
 
 UXA signals, à voir
 

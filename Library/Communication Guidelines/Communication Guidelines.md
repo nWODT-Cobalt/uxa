@@ -579,4 +579,38 @@ How to write normative templates/definitions (eg for publishing to a platform)
 - best practices/intention/expectations/examples
 - responsabilities: product designer/stakeholders provide domain input, DLS/platform people provide templates/channels/actual publication/outputs
 
+---
+
+## Design system documentation is essential–as long as it’s good
+
+<https://pjonori.blog/posts/design-system-documentation/>
+date d'ajout : 26/05/2025
+
+*Pertinent pour tout type de documentation, pas juste les design systems.*
+
+Good documentation is short, simple, structured, and actionable:
+
+- Succinct
+- Predictable
+- Concrete
+- Exact
+- Approachable
+- Encapsulated
+- Actionable
+- Justified
+- Definitive (in a chill kind of way)
+
+Good documentation can help transform the way work is done:
+
+- It forces a point of view
+- It improves the thinking behind the system
+- It keeps the design system team aligned
+- It keeps thinking available when people aren’t
+- It creates a common language
+- It levels the playing field (maybe)
+- It reduces team overhead
+- It acts as a feeder for AI
+
+People read good stuff. So write good stuff.
+
 -->

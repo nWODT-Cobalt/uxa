@@ -105,6 +105,15 @@ Boring solutions: Use the most simple and boring solution for a problem. You can
 
 Working code isn’t necessarily good code. Your code also needs to be easy to read, understand, and modify. It needs clarity, and to achieve that, it has to be organized well, with careful planning and proper separation of ideas taking place before you even open your code editor. Coding for clarity is something that separates the great developers from the merely good, and there are a few basic principles that can set you on that path.
 
+## Technical dimensions of programming systems
+
+<https://tomasp.net/techdims/>
+<!--date d'ajout : 26/05/2025-->
+
+*Très intéressant en soi, et en tant qu'exemple de taxonomie/approche.*
+
+Technical dimensions is a framework that captures the characteristics of programming systems. It makes it possible to compare programming systems, better understand them, and to find interesting new points in the design space of programming systems. We created technical dimensions to help designers of programming systems to evaluate, compare and guide their work and, ultimately, stand on the shoulders of giants.
+
 **The single responsibility principle**
 
 The single responsibility principle states that a block of code should do one thing, and do it well. If you’re describing what a function does and you have to use the word “and,” that function is probably too complex.
