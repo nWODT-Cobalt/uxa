@@ -37,7 +37,7 @@ Optional:
 - Script for Greek (for scientific notation)
 - Bonus glyphs (arrows, dingbats, boxed numbers etc.)
 
-**Technical**
+**Implementation**
 
 - Variable format
 - Optical sizes
@@ -45,8 +45,13 @@ Optional:
 
 **Feel**
 
-Feel on labels and running copy, at UI sizes (12–48 px).
-Use the [Web Font Specimen](http://webfontspecimen.com/).
+- Feel on labels and running copy, at UI sizes (12–48 px)
+
+**Licensing**
+
+- Price per seat/impression/installation
+- Modifications allowed or not
+- If $-free, is it free to use for commercial applications
 
 <!-- build own specimen; possibly in several sections: 1 for feel, 1 for all the attributes -->
 
