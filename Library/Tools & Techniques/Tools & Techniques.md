@@ -3,7 +3,7 @@
 <!--BREAK-->
 
 
-<!-- <img src="../../Resources/Assets/assets/semiotics/info-md.svg" style="float: left; height: 3rem; padding-right: 0.5rem; border: none" > -->
+<!-- <img src="../../Resources/Assets/assets/semiotics/info-md.svg” style=“float: left; height: 3rem; padding-right: 0.5rem; border: none” > -->
 
 *Not-necessarily trivial tools for UXA, either sought or found.*
 *Updated infrequently, not to be complete nor completed.*
@@ -28,7 +28,7 @@ Ideally x-raying intents, who provides what data/services etc.
 
 ### Allocation table builder
 
-Visualize what's been moved, merged, split, renamed, added or deleted between 2 lists of 10–100 items.
+Visualize what’s been moved, merged, split, renamed, added or deleted between 2 lists of 10–100 items.
 
 ### Color System
 
@@ -40,7 +40,7 @@ Proper color generation/compliance tool etc eg P1 and OKlab. Color space transfo
 
 ### Gif maker
 
-Most illos should actually be gifs or videos; let's make it easy to make them.
+Most illos should actually be gifs or videos; let’s make it easy to make them.
 
 ### Progressive disclosure
 
@@ -57,11 +57,11 @@ Actually, even 2-tables in design tools (i.e. real tables with row/column manage
 
 ### Interactive lecturer
 
-"Magic paper" where figures/tables/prototypes:
+“Magic paper” where figures/tables/prototypes:
 
 - Are easily embeddable
 - Remain in the viewport as long as needed, while accompanying text can ~scroll as needed
-- "React" in context of the reading
+- “React” in context of the reading
 - Can turn into interactive playgrounds
 
 E.g:
@@ -74,7 +74,7 @@ E.g:
 
 ### KJ / Affinity Diagrams
 
-Wouldn't mind a good starting template + time per step f(# of participants.)
+Wouldn’t mind a good starting template + time per step f(# of participants.)
 
 ### State Charts
 
@@ -94,11 +94,15 @@ How to quickly depict probabilistic, branching convo flows. Ideally with clear m
 
 ### Misc charts
 
-Nothing crazy, just a handy list of usually useful visual formalisms. Otherwise it's easy to miss a really convenient chart type in the heat of the moment.
+Nothing crazy, just a handy list of usually useful visual formalisms. Otherwise it’s easy to miss a really convenient chart type in the heat of the moment.
 
 - 2x2 matrices
 - Euler charts
 - Sequential diagrams (grafcet-like)
+
+### A font specimen
+
+Since Tim Brown’s webfont specimen doesn’t seem to be available anymore.
 
 ## Recommended
 
