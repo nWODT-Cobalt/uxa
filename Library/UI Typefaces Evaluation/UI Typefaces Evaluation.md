@@ -47,18 +47,18 @@ Optional:
 
 - Feel on labels and running copy, at UI sizes (12–48 px)
 
-**Licensing**
-
-- Price per seat/impression/installation
-- Modifications allowed or not
-- If $-free, is it free to use for commercial applications
-
 <!-- build own specimen; possibly in several sections: 1 for feel, 1 for all the attributes -->
 
 <!--
 <https://www.typography.com/blog/text-for-proofing-fonts>
 <http://lthscomputerart2.weebly.com/type-specimen-poster-design.html>
 -->
+
+**Licensing**
+
+- Price per seat/impression/installation
+- Modifications allowed or not
+- If $-free, is it free to use for commercial applications
 
 ## Tools
 
@@ -67,3 +67,5 @@ To verify or complete vendor specs.
 - [CharSet Checker](https://www.alphabet-type.com/tools/charset-checker/): scripts and symbols support
 - [FontDrop!](https://fontdrop.info/): languages, metadata, OpenType features
 - [Underware Latin Plus](https://www.underware.nl/latin_plus/validate/): detailed latin scripts support
+
+<!-- https://wakamaifondue.com/ -->
