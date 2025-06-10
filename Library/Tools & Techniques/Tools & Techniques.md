@@ -104,6 +104,10 @@ Nothing crazy, just a handy list of usually useful visual formalisms. Otherwise 
 
 Since Tim Brown’s webfont specimen doesn’t seem to be available anymore.
 
+### Designer Competency Matrix
+
+Akin to <https://sijinjoseph.com/programmer-competency-matrix/>
+
 ## Recommended
 
 ### Changelogs

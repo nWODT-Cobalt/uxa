@@ -13,6 +13,8 @@
 - Differentiation of ambiguous glyphs (`aceo`, `Il1`, `o0`, etc.)
 - Simplicity of knotty glyphs (`a`, `g`, `1`, `7`, etc.)
 
+<!-- Even color, active texture -->
+
 **Features**
 
 - Proportional and monospace numerals

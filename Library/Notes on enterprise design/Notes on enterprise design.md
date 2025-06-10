@@ -222,6 +222,8 @@ If not *de jure*, at least *de facto*.
 
 Most verticals add their own standards like MILSTD, or IATA/ICAO norms.
 
+<!-- HIPAA, GDPR -->
+
 <!-- ISO 9341, 1347, 16290; NF EN 1325 -->
 
 <!-- SLAs and other contractual agreements vs no one caring about a EULA -->
