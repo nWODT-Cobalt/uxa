@@ -427,10 +427,16 @@ The point of this is to think about everything as an interoperable system. You c
 
 <!--BREAK-->
 
+## Scales
+
+<https://jeromantik.de/scales-canvas>
+<!--date d'ajout : 10/06/2025-->
+
+A structured FigJam canvas with pre formulated questions that guide you through five pillars of planning, so you can make smarter decisions, faster.
+
 ## designtokens.fyi
 
 <https://designtokens.fyi>
-
 <!--date d'ajout : 06/04/2025-->
 
 *Un petit dico sympa.*
