@@ -1,5 +1,7 @@
 # Effective Design Principles
 
+<!--BREAK-->
+
 ## Overview
 
 Principles are “a fundamental truth that serves as the fondation for a system of belief or a chain of reasoning” ([Julie Zhuo](https://medium.com/the-year-of-the-looking-glass/a-matter-of-principle-4f5e6ad076bb#.crmh0x42x), 2015).
