@@ -91,6 +91,6 @@ For example, “start with smart defaults” rather than “placeholder text in 
 - Principles can come from external factors like business strategy, market constraints, technical limitations; or internal choices like brand or personal preferences.
 - Principles can inform entire strategies, new products, big redesigns or specific journeys. On smaller efforts like feature-add or limited redesign, they can be too much overhead. It’s preferable to use guidelines then.
 - Having more than an handful principles is overwhelming; curate actively
-- More literature in [Reading notes on design principles](../Reading notes on design principles)
+- More literature in [Reading notes on design principles](../Reading%20notes%20on%20design%20principles)
 
 <!-- Principles are relevant in several areas of an organization: strategy, gouvernance, marketing, etc. -->

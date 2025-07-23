@@ -4,7 +4,7 @@
 
 *Most design principles tend to be consensual statements of good intentions, read once and instantly forgotten as they’re of no use day-to-day.*
 *This document gathers perspectives biased towards a narrower, more actionable definition of design principles.*
-*The resulting guidance is captured in [Effective design principles](../Effective design principles).*
+*The resulting guidance is captured in [Effective Design Principles](../Effective%20Design%20Principles).*
 
 ## Zack Yu
 
