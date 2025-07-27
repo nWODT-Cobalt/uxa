@@ -4,6 +4,8 @@
 
 <!-- pictooooo -->
 
+<!-- Update all illos to Figma, exported as PDF or PNG@3x -->
+
 <br>
 
 >Writing gets real when it is read. Before that, it is a dream in letters. Writing to get read makes you careful, responsible, and considerate.
@@ -521,8 +523,10 @@ A content boilerplate file [is available](https://github.com/nWODT-Cobalt/uxa/tr
 
 Consider formatting Deckset presenter’s notes; they will render so in Deckset and on Github.
 
-Vector figures (SVG or PDF) often render with slight visual artefacts during playback or export. Pair them with bitmap exports (PNG or JPG), and use those assets instead.
-Keep the vector figures. The file duplication is not significant, while the potential for reuse is.
+<!-- Make sure figures are exported in SVG or PDF when possible, or as @3x PNG otherwise. No need for dupe export. -->
+
+<!-- Vector figures (SVG or PDF) often render with slight visual artefacts during playback or export. Pair them with bitmap exports (PNG or JPG), and use those assets instead.
+Keep the vector figures. The file duplication is not significant, while the potential for reuse is. -->
 
 <!--BREAK-->
 

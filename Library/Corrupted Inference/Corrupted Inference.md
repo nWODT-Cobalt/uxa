@@ -5,7 +5,7 @@ A really short activity to illustrate a notion that’s otherwise annoying to pu
 
 ---
 
-![](assets/engines-status@2x.png)
+![](assets/engines-status.pdf)
 
 ^
 As the captain of this plane, do you notice anything?  

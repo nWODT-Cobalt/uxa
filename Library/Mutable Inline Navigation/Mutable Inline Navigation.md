@@ -19,7 +19,7 @@ swapping one preset version for another upon content scroll.** -->
 In complex apps, the primary navigation may only address a handful of key views.
 Secondary views, or point locations within content-heavy primary views, can be supported with a dedicated secondary navigation.
 
-![right](assets/pattern@2x.png)
+![right](assets/pattern.pdf)
 
 ---
 
@@ -31,7 +31,7 @@ Selecting `Created` (“Créées”), `Saved` (“Enregistrées”) or `Search` 
 
 In both states, the `Preferences` and `Create` buttons trigger modal overlays.
 
-![right](assets/example-pinterest@2x.png)
+![right](assets/example-pinterest@3x.png)
 
 ---
 
@@ -43,7 +43,7 @@ In the final state, the layout and features have entirely changed: buttons are r
 
 The caret next to the name of the venue (“Biosphère”) resets the view to the initial state.
 
-![right](assets/example-google-maps@2x.png)
+![right](assets/example-google-maps@3x.png)
 
 ---
 
@@ -53,7 +53,7 @@ The caret next to the name of the venue (“Biosphère”) resets the view to th
 
 `Shops` (“Magasins”) triggers a modal overlay.
 
-![right](assets/example-starbucks@2x.png)
+![right](assets/example-starbucks@3x.png)
 
 <!-- thats just a sticky scroll -->
 

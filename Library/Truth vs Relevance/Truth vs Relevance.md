@@ -22,7 +22,7 @@ Relevance is defined by actionability and indispensability.
 
 ---
 
-![](assets/flavor@2x.png)
+![](assets/flavor@3x.png)
 
 ^Classified by flavor: true but not relevant. It *is* true: several folks could all taste some lithium and consistently experience its zestiness. It’s just useless. It’s not matching usage, i.e. knowing the taste of a metal doesn’t help to do much with it.
 
@@ -41,7 +41,7 @@ For example lithium is a key element of batteries, but there’s no way to tell 
 
 ---
 
-![](assets/periodic-table@2x.png)
+![](assets/periodic-table@3x.png)
 
 ^The atomic number classification is actually *much more* relevant than “just” being useful to compare several properties of metals.
 It’s not just *descriptive*, it’s *predictive*: many elements have been discovered by looking into the blanks of the table. Its structure generates content. Previous organizational schemes for elements were true, but not as relevant since they were lacking this predictive capability.

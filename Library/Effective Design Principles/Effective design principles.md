@@ -92,5 +92,6 @@ For example, “start with smart defaults” rather than “placeholder text in 
 - Principles can inform entire strategies, new products, big redesigns or specific journeys. On smaller efforts like feature-add or limited redesign, they can be too much overhead. It’s preferable to use guidelines then.
 - Having more than a handful principles is overwhelming; curate actively
 - More literature in [Reading notes on design principles](../Reading%20notes%20on%20design%20principles)
+<!-- - Don't write principles because you feel you have to, or because the design system landing page needs some filler. Write them because the team finds itself arguing again and again over small details, ultimately making subjective calls, or because the design outputs lack punch and integrity. -->
 
 <!-- Principles are relevant in several areas of an organization: strategy, gouvernance, marketing, etc. -->
