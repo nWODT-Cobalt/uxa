@@ -226,6 +226,8 @@ Most verticals add their own standards like MILSTD, or IATA/ICAO norms.
 
 <!-- ISO 9341, 1347, 16290; NF EN 1325 -->
 
+<!-- ISO 27001, ISO 27701 -->
+
 <!-- SLAs and other contractual agreements vs no one caring about a EULA -->
 
 **Different to “no” branding**
