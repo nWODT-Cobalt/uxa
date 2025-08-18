@@ -15,24 +15,26 @@ This document tracks best practices for eliciting and writing useful design prin
 
 ## Best Practices
 
-Good design principles are memorable, evolving, meaningful, outbound, specific, prioritized, applicable, determinative and encompassing (mnemonic: MEMOSPADE).
+Good design principles are memorable, encompassing, meaningful, outbound, specific, prioritized, applicable, determinative and evolving (mnemonic: MEMOSPADE).
 
 <!-- It’s ok if some principles don’t embody all those attributes. But usually the more compliant, the stronger. -->
 
+<!-- Tout rédigé en ellipsant la proposition initiale “Good design principles are…”" -->
+
 **Memorable**
 
-<!-- Rédigé en ellipsant la proposition initiale “Good design principles are…”" -->
 Clear, concise and impactful so that they can be internalized, thus generative, rather than referred to, thus conformative.
 Use short, unambiguous, and well-illustrated statements.
 
 For example, Android’s “make important things fast”.
 
-**Evolving**
+**Encompassing**
 
-Reasonably iterated upon, to remain relevant as the product grows.
-Adjust their substance and scope, especially in earlier phases when things are still in flux.
+Applicable to entire classes of problems, now and in the future.
+Otherwise they’re a pass/fail criterium, not a principle.
+Avoid being too detailed, for example writing about one use case or component in particular.
 
-For example, Gravity replaced “be universal” with “inclusive”.
+For example, “start with smart defaults” rather than “placeholder text in input fields”.
 
 **Meaningful**
 
@@ -78,13 +80,12 @@ Break down big statements into smaller, unambiguous ones. Write down explicitly 
 
 For example, “icons must have a single meaning over” rather than “meaningful icons”.
 
-**Encompassing**
+**Evolving**
 
-Applicable to entire classes of problems, now and in the future.
-Otherwise they’re a pass/fail criterium, not a principle.
-Avoid being too detailed, for example writing about one use case or component in particular.
+Reasonably iterated upon, to remain relevant as the product grows.
+Adjust their substance and scope, especially in earlier phases when things are still in flux.
 
-For example, “start with smart defaults” rather than “placeholder text in input fields”.
+For example, Gravity replaced “be universal” with “inclusive”.
 
 ## Furthermore
 
