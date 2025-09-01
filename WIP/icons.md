@@ -4,3 +4,5 @@ Au moins 65% des gens doivent reconnaître le sens, au plus 10% des gens doivent
 ANSI : 80+ / 10-
 
 [Usability Testing of Icons](https://www.nngroup.com/articles/icon-testing/) and [Icon Usability](https://www.nngroup.com/articles/icon-usability/) (overall meh)
+
+<https://basicappleguy.com/basicappleblog/macos-icon-history>

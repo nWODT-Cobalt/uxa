@@ -2,6 +2,8 @@
 
 <!--BREAK-->
 
+<!-- How is any of this different than guidelines? When use this instead of cheaper guidelines? -->
+
 ## Overview
 
 > A principle is a fundamental truth or proposition that serves as the foundation for a system of belief or for a chain of reasoning.

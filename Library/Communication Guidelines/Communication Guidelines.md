@@ -573,6 +573,7 @@ Names: case sensitive, no spaces (within a project, not between projects)
 - Governance: who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - replace document, too generic, with ~report or so
 - <https://classnames.paulrobertlloyd.com/>
+- In journalism, "graf" is an informal term for a paragraph, often used to describe a short paragraph containing a single, concise idea.
 
 ---
 
