@@ -1,10 +1,9 @@
 # Taxonomy for Component States
 
-<!-- bi-directional link with `Reading notes on design systems, components & tokens.md` -->
-
 <!--BREAK-->
 
-<!-- [skip to content](#taxonomy) -->
+<!-- [skip to content](#taxonomy)
+<a name="taxonomy"></a>-->
 
 ## Overview
 
@@ -56,7 +55,7 @@ States are organized into “state categories”. Each state name is unique.
 - [W3C](https://www.w3.org/TR/WCAG21/#dfn-states)
 - Major vendors component libraries and guidelines
 
-## <a name="taxonomy"></a>Taxonomy
+## Taxonomy
 
 <!-- Have 1 example per “states group” (define that too) + 1 recap table-->
 <!-- show how examples fill or not the general matrix -->
@@ -135,9 +134,6 @@ This improves consistency for the builder and for the user, in turn improving ma
 It is ok to omit the word “state” from category names.
 
 Expose states as variants rather than booleans.
-
-<!-- show pics of bad figma props then the better version -->
-<!-- eg `Focused: Yes/No` -> `Focus Feedback Unfocused Focused` -->
 
 ![A comparison of well-structered and badly-structured component properties in Figma.](assets/figma-component-structure@3x.png)
 

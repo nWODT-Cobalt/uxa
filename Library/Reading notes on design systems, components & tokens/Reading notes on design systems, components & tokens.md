@@ -351,6 +351,7 @@ Design systems, like code frameworks, are no place for untested ideas. Extract p
 User-facing state is what someone experiences when they interact with an element in some capacity.
 
 *30+ states!*
+*Deep-dive here: [Taxonomy for component states](https://github.com/nWODT-Cobalt/uxa/tree/main/Library/Taxonomy%20for%20component%20states).*
 
 ## Boringness in Design Systems
 
