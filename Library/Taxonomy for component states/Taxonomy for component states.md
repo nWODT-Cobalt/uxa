@@ -1,19 +1,20 @@
-# Taxonomy for component states
+# Taxonomy for Component States
 
-<!-- components’? components? -->
 <!-- bi-directional link with `Reading notes on design systems, components & tokens.md` -->
 
 <!--BREAK-->
 
+<!-- [skip to content](#taxonomy) -->
+
 ## Overview
 
-“States” are visual feedback for a component’s temporary condition.
+States are visual feedback for a component’s temporary condition.
 Users rely on their cues to understand and manipulate the UI.
 Well-designed states support accessibility, improve usability, and contribute to brand expression and delight.
 
 <!-- (not only visual but that’s the starting line for 99%) -->
 
-<!-- commented figure eg I know that tab 1 is active and that Im ushovering tab 2 -->
+![Select menu demonstrating which option is currently selected and which option is currently hovered.](assets/overview@3x.png)
 
 This document is a quick reference to inventory and label common states, in order to:
 
@@ -24,18 +25,16 @@ This document is a quick reference to inventory and label common states, in orde
 
 <!-- At this time this document is a quick reference, rather than proper training material. -->
 
-<!-- <jump to recap table> -->
-
 ## Methodology
 
 ### Scope
 
-“States” is a broad notion. This document covers user-visible, user-triggered component’s states.
+States are a broad notion. This document covers user-triggered component’s states.
 
 This excludes application states, that are driven by data status, business logic, system services or back-end calls.
 It also excludes states that could be displayed on components, but aren’t in response to direct user manipulation.
 
-For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the "Unread" status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down).
+For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the “Unread” status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down).
 
 <!-- ditto for filtered, locked, unsaved etc -->
 <!-- Notability Feedback Normal Notable xxx -->
@@ -43,53 +42,56 @@ For example, the “Unread” indicator of a “Messages” tab isn’t in scope
 Component states are also different from components properties such as size, emphasis, theme etc. Those properties are set at design time and don’t change at runtime.
 
 <!-- not different but a subset -->
+<!-- +props are generalized for a component class while states are per instance -->
 
-User-triggered states are transient: they cycle in quick succession. Thus a good rule of thumb to tell them apart from other attributes is whether they reset on page (re)load. If yes, they are likely components’ states, as covered in this document.
+User-triggered states are transient: they cycle in quick succession. Thus a good rule of thumb to tell them apart from other attributes is whether they reset on page load. If yes, they are likely components’ states, as covered in this document.
 
 ### Conventions
 
-States are organized into "state categories". Each state name is unique.
+States are organized into “state categories”. Each state name is unique.
 
-### References
+### Sources
 
 - [All the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/)
 - [W3C](https://www.w3.org/TR/WCAG21/#dfn-states)
 - Major vendors component libraries and guidelines
 
-## Taxonomy
+## <a name="taxonomy"></a>Taxonomy
 
 <!-- Have 1 example per “states group” (define that too) + 1 recap table-->
 <!-- show how examples fill or not the general matrix -->
 
-**Pointer Feedback**
+**Pointer State**
 
 `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
 
-"Pressed down" is preferred to "Active", as per WCAG.
+Colloquially called “state”. although only a subset of it.
 
-**Selection Feedback**
+“Pressed down” is preferred to “Active”, as per WCAG.
+
+**Selection State**
 
 `Unselected`, `Selected`, `Indeterminate`
 
-**Focus Feedback**
+**Focus State**
 
 `Unfocused`, `Focused`
 
-**Input Feedback**
+**Input State**
 
 `Empty`,  `In progress`, `Filled`
 
 Note that “Empty” means “empty of user input”, not “empty of any content”. There may still be a placeholder, as a component property.
 
-**Validation Feedback**
+**Validation State**
 
-`No validation`, `Instructions`, `Error`, `Success`
+`No validation`, `Instructions`, `Valid`, `Invalid`
 
-Note that "Instructions" means "explanations in reaction to user input", not persistent help text. There may still be persistent help text, independently from instructions, as a component property.
+Note that “Instructions” means “explanations in reaction to user input”, not persistent help text. There may still be persistent help text, independently from instructions, as a component property.
 
 **Others**
 
-The states listed above are the most common. Further states should be considered on a case-by-case basis, such as "visited" for links or "dragged" for draggable elements.
+The states listed above are the most common. Further states should be considered on a case-by-case basis, such as “visited” for links or “dragged” for draggable elements.
 
 <!--
 States for complex composed elements like data grids *like what?*
@@ -98,15 +100,15 @@ States for non-form components like video player or map browser *like what?*
 
 ## How-To
 
-Here's how to use the provided taxonomy to support design activities.
+Here’s how to use the provided taxonomy to support design activities.
 
 ### Scope
 
 For each component, assess which states from the taxonomy do apply.
-Not all components have all states: for example, a button has no notion of being "selected" or not. A radio button can be selected, but can't have an "indeterminate" state.
+Not all components have all states: for example, a button has no notion of being “selected” or not. A radio button can be selected, but can’t have an “indeterminate” state.
 
 State categories are multiplicative rather than additive.
-A tab control gets "Pointer Feedback" (4 applicable states) and "Selection feedback" (2 applicable states). That's 4 × 2 = 8 states, not 4 + 2 = 6 states.
+A tab control gets “Pointer Feedback” (4 applicable states) and “Selection feedback” (2 applicable states). That’s 4 × 2 = 8 states, not 4 + 2 = 6 states.
 
 <!-- show several composed examples at once eg `Idle, Unselected, Unfocused` vs `Hover, Selected, Unfocused` // E.g. a text field can be filled, in error , hovered and focused all at once -->
 
@@ -120,7 +122,7 @@ Some states can be very similar or downright identical in appearance.
 <!-- similar: idle unselected vs idle selected, only 1 icon difference
 identical: segmented control hover vs active -->
 
-States don't have to be encoded with color only: icons, text, position shift etc. can also be very effective.
+States don’t have to be encoded with color only: icons, text, position shift etc. can also be very effective.
 
 Finally, consider the whole component when styling states, like text labels associated to atomic controls.
 
@@ -130,12 +132,18 @@ Finally, consider the whole component when styling states, like text labels asso
 
 Name properties or variants with the state categories and states from the taxonomy.
 This improves consistency for the builder and for the user, in turn improving maintainability and understandability.
-It is ok to omit the word "feedback" from state category names.
+It is ok to omit the word “state” from category names.
 
 Expose states as variants rather than booleans.
 
 <!-- show pics of bad figma props then the better version -->
+<!-- eg `Focused: Yes/No` -> `Focus Feedback Unfocused Focused` -->
+
+![](assets/figma-component-structure@3x.png)
+
+<!-- var instead of bools is a hot take for some states (eg `selected`)but:
+- it’s more consistent internally
+- it’s more consistent with code
+- it doesn’t box us in cookie cutter design (eg encoding the state with only an icon as opposed to icon + bg color) -->
 
 <!-- Figma props aren’t the exact same as conceptual component props; confusing -->
-
-<!-- eg `Focused: Yes/No` -> `Focus Feedback Unfocused Focused` -->
