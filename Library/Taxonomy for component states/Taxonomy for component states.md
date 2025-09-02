@@ -139,7 +139,7 @@ Expose states as variants rather than booleans.
 <!-- show pics of bad figma props then the better version -->
 <!-- eg `Focused: Yes/No` -> `Focus Feedback Unfocused Focused` -->
 
-![](assets/figma-component-structure@3x.png)
+![A comparison of well-structered and badly-structured component properties in Figma.](assets/figma-component-structure@3x.png)
 
 <!-- var instead of bools is a hot take for some states (eg `selected`)but:
 - it’s more consistent internally
