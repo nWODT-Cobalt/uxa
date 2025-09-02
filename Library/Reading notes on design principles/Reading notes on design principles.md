@@ -1,4 +1,4 @@
-# Reading notes on design principles
+# Reading Notes on Design Principles
 
 <!--BREAK-->
 

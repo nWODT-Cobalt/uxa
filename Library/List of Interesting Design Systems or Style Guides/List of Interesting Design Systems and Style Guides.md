@@ -1,4 +1,4 @@
-# Interesting design systems or style guides
+# Interesting Design Systems and Style Guides
 
 <!--BREAK-->
 

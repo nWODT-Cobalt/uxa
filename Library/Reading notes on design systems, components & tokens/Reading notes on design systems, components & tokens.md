@@ -1,4 +1,4 @@
-# Reading notes on design systems, components & tokens
+# Reading Notes on Design Systems, Components & Tokens
 
 <!--BREAK-->
 
