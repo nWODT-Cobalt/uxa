@@ -2,8 +2,7 @@
 
 <!--BREAK-->
 
-<!-- [skip to content](#taxonomy)
-<a name=“taxonomy”></a>-->
+[Skip to Recap](#recap)
 
 ## Overview
 
@@ -33,12 +32,12 @@ States are a broad notion. This document covers user-triggered component’s sta
 This excludes application states, that are driven by data status, business logic, system services or back-end calls.
 It also excludes states that could be displayed on components, but aren’t in response to direct user manipulation.
 
-For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the “Unread” status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down).
+For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the “Unread” status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down). The “Recommended” badge above is another example.
 
 <!-- ditto for filtered, locked, unsaved etc -->
 <!-- Notability Feedback Normal Notable xxx -->
 
-Component states are also different from components properties such as size, emphasis, theme etc, like the “Recommended” badge above. Those properties are set at design time and don’t change at runtime.
+Component states are also different from components properties such as size, emphasis, theme etc. Those properties are set at design time and don’t change at runtime.
 
 <!-- not different but a subset -->
 <!-- +props are generalized for a component class while states are per instance -->
@@ -47,13 +46,15 @@ User-triggered states are transient: they cycle in quick succession. Thus a good
 
 ### Conventions
 
-States are organized into “state categories”. Each state name is unique.
+- States are organized into state categories
+- Each state name is unique
+- Within a category, states are sorted by frequency of use; the first state being the default value for that category
 
 ### Sources
 
 - [All the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/)
 - [W3C](https://www.w3.org/TR/WCAG21/#dfn-states)
-- Major vendors component libraries and guidelines
+- Vendors component libraries and guidelines
 
 ## Taxonomy
 
@@ -64,7 +65,7 @@ States are organized into “state categories”. Each state name is unique.
 
 `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
 
-Colloquially called “state”. although only a subset of it.
+This category is colloquially called “state”, although it’s only a subset of them.
 
 “Pressed down” is preferred to “Active”, as per WCAG.
 
@@ -143,3 +144,20 @@ Expose states as variants rather than booleans.
 - it doesn’t box us in cookie cutter design (eg encoding the state with only an icon as opposed to icon + bg color) -->
 
 <!-- Figma props aren’t the exact same as conceptual component props; confusing -->
+
+<!--BREAK-->
+
+<a name="recap"></a>
+## Recap
+
+**Pointer State**: `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
+
+**Selection State**: `Unselected`, `Selected`, `Indeterminate`
+
+**Focus State**: `Unfocused`, `Focused`
+
+**Input State**: `Empty`,  `In progress`, `Filled`
+
+**Validation State**: `No validation`, `Instructions`, `Valid`, `Invalid`
+
+**Others**: `Visited`, `Dragged`, etc on a case-by-case basis
