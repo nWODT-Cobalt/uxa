@@ -13,7 +13,7 @@ Well-designed states support accessibility, improve usability, and contribute to
 
 <!-- (not only visual but that’s the starting line for 99%) -->
 
-![Select menu demonstrating which option is currently selected and which option is currently hovered.](assets/overview@3x.png)
+![Select menu demonstrating which option is currently selected and which option is currently hovered.](assets/overview.pdf)
 
 This document is a quick reference to inventory and label common states, in order to:
 
@@ -109,7 +109,7 @@ Not all components have all states: for example, a button has no notion of being
 State categories are multiplicative rather than additive.
 A select menu item gets “Pointer Feedback” (4 applicable states) and “Selection feedback” (2 applicable states). That’s 4 × 2 = 8 states, not 4 + 2 = 6 states.
 
-![Comparison of multiplicative and additive state categories.](assets/multiplicative-rather-than-additive@3x.png)
+![Comparison of multiplicative and additive state categories.](assets/multiplicative-rather-than-additive.pdf)
 
 Note that that this step isn’t about “adding” states. Rather, it is about making sure existing states are accounted for, so that design decisions can be made with proper context.
 
@@ -135,7 +135,7 @@ It is ok to omit the word “state” from category names.
 
 Expose states as variants rather than booleans.
 
-![Comparison of well-structured and badly-structured component properties in Figma.](assets/figma-component-structure@3x.png)
+![Comparison of well-structured and badly-structured component properties in Figma.](assets/figma-component-structure.pdf)
 
 <!-- var instead of bools is a hot take for some states (eg `selected`)but:
 - it’s more consistent internally
