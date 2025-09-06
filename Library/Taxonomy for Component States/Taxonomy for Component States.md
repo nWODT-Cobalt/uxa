@@ -32,7 +32,11 @@ States are a broad notion. This document covers user-triggered component’s sta
 This excludes application states, that are driven by data status, business logic, system services or back-end calls.
 It also excludes states that could be displayed on components, but aren’t in response to direct user manipulation.
 
-For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the “Unread” status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down). The “Recommended” badge above is another example.
+For example, the “Unread” indicator of a “Messages” tab isn’t in scope. While the “Unread” status does exist, it characterizes a data attribute (read vs unread) rather than a component feedback (idle vs pressed down).
+Likewise, the “Incomplete”, “In Progress” or “Complete” statuses of a progress stepper are an application state rather than a component state. They are changed not by interacting directly with the progress step control, but by performing actions within the panel associated to it.
+Finally, the “Recommended” badge above is another example.
+
+<!-- Pwo pwo ça mérite une illo ça -->
 
 <!-- ditto for filtered, locked, unsaved etc -->
 <!-- Notability Feedback Normal Notable xxx -->
@@ -61,7 +65,7 @@ User-triggered states are transient: they cycle in quick succession. Thus a good
 <!-- Have 1 example per “states group” (define that too) + 1 recap table-->
 <!-- show how examples fill or not the general matrix -->
 
-**Pointer State**
+**Pointer States**
 
 `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
 
@@ -69,21 +73,21 @@ This category is colloquially called “state”, although it’s only a subset 
 
 “Pressed down” is preferred to “Active”, as per WCAG.
 
-**Selection State**
+**Selection States**
 
 `Unselected`, `Selected`, `Indeterminate`
 
-**Focus State**
+**Focus States**
 
 `Unfocused`, `Focused`
 
-**Input State**
+**Input States**
 
 `Empty`,  `In progress`, `Filled`
 
 Note that “Empty” means “empty of user input”, not “empty of any content”. There may still be a placeholder, as a component property.
 
-**Validation State**
+**Validation States**
 
 `No validation`, `Instructions`, `Valid`, `Invalid`
 
@@ -111,6 +115,8 @@ State categories are multiplicative rather than additive.
 A select menu item gets “Pointer Feedback” (4 applicable states) and “Selection feedback” (2 applicable states). That’s 4 × 2 = 8 states, not 4 + 2 = 6 states.
 
 ![Comparison of multiplicative and additive state categories.](assets/multiplicative-rather-than-additive.pdf)
+
+<!-- NB visual design doesnt have to be hysteristic -->
 
 Note that that this step isn’t about “adding” states. Rather, it is about making sure existing states are accounted for, so that design decisions can be made with proper context.
 
@@ -150,14 +156,14 @@ Expose states as variants rather than booleans.
 <a name="recap"></a>
 ## Recap
 
-**Pointer State**: `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
+**Pointer States**: `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
 
-**Selection State**: `Unselected`, `Selected`, `Indeterminate`
+**Selection States**: `Unselected`, `Selected`, `Indeterminate`
 
-**Focus State**: `Unfocused`, `Focused`
+**Focus States**: `Unfocused`, `Focused`
 
-**Input State**: `Empty`,  `In progress`, `Filled`
+**Input States**: `Empty`,  `In progress`, `Filled`
 
-**Validation State**: `No validation`, `Instructions`, `Valid`, `Invalid`
+**Validation States**: `No validation`, `Instructions`, `Valid`, `Invalid`
 
 **Others**: `Visited`, `Dragged`, etc on a case-by-case basis
