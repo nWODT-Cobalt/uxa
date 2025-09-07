@@ -52,7 +52,7 @@ User-triggered states are transient: they cycle in quick succession. Thus a good
 
 - States are organized into state categories
 - Each state name is unique
-- Within a category, states are sorted by frequency of use; the first state being the default value for that category
+- Within a category, states are sorted by frequency of use; the first one being the default value
 
 ### Sources
 
@@ -114,7 +114,7 @@ Not all components have all states: for example, a button has no notion of being
 State categories are multiplicative rather than additive.
 A select menu item gets “Pointer Feedback” (4 applicable states) and “Selection feedback” (2 applicable states). That’s 4 × 2 = 8 states, not 4 + 2 = 6 states.
 
-![Comparison of multiplicative and additive state categories.](assets/multiplicative-rather-than-additive.pdf)
+![Comparison of multiplicative and additive state categories for select menu items.](assets/multiplicative-rather-than-additive.pdf)
 
 <!-- NB visual design doesnt have to be hysteristic -->
 
