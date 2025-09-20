@@ -1,0 +1,23 @@
+Pointer States
+
+	Idle, Hovered, Pressed Down, Disabled, Loading
+
+Selection States
+
+	Unselected, Selected, Indeterminate
+
+Focus States
+
+	Unfocused, Focused
+
+Input States
+
+	Empty, In progress, Filled
+
+Validation States
+
+	No validation, Instructions, Valid, Invalid
+
+Others
+
+	Visited, Dragged, etc on a case-by-case basis

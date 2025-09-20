@@ -2,8 +2,6 @@
 
 <!--BREAK-->
 
-[Skip to Recap](#recap)
-
 ## Overview
 
 States are visual feedback for a component’s temporary condition.
@@ -18,6 +16,8 @@ This document inventories and labels common states, in order to:
 - Scope the work
 - Design in a consistent, complete and effective manner
 - Structure Figma assets
+
+A [plain text recap](Taxonomy%20for%20component%20states%20—%20Recap.txt) is provided for use in design tools.
 
 ## Methodology
 
@@ -111,7 +111,7 @@ Some states can have a unique design, especially to better support specific micr
 
 ![The combination of icon, color, size and shadow (left) conveys the `Selected` state much better than if only an icon had been used (right). Motion could have been used as well.](assets/unique.pdf)
 
-Finally, be sure to utilize all the possibilities of the target platform\: pointers, haptics, audio cues, etc.
+Finally, be sure to utilize all the possibilities of the target platform: pointers, haptics, audio cues, etc.
 
 ### Figma
 
@@ -137,22 +137,3 @@ Expose states as variants rather than booleans.
 - [Pointer Events](https://www.w3.org/TR/pointerevents/) from W3C
 - [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#dfn-states) from W3C
 - Vendors component libraries and guidelines
-
-<!--BREAK-->
-
-<a name="recap"></a>
-## Recap
-
-Taxonomy for component states:
-
-**Pointer States**: `Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
-
-**Selection States**: `Unselected`, `Selected`, `Indeterminate`
-
-**Focus States**: `Unfocused`, `Focused`
-
-**Input States**: `Empty`,  `In progress`, `Filled`
-
-**Validation States**: `No validation`, `Instructions`, `Valid`, `Invalid`
-
-**Others**: `Visited`, `Dragged`, etc on a case-by-case basis
