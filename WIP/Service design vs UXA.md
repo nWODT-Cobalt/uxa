@@ -25,5 +25,5 @@ Both practices cover slightly different but related needs, and thus exist at onc
 
 ## Hot takes
 
-- Empirically, “service design” has seemed to be an attempt to package differently the UX process, to better sell to decision-makers and avoid having the UX practitioners relegated to “usability suppliers”. Much like IDEO coined “design thinking” to get out of being “ad-hod project suppletives”.
+- Empirically, “service design” has seemed to be an attempt to package differently the UX process, to better sell to decision-makers and avoid having the UX practitioners relegated to usability suppliers. Much like IDEO coined “design thinking” to get out of being ad-hod project suppletives.
 - Currently, I’d consider service design a point activity in the toolbox, rather than a distinct function. Much like we frequently tap into object-oriented UX, customer experience design, inclusive design etc.

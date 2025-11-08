@@ -80,6 +80,20 @@ Wouldn’t mind a good starting template + time per step f(# of participants.)
 
 state-diagrams + depth + orthogonality + broadcast-communication (+ automatic resolution thereof)
 
+### Storyboarding lib
+
+For Figma, Figjam or LucidChart. Just enough lofi utilities to comp a quick flow.
+
+### Color/symbol encoding for flowcharting or speccing
+
+encodage (glyphe + couleur) for spec doc, as in who contributes what/where’s input expected
+NOT an ontology of product params (eg admin config, manager user prefs, manager and other identified in HH)
+product designer/contributor/content publisher/broadcaster/producer
+suitex designer/DLS/enterprise fwk
+AI-as-a-black-box (stochastic, ???)
+backend-as-white-box (API, service, framework, ~config?)
+Maybe just focus on product designer experience? What’s them, what’s “others” (suitex OR other domains), AI wildcard
+
 ### Structured screenshots gallery
 
 Being able to capture quickly a full page (static or short vid) + name + URL of any web/app. Then have it tagged or matrixed for easy comparison/retrieval.

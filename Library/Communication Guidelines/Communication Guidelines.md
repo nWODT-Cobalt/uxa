@@ -226,7 +226,7 @@ Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanic
 
 Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
-<!-- also “must not” and “don’t have to” -->
+<!-- also “must not” and “don’t have to” and "caution/should not"-->
 
 <!-- Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction. -->
@@ -324,7 +324,7 @@ Use commas for numbers with four or more digits. Whenever possible, don’t trun
 
 Use an en dash without a space on either side for number ranges (e.g. “88–110”).
 
-<!-- Preferred date/time format, units formats and spaces etc -->
+<!-- Preferred date/time format (ISO8601 ?), units formats and spaces etc -->
 
 <!-- Don’t use ordinal indicators, which are words representing position or rank in a sequential order (1st, 2nd, 3rd, and so on). -->
 
@@ -462,6 +462,9 @@ Don’t burn explanation text in illustrations, as it incurs extra maintenance. 
 
 Don’t call out every part of the wireframe. Instead, focus on the key parts that you intend to explain in the annotations. -->
 
+<!-- should figures have (exposed) alt/desc
+if so what are the best practices -->
+
 ### 3.4. Export
 
 Export to SVG by default.  
@@ -505,7 +508,7 @@ One-time Marked configuration:
 Recurring document preparation:
 
 - Ensure there’s a `<!--BREAK-->` tag immediately after the first H1, to yield a clean cover page
-- Set the theme to [UXASF1](https://github.com/nWODT-Cobalt/markown-utilities)
+- Set the theme to [UXA](https://github.com/nWODT-Cobalt/markown-utilities)
 - Select `Export As`/`Save PDF (Paginated)`
 
 <!-- Major divisions of the document should begin on right hand-pages. Right-hand pages shall be odd-numbered pages, and left hand pages shall be even-numbered pages. -->
@@ -514,7 +517,7 @@ Recurring document preparation:
 
 ### 4.2. Deckset
 
-Present or export Deckset files with the [UXASF1](https://github.com/nWODT-Cobalt/uxa/tree/main/Resources/Deckset) theme.
+Present or export Deckset files with the [UXA](https://github.com/nWODT-Cobalt/uxa/tree/main/Resources/Deckset) theme.
 
 A content boilerplate file [is available](https://github.com/nWODT-Cobalt/uxa/tree/main/Resources/Deckset).
 
@@ -528,6 +531,8 @@ Consider formatting Deckset presenter’s notes; they will render so in Deckset 
 <!-- Vector figures (SVG or PDF) often render with slight visual artefacts during playback or export. Pair them with bitmap exports (PNG or JPG), and use those assets instead.
 Keep the vector figures. The file duplication is not significant, while the potential for reuse is. -->
 
+<!-- in deckset all header /text items need to have the same font-size/line-height -->
+
 <!--BREAK-->
 
 <!--
@@ -536,6 +541,8 @@ Keep the vector figures. The file duplication is not significant, while the pote
 Naming schemes ? esp for artboards
 
 Names: case sensitive, no spaces (within a project, not between projects)
+
+naming convention: lib artboards, exported assets, styles, frames (add to starterkit)
 -->
 
 <!--BREAK-->
@@ -552,7 +559,9 @@ Names: case sensitive, no spaces (within a project, not between projects)
 
 <!--
 
-- desc for all img and tables
+- AI writing: contain multitudes. As in let it go then check the quality with those guidelines, use it to write those very guidelines etc. In any case: <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing>
+- Conventions EN/FR
+- desc for all img and tables. good desc/alt text best practices
 - overall reorganize as “high-level considerations” that require thinking (eg overview before details) vs “settings to just know”, eventually lintable (eg punctuation) / boilerplate f(type of document)
 - mettre juste après l’intro un recap ~normatif en 5-10 pts pour lancer le monde (pas juste les praticiens UXA) (et linker chaque point vers sa section etc). Genre le premier truc à donner à qqun qui commencerait. noter que tjrs applicable, à différents niveaux, et pas juste pour marked/deckset. sous forme de slides plutot, et juste mentionné ici ?
 - Handbook / IND6408 / IND6402

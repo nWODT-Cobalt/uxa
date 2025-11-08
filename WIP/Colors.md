@@ -1,5 +1,6 @@
 # Colors
 
+<https://github.com/evilmartians/harmony>
 <https://bureau.tsailly.net/2022/03/variations-de-couleurs.html>
 <https://twitter.com/DanHollick/status/1417895151003865090>
 <https://ifweassume.blogspot.com/2013/05/cubehelix-or-how-i-learned-to-love.html>
@@ -11,6 +12,8 @@
 <https://github.blog/2022-06-14-accelerating-github-theme-creation-with-color-tooling/>
 <https://colorandcontrast.com/#/>
 <https://primer.style/prism/>
+
+[WCAG 2.x contrast cannot be used for guidance designing “dark mode”](https://git.apcacontrast.com/documentation/APCA_in_a_Nutshell)
 
 color picking + color palettes generation for complex product
 
