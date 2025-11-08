@@ -60,5 +60,6 @@ Exhaustive aggregators at [Design Systems Index](https://rubenferreiraduarte.not
 ## Other
 
 - [Contract Design Pattern Library](https://contract-design.worldcc.foundation/), “contract usability and understandability”
+- [Quiet UI](https://quietui.org/), one of many UI libraries for the Web, but generally well thought-through with a sustainable perspective
 - IBM’s [Technical diagrams](https://www.ibm.com/design/language/infographics/technical-diagrams/design) guidance
 - [WHO Data Design Language](https://srhdteuwpubsa.z6.web.core.windows.net/gho/data/design-language/index.html)
