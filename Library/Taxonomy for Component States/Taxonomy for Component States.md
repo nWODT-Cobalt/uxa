@@ -17,7 +17,7 @@ This document inventories and labels common states, in order to:
 - Design in a consistent, complete and effective manner
 - Structure Figma assets
 
-A [plain text recap](Taxonomy%20for%20component%20states%20—%20Recap.txt) is provided for use in design tools.
+A [plain text recap](Taxonomy%20for%20component%20states%20—%20Recap.txt) is provided, for quick use e.g. building a component set in Figma or listing exit criteria in Jira.
 
 ## Methodology
 
@@ -25,7 +25,7 @@ A [plain text recap](Taxonomy%20for%20component%20states%20—%20Recap.txt) is p
 
 States are a broad notion. This document covers direct user interaction feedback component’s states.
 
-This excludes application states, that are driven by data status, business logic, system services or back-end calls:  incomplete, running or error progress statuses, new/undread, locked/unlocked, unsaved, etc.
+This excludes application states, that are driven by data status, business logic, system services or back-end calls:  incomplete, running or error progress statuses, new/unread, locked/unlocked, unsaved, read-only etc.
 Those application states may sometimes be displayed on components, but they aren’t a response to direct user manipulation.
 
 ![For example, the “4 new” indicator of the “In transfer” tab isn’t in scope. While the “new” status does exist, it characterizes a data attribute (`Read` vs `Unread`) rather than a component feedback (`Idle` vs `Pressed down`). Likewise, the “active” indicator on the filter communicates an application state, that only happens to be depicted on this component. Both indicators are changed not by interacting directly with the component, but by performing actions within the panel associated to it.](assets/not-all-states.pdf)
@@ -40,7 +40,7 @@ In this taxonomy:
 
 - States are organized into state categories
 - Each state name is unique
-- Within a category, states are sorted by frequency of use; the first one being the default value
+- The first state in a category is the default one
 
 ## Taxonomy
 
@@ -49,7 +49,7 @@ In this taxonomy:
 
 **Pointer States**
 
-`Idle`, `Hovered`, `Pressed Down`, `Disabled`, `Loading`
+`Idle`, `Hovered`, `Pressed down`, `Disabled`, `Loading`
 
 A pointer is a hardware-agnostic representation of input devices that can target a specific coordinate on a screen.
 This category covers the immediate feedback from mouse, touch or stylus interaction.

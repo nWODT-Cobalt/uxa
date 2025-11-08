@@ -1,6 +1,6 @@
 Pointer States
 
-	Idle, Hovered, Pressed Down, Disabled, Loading
+	Idle, Hovered, Pressed down, Disabled, Loading
 
 Selection States
 
