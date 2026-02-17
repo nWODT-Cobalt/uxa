@@ -428,6 +428,13 @@ The point of this is to think about everything as an interoperable system. You c
 
 <!--BREAK-->
 
+## Design TokenNaming Guide
+
+<https://www.namedesigntokens.guide/>
+<!--date d'ajout : 17/02/2026-->
+
+Learn how to name design tokens the right way, or jump straight to building your token system.
+
 ## Scales
 
 <https://jeromantik.de/scales-canvas>
