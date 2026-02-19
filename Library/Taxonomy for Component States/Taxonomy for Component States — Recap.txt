@@ -1,14 +1,10 @@
 Pointer States
 
-	Idle, Hovered, Pressed down, Disabled, Loading
+	Idle, Hovered, Focused, Pressed, Disabled, Loading
 
 Selection States
 
 	Unselected, Selected, Indeterminate
-
-Focus States
-
-	Unfocused, Focused
 
 Input States
 
