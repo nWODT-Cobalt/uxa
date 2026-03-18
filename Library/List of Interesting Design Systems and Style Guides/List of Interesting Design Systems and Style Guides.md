@@ -18,6 +18,7 @@ Exhaustive aggregators at [Design Systems Index](https://rubenferreiraduarte.not
 - [Cedar Design System](https://cedar.rei.com/), very interesting patterns section (updated in 2023 with a neat look and feel)
 - [Cloudscape](https://cloudscape.design/), strong focus on patterns and demos
 - [Designing for Playdate](https://sdk.play.date/), on the uncommon topic of handheld gaming console, with Panic’s usual top-notch copywriting. The related resources (e.g. dev docs, dev or design tools) are even better.
+- [Druids](https://druids.datadoghq.com/), with lots of quality-of-life/productivity interactive features, [as explained here](https://www.datadoghq.com/blog/engineering/druids-the-design-system-that-powers-datadog/)
 - [Duolingo](https://www.duolingo.com/design/)
 - [eBay Evo](https://playbook.ebay.com/) : “brand and design system”, modern and leaning hard into the product it supports
 - [Evergeen](https://evergreen.segment.com/), nice CMS and component props
@@ -60,6 +61,7 @@ Exhaustive aggregators at [Design Systems Index](https://rubenferreiraduarte.not
 ## Other
 
 - [Contract Design Pattern Library](https://contract-design.worldcc.foundation/), “contract usability and understandability”
+- [Intuit Content Design](https://contentdesign.intuit.com/)
 - [Quiet UI](https://quietui.org/), one of many UI libraries for the Web, but generally well thought-through with a sustainable perspective
 - IBM’s [Technical diagrams](https://www.ibm.com/design/language/infographics/technical-diagrams/design) guidance
 - [WHO Data Design Language](https://srhdteuwpubsa.z6.web.core.windows.net/gho/data/design-language/index.html)
