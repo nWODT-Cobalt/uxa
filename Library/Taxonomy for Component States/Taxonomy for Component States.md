@@ -1,7 +1,5 @@
 # Taxonomy for Component States
 
-<!-- states: how-to with example toggle control, it all drives the default design -->
-
 <!--BREAK-->
 
 ## Overview
@@ -81,8 +79,6 @@ Note that “Instructions” means “explanations in reaction to user input”,
 
 The states listed above are the most common. Further states should be considered on a case-by-case basis, such as “visited” for links or “dragged” for draggable elements.
 
-<!--States for non-form components like video player or map browser *like what?*-->
-
 ## How-To
 
 Using the provided taxonomy to support design activities.
@@ -111,7 +107,7 @@ Some states can have a unique design, especially to better support specific micr
 
 ![The combination of icon, color, size and shadow (left) conveys the `Selected` state much better than if only an icon had been used (right). Motion could have been used as well.](assets/unique.pdf)
 
-Finally, be sure to utilize all the possibilities of the target platform: pointers, haptics, audio cues, etc.
+Finally, be sure to utilize all the modalities of the platform (pointer, haptics, audio, etc.) and to consider the transitions between states.
 
 ### Figma
 
@@ -127,8 +123,15 @@ Expose states as variants rather than booleans.
 - it’s more consistent internally
 - it’s more consistent with code
 - it doesn’t box us in cookie cutter design (eg encoding the state with only an icon as opposed to icon + bg color) -->
+<!-- mention transitions as well -->
 
 <!-- Figma props aren’t the exact same as conceptual component props; confusing -->
+
+<!-- ### Example
+
+Apply the whole thing to the design of an example toggle control. show how it all drives the default design -->
+<!-- Comment every step/decision -->
+<!-- show final animated version. reify audio and haptics -->
 
 ## Sources
 
