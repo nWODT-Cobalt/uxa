@@ -2,9 +2,7 @@
 
 **(alpha release)**
 
-<!-- pictooooo -->
-
-<!-- Update all illos to Figma, exported as PDF or PNG@3x -->
+<!-- pictooooo for alpha status -->
 
 <br>
 
@@ -30,20 +28,20 @@
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
 
-This document encourages UXA practitioners to communicate by providing guidelines for efficient, consistent and memorable material. It’s relevant for reference material, like best practices, and pedagogical material, like trainings. It’s not relevant for pitching, marketing nor UI copywriting.
+This document provides guidelines for writing that’s quick and easy for the author, meaningful and memorable to the reader.
 
-Practitioners are expected to be familiar with UX concepts, that are only explained here when then have a specialized meaning in architecture. This document is thus a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
 
-<!-- quick and easy for the author, consistent and memorable for the reader -->
+for efficient, consistent and memorable material.
+It’s relevant for reference material like best practices, and pedagogical material like trainings.
+It’s not relevant for pitching, marketing or UI copywriting.
 
-<!-- in presentation decks, folioed documents, wiki pages, or printed posters -->
+Practitioners are expected to be familiar with UX concepts. This document is a reference handbook: it inventories UXA conventions, but doesn’t explain nor justify them.
+
+<!-- Concepts are only explained here when then have a specialized meaning in architecture. -->
 
 <!--BREAK-->
 
 ## Conventions
-
-<!-- The principles exposed in this document aren’t tied to a particular deliverable nor scale. Rather, they should be considered recursively in each document, section within documents, blocks within sections etc and applied as fit. -->
-<!-- Maladroit -->
 
 Henceforth, every statement that’s not an explicit **must**, **must not** or **could** is assumed to be a **should**.
 
@@ -51,14 +49,14 @@ Some terms used throughout this document have a particular meaning in the UXA co
 
 Documents vs Presentations
 : Documents are text-heavy, usually long-form material for individual reading or reference. They are exported from [Marked](https://marked2app.com/).  
-Presentations are figure-heavy, usually short-form material for group training or evangelization. They are presented from  [Deckset](https://www.deckset.com/).
+Presentations are figure-heavy, usually short-form material for group training or advocacy. They are presented from  [Deckset](https://www.deckset.com/).
 
 Figure
 : Any diagram, chart, gif, illustration, photograph or screenshot.
 
 Inline figures vs Full-screen figures
 : Inline figures are presented alongside text, and are usually laid-out complementary to it.  
-Full-screen figures take up the entirety of the page or slide.
+Full-screen figures take up the entirety of a page or slide.
 
 Keyword
 : Reference to a formally defined entity, rather than a generic notion.
@@ -74,33 +72,31 @@ Section
 ## 1. Content
 
 What to communicate, in what order, to what level of detail.
-<!-- what to write OR illustrate. notions apply to both; the point is to communicate clearly, not have detailed paperwork -->
-<!-- outline -->
+
+<!-- outline (???)-->
 
 ### 1.1. Providing an Overview
 
-Expose an overview before the details.
+Expose an overview before the complete content.
 
 An overview is easy to internalize for the audience and provides a mental scaffold upon which further details can be gradually added. It’s difficult to learn without this initial understanding.
 
-Moreover, an overview may be the only way to get acquainted with the material, as some audiences may not have the time, interest or prerequisites to go through more elaborate content.
+Moreover, an overview may be the only way to get acquainted with the material, as some audiences may not have the time, interest or prerequisites to go through the complete content.
 
 [Properties of good overviews]
-| Property              | Description                                                                                     |
-| --------------------- | ----------------------------------------------------------------------------------------------- |
-| Short                 | Better be 80% right in a few words, than 99% right in a few pages                               |
-| Broad                 | Describing all of the subsequent document, without being so generic as to be irrelevant         |
-| Plain                 | Using everyday language                                                                         |
-| Focused on intentions | Exposing the intention or purpose is shorter than explaining behaviour or describing properties |
+| Property        | Description                                                                                     |
+| --------------- | ----------------------------------------------------------------------------------------------- |
+| Short           | Better be 80% right in a few words, than 99% right in a few pages                               |
+| Broad           | Describing all of the subsequent document, without being so generic as to be irrelevant         |
+| Plain           | Using everyday language                                                                         |
+| Intention-based | Exposing the intention or purpose is clearer than explaining behaviour or describing properties |
 
-![Examples of good and bad overviews for a given term](assets/overview-tokens-definitions@2x.png)
+![Examples of good and bad overviews.](assets/good-and-bad-overviews.pdf)
 
 It’s likewise recommended to expose guidelines, results, tips etc. upfront, for immediate actionability.
-Supporting data, rationale, technical details etc. can be printed afterwards or progressively disclosed.
+Whereas supporting data, rationale, technical details etc. can be printed afterwards, or progressively disclosed.
 
-![Guidance is exposed upfront since its the most important element. Details are available through progressive disclosure.](assets/local-overview-libraries-best-practices@2x.png)
-
-<!-- beware of tautologies -->
+![Guidance is exposed upfront since its the most important element. Details are available through progressive disclosure.](assets/upfront-info.pdf)
 
 ### 1.2. Capturing Context
 
@@ -111,13 +107,16 @@ Context-setting is critical to the audience, as it’s likely coming from a diff
 Context-setting is valuable to the practitioner too. Outward context intended for the audience will eventually be useful when coming back to an old project.
 Some further context, exclusive to the practitioner, should also be captured: that of conventions and intentions local to the work. Such context has to be presented inwards, e.g. in presenter’s notes or edit-mode only comments at the beginning of a file.
 
-The last benefit of capturing context is that trying to characterize the work often ends up focusing/curating it.
-<!-- By exposing assumptions or gaps / forcing to clarify -->
+![The introduction of a wiki page is outward context, aimed at the audience.](assets/outward-context.pdf)
 
-Frequently captured context elements:
+![Comments in a CSS file are inward context, for the benefit of the practitioner.](assets/inward-context@3x.png)
+
+The last benefit of capturing context is that trying to characterize the work often ends up focusing and curating it.
+
+Frequently captured context elements include:
 
 - Goals, scope, timeframe
-- Target audience, prerequisites
+- Target audience or [assumed audiences](https://maggieappleton.com/assumed-audience), prerequisites
 - Assumptions, hypothesis
 - Environment, setup, access rights, tech specs
 - Terms of art
@@ -125,14 +124,9 @@ Frequently captured context elements:
 
 Note that the negatives are as important as the positives, and should be captured too.
 E.g: “x is in scope but y is not” or “we’re assuming that x is desired but y is not”.
-<!-- Extend to: capture all “realization” that seem obvious in retrospect, but actually came out after some thinking/conversation-->
-<!-- aka non-goals -->
 
-![The introduction of a wiki page is outwards context, aimed at the audience.](assets/context-libraries-best-practices@2x.png)
-
-![Comments in a CSS file are inwards context, for the benefit of the practitioner.](assets/context-chromatophore-header@2x.png)
-
-<!-- [Assumed Audiences](https://maggieappleton.com/assumed-audience) -->
+Likewise, any realization that was only formulated after some thinking, now matter how technically inferable it is, should be captured as well.
+E.g: “a consequence of x and y is z”.
 
 ### 1.3. Shaping Content
 
@@ -140,79 +134,76 @@ Strive to communicate through media other than text.
 
 While text is often the default choice, it isn’t necessarily the best. Depending on the situation, comparison tables, data tables, decision trees, flowcharts, diagrams, illustrations, etc. can be more efficient to output and learn.
 
-When text is unavoidable, it can often be reworked into more efficient shapes such as lists, key-value pairs, FAQs, presentations, etc.
+When text is unavoidable, it can often be reworked into more efficient shapes such as lists, key-value pairs, FAQs, etc.
 
 ![A structured layout demonstrates the token naming scheme better than if it had been shown as plain text.](assets/examples-token-naming-schema@2x.png)
 
 ### 1.4. Delineating Ideas
 
-<!-- if plain text, then… -->
-
 Each idea should be one section and one only.
 
 First, express the idea in a few words.  
-In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately.
-<!-- Moreover, trading depth for breadth allows for a quick “initial overview”. -->
+In most cases, the direct expression of the idea is self-sufficient: it’s easier to write than a full-blown rationale, and can be acted upon immediately by the reader.
 <!-- whats “the direct expression” though? -->
 
-Afterwards, consider adding supporting information: rationale/justification, details, best practices, alternatives or further reading (e.g. relationship to other concepts, perspectives, controversies). All considerations are optional, but if present must remain in this order.
+Consider adding supporting information afterwards, in this order:
+
+- Examples
+- Rationale
+- Justification
+- Details
+- Best practices
+- Alternatives
+- Further reading (e.g. relationship to other concepts, perspectives, controversies)
 
 Don’t hesitate to emphasize the core idea from its supporting information through layout, type treatment, progressive disclosure etc.
 
-<!-- WHAT ABOUT EXEMPLES/ILLUSTRATIONS? if only one: right after the idea. If several: colocated. -->
-
-![Organizing ideas.](assets/notion-morphology@2x.png)
+![Organizing ideas.](assets/organizing-ideas.pdf)
 
 Alineas (line breaks) can be used within a paragraph to add structure.  
 The preferred length of paragraphs is three or four sentences, but five or six are acceptable. The preferred average sentence is 17 words or less, but up to 20 is acceptable.
 
-<!-- Keep annotations terse. Economy of concepts and terms is a primary goal. -->
-
-<!-- beware of “améliorer la productivité / la qualité / l’innovation”, always useless -->
-
 ### 1.5. Sourcing & Attribution
 
-<!-- diff between sourcing and attribution? -->
+Most documents or presentations are built upon on other people’s ideas, data or work.
+It’s important to only ever use accurate and authorized material, and credit it properly.
 
-#### 1.5.1. Sourcing
+#### 1.5.1. Sourcing Quality
 
-Make sure content, in particular fonts or images from Internet, are explicitly allowed to be used.
+Prefer material from authoritative sources.
 
-This can be achieved through various means, like an open-source license or the purchase of a commercial license.
+Sources are authoritative when they are reputable, their information quantified, their methodologies and datasets publicly verifiable, etc.
 
-<!-- authoritative / verified / quality (in data, in presentation) sourcing -->
-<!-- Heh == prefer authoritative data -->
-<!-- authoritative sourcing != legal sourcing -->
+#### 1.5.2. Sourcing Legal Compliance
 
-#### 1.5.2. Attribution
+Make sure content, in particular fonts or images from the Internet, are explicitly allowed to be used.
 
-Most documents or presentations are built upon on other people’s ideas, data or work. It’s important to only ever use authorized material, and credit it properly.
+This can be achieved through various means, like the usage of an open-source license or the purchase of a commercial license.
 
-Provide attribution for other people’s material.  
+#### 1.5.3. Attribution
+
+Provide attribution for other people’s material.
+
 Inline attribution, located directly where the material is, is preferred. It works well for most quotes, tables or figures.
-Reference attribution, separate from the material and gathered at the end of the document, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. It’s mostly for full-slide images.
+Reference attribution, separate from the material and gathered at the end of the document in a “Sources & Credits” section, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. It’s mostly for full-slide images.
 
 If the author asks for a specific an attribution format, use it. If not, use the following:
 
 - Inline: `<work title>, <author name>, <year of publication>`
 - Reference: `<page/slide number>: <work title>, <author name>, <year of publication>`
 
-Do not use footnotes for attribution.
-
 <!-- provide examples: default, talk within a conference, figure within a document, etc. -->
 <!-- the point is to be fair and useful (provide context), not be dogmatic nor academic -->
 
-<!-- citation, attribution, sources, references, credits, further resources -->
+Do not use footnotes for attribution.
+
+<!-- Mention people in credits! -->
 <!-- [How to Cite Your Sources](https://gouldguides.carleton.edu/citation/attribution) -->
-<!-- APA -->
-<!-- titre *exact* de la section d’attribution? credits, bibliographie, sources, etc. -->
 
-<!-- ### 1.6 Curating Examples
+<!--
+### 1.6 Curating Examples for Pedagogical Quality
 
-fo Pedagogical Quality
-
-notion of it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating -->
-
+notion of: it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating -->
 <!--BREAK-->
 
 ## 2. Writing Style
@@ -226,7 +217,7 @@ Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanic
 
 Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
-<!-- also “must not” and “don’t have to” and "caution/should not"-->
+<!-- also “must not” and “don’t have to” and “caution/should not”-->
 
 <!-- Start with good practices
 Don’t cover bad practices, unless some recurring misconception needs active correction. -->
@@ -259,6 +250,9 @@ Everything-buckets are ill-defined terms that don’t really describe anything, 
 <!-- ne pas expliquer le mot à l’aide du mot (tautologie) eg “preferences is where the ee sets their preferences” -->
 
 <!-- Naming: [Naming things needn’t be hard](https://classnames.paulrobertlloyd.com/) -->
+
+<!-- Keep annotations terse. Economy of concepts and terms is a primary goal. -->
+<!-- beware of “améliorer la productivité / la qualité / l’innovation”, always useless -->
 
 ### 2.3. Spelling
 
@@ -377,6 +371,9 @@ Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the
 
 <!-- A **unit** is the smallest measure a vertex can be positioned at in entire values. It depends on the physical and logical resolution of the device. -->
 
+<!-- prefer 1/4 or portait illos for docs, or put them full sized landscape in addendas?
+likewise landscape for presos -->
+
 #### 3.2.1. Parameters
 
 The UXA grid is set to an 8 px module.
@@ -491,6 +488,9 @@ Do not pick an arbitrary background color for editorial purposes, like calling f
 
 ![Background colors](assets/background-color@2x.png)
 
+<!-- export as vector even if it doesnt render on github; that’s a non factor.
+but double exports as @3x for unforeseen compatibility -->
+
 <!--BREAK-->
 
 ## 4. Tools
@@ -547,7 +547,7 @@ naming convention: lib artboards, exported assets, styles, frames (add to starte
 
 <!--BREAK-->
 
-## 5. Sources
+## 5. Sources & Credits
 
 - Règles de rédaction et de présentation des ouvrages scientifiques et techniques, Michel Foulon, 2003
 - Grammar and mechanics — Shopify Polaris, Shopify, 2022 ([link](https://polaris.shopify.com/foundations/content/grammar-and-mechanics))
@@ -582,7 +582,7 @@ naming convention: lib artboards, exported assets, styles, frames (add to starte
 - Governance: who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
 - replace document, too generic, with ~report or so
 - <https://classnames.paulrobertlloyd.com/>
-- In journalism, "graf" is an informal term for a paragraph, often used to describe a short paragraph containing a single, concise idea.
+- In journalism, “graf” is an informal term for a paragraph, often used to describe a short paragraph containing a single, concise idea.
 
 ---
 
@@ -598,7 +598,7 @@ How to write normative templates/definitions (eg for publishing to a platform)
 ## Design system documentation is essential–as long as it’s good
 
 <https://pjonori.blog/posts/design-system-documentation/>
-date d'ajout : 26/05/2025
+date d’ajout : 26/05/2025
 
 *Pertinent pour tout type de documentation, pas juste les design systems.*
 
