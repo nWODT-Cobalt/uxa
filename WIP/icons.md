@@ -16,3 +16,7 @@ ANSI : 80+ / 10-
 [Usability Testing of Icons](https://www.nngroup.com/articles/icon-testing/) and [Icon Usability](https://www.nngroup.com/articles/icon-usability/) (overall meh)
 
 <https://basicappleguy.com/basicappleblog/macos-icon-history>
+
+<https://tonsky.me/blog/tahoe-icons/>
+
+<https://blog.streamlinehq.com/evaluating-icons/> (illos at the end)
