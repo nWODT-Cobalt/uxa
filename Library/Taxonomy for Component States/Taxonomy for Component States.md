@@ -1,5 +1,7 @@
 # Taxonomy for Component States
 
+<!-- states: how-to with example toggle control, it all drives the default design -->
+
 <!--BREAK-->
 
 ## Overview
