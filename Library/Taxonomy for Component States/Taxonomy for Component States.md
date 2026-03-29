@@ -49,15 +49,15 @@ In this taxonomy:
 
 **Pointer States**
 
-`Idle`, `Hovered`, `Focused`[^focused], `Pressed`, `Disabled`, `Loading`
+`Idle`, `Hovered`, `Focused`, `Pressed`, `Disabled`, `Loading`
 
 A pointer is a hardware-agnostic representation of input devices that can target a specific coordinate on a screen.
 This category covers the immediate feedback from mouse, touch or stylus interaction.
 It’s colloquially called “state”, although it’s only a subset of them.
 
-<!-- “Pressed down” is preferred to “Active”, as per WCAG. -->
+NB: `Focused` is technically not a pointer state, but considering it like one is true enough and sheds significant complexity.
 
-[^focused]: `Focused` is technically not a pointer state, but considering it like one is true enough and sheds significant complexity.
+<!-- “Pressed down” is preferred to “Active”, as per WCAG. -->
 
 **Selection States**
 
