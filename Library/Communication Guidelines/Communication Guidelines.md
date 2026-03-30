@@ -1,8 +1,6 @@
 # Communication Guidelines
 
-**(alpha release)**
-
-<!-- pictooooo for alpha status -->
+<!--BREAK-->
 
 <br>
 
@@ -21,8 +19,6 @@
 >Everything is vague to a degree you do not realize until you have tried to make it precise.
 
 — Bertrand Russell
-
-<!--BREAK-->
 
 ## Introduction
 
@@ -45,6 +41,15 @@ Practitioners are expected to be familiar with UX concepts. This document is a r
 
 Henceforth, every statement that’s not an explicit **must**, **must not** or **could** is assumed to be a **should**.
 
+These guidelines are for American English. Other languages have different rules and conventions.
+
+<!-- for example for numbers, dates, capitalization. -->
+
+Units of measurement could be  pixels (px), points (pt) or dips (dp) depending on the operating system or device in use.
+For clarity, they are hereafter noted as pixels only.
+
+<!-- A unit is the smallest measure a vertex can be positioned at in entire values. It depends on the physical and logical resolution of the device. -->
+
 Some terms used throughout this document have a particular meaning in the UXA context:
 
 Documents vs Presentations
@@ -60,6 +65,8 @@ Full-screen figures take up the entirety of a page or slide.
 
 Keyword
 : Reference to a formally defined entity, rather than a generic notion.
+
+<!-- search and replace throughout the whole doc -->
 
 Practitioner
 : The UXA agent this guide is addressed to.
@@ -203,24 +210,23 @@ Do not use footnotes for attribution.
 <!--
 ### 1.6 Curating Examples for Pedagogical Quality
 
-notion of: it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating -->
+notion of: it has to be simplified, caricatural, true enough to not suspend disbelief etc; in writing or illustrating
+-->
+
 <!--BREAK-->
 
 ## 2. Writing Style
 
-### 2.1. Actionability
+### 2.1. Syntax
 
-<!-- Syntax -->
+<!-- fka Actionability -->
 
 Apply a [parallel structure](https://owl.purdue.edu/owl/general_writing/mechanics/parallel_structure.html) whenever possible.
-<!-- Omit the do etc. -->
 
 Apply a [must/could/should](https://www.rfc-editor.org/rfc/rfc2119) or a do/don’t structure whenever possible.
 
-<!-- also “must not” and “don’t have to” and “caution/should not”-->
-
-<!-- Start with good practices
-Don’t cover bad practices, unless some recurring misconception needs active correction. -->
+<!-- must not/don’t have to/should not -->
+<!-- Omit the “do”? -->
 
 ### 2.2. Terminology
 
@@ -233,26 +239,26 @@ Define acronyms, technical terms, uncommon words and common words that are used 
 Avoid abbreviations.
 
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
-Include it in the document, or contribute and link to the **Terminology** (TBD).
+Include it in the document, or contribute and link to a greater terminology reference.
 
 Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
-Replace or clarify terms that could be interpreted in different ways. E.g. it is not clear if an “alert” is about an error message, a business rule, a push notification or an exception indicator.
+Replace or clarify terms that could be interpreted in different ways.
+E.g. it is not clear if an “alert” is about an error message, a business rule, a push notification or an exception indicator.
 
-Reconcile fuzzy spelling, e.g. “dropdown” vs “drop-down” vs “drop down”.
-
-When referring to existing content, such as a UI or a diagram, spell commands, labels or messaging exactly as they appear in situ.
+Reconcile fuzzy spelling.
+E.g. “dropdown” vs “drop-down” vs “drop down”.
 
 Everything-buckets are ill-defined terms that don’t really describe anything, such as “framework”. Their looseness often provide the appearance of consensus, to the detriment of actionability. Spot them and replace them with clearer explanations.
 
-<!-- Règle de pouce finale : que la définition ne corresponde, exclusivement, qu’à un terme (bijectif). Example: la définition initiale de value stream peut aussi marcher pour process, framework, production pipeline etc = n’a aucune valeur. <proposer une meilleure definition> -->
+<!-- Spot and dispel ambiguities -->
 
-<!-- ne pas expliquer le mot à l’aide du mot (tautologie) eg “preferences is where the ee sets their preferences” -->
+Avoid tautologies.
+E.g. “Preferences is where the user can adjust the appearance and behaviour of the front-end on this device”, not “Preferences is for user preferences”.
 
-<!-- Naming: [Naming things needn’t be hard](https://classnames.paulrobertlloyd.com/) -->
+When referring to existing content, such as a UI or a diagram, spell commands, labels or messaging exactly as they appear in situ.
 
-<!-- Keep annotations terse. Economy of concepts and terms is a primary goal. -->
-<!-- beware of “améliorer la productivité / la qualité / l’innovation”, always useless -->
+Overall, keep terminology terse. Economy of concepts and terms is a primary goal.
 
 ### 2.3. Spelling
 
@@ -260,165 +266,148 @@ Use American spelling. When in doubt, check the [Merriam-Webster dictionary](htt
 
 ### 2.4. Tone & Voice
 
+<!-- Hmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm -->
+
 For descriptions, use the present tense and the active form (e.g. “Selecting a value triggers validation”).
 For instructions, use the second person imperative (e.g. “Remove test set”).
+
+<!-- use the passive voice if the object (thing being done) is more important than the subject (person doing the thing) -->
 
 Prefer positive wording, and statements directed to what’s true rather than what’s false; it’s quicker to check.  
 Use negative wording for prohibition or to correct misconceptions.
 
 In any case be assertive, impersonal and use the [singular *they*](https://en.wikipedia.org/wiki/Singular_they) form.
 
-<!-- Faire porter les énoncés sur ce qui est vrai plutôt que sur ce qui est faux (dans les tâches de vérification). Raison: on est plus rapide à vérifier ce qui est vrai que ce qui est faux. -->
-
-<!-- use the passive voice if the object (thing being done) is more important than the subject (person doing the thing) -->
-
 ### 2.5. Formatting
 
-<!-- Heh pas terrible, c’est plutôt “conventions et finitions” -->
+<!-- “conventions et finitions” ?-->
 
-<!-- A lot to cover. We’re only highlighting the most important points/recurring errors. Overall rule of thumb: be consistent with previous work and with the rest of the deliverable, mindful of typesetting. -->
+<!--Overall rule of thumb: be consistent with previous work and with the rest of the deliverable, mindful of typesetting. -->
 
 #### 2.5.1. Capitalization, Style & Weight
 
 - Headings must be title case,
 - Everything else, including figure captions, must be sentence case,
-- Keywords must be bolded. Boldface could also be used for emphasis.
-- Foreign words must be italicized, and immediately followed by their translation in parentheses.
+- Keywords must be bolded,
+- Foreign words must be italicized, and immediately followed by their translation in parentheses,
+- Boldface could also be used, sparsely, for emphasis.
 
 #### 2.5.2. Punctuation
 
-- Avoid parentheses. Use commas or rephrase.
-- Print periods in abbreviations (e.g., etc., i.e.)
-- Punctuate list items with a period if it’s a complete sentence, or sentences, otherwise with commas. The last item is punctuated with a period.
+- Avoid parentheses; use commas or rephrase,
+- Print periods in abbreviations: “e.g.”, “etc.”, “i.e.”,
+- Punctuate list items with commas, or a period if it’s one or several complete sentences. The last item is punctuated with a period.
 - Use apostrophes to form possessives:
-	- Singular nouns: add ‘s, even if they end in s (merchant’s, bus’s)
-	- Plural nouns that don’t end in s: add ‘s (women’s, men’s)
-	- Plural nouns that end in s: add an apostrophe (boxes’, customers’)
+	- Singular nouns: add ‘s, even if they end in s like “merchant’s” or “bus’s”,
+	- Plural nouns that don’t end in s: add ‘s like “women’s” or “men’s”,
+	- Plural nouns that end in s: add an apostrophe like “boxes’" or “customers’".
 
 #### 2.5.3. Typographic Signs
 
 Be mindful about typographic signs. In particular:
 
-- Apostrophes and quote marks: curly instead of straight. Run the [smart-quotes-plus](https://atom.io/packages/smart-quotes-plus) package to sanitize deliverables.
+- Apostrophes and quote marks: curly instead of straight. Text or code editors offer preferences or packages to automatically sanitize documents accordingly.
 - Fractions: real fractions like ¼ instead of fake ones like 1/4. Real fractions are supported by Inter and iA Writer Quattro.
-- Multiplication signs: × instead of the letter x.
-- Interpuncts: · instead of bullet points •.
+- Multiplication signs: × instead of the letter x,
+- Interpuncts: · instead of bullet points •,
+- Ampersands (&): spell out the word “and” instead. In running copy, ampersands attract attention to the least important part of the sentence.
 
 Refer to [Glyphy](https://www.glyphy.io/) to grab rarer signs like ⅓, ↪ or ⚠.
 
-<!-- Don’t use ampersands (&). They attract attention to the least important part of the sentence. Spell out the word “and.” -->
+#### 2.5.4. Numbers
 
-#### 2.5.4. Number and Dates
+Numbers representing quantities of 10 or more must be expressed in numerals; those representing quantities less than 10 must be expressed in words.
+If a number is the first word in a sentence, it must be expressed in words.
 
-<!-- These guidelines are for American English, which is the language we use as a base before translating to other languages. However, dates, numbers, and measurements may be formatted differently in other languages. -->
+Use commas for numbers with four or more digits.
 
-Numbers representing quantities of 10 or more must be expressed in numerals ; those representing quantities less than 10 must be expressed in words. If a number is the first word in a sentence, it must be expressed in words.
+Whenever possible, don’t truncate numbers.
 
-Use commas for numbers with four or more digits. Whenever possible, don’t truncate numbers.
-
-Use an en dash without a space on either side for number ranges (e.g. “88–110”).
-
-<!-- Preferred date/time format (ISO8601 ?), units formats and spaces etc -->
-
-<!-- Don’t use ordinal indicators, which are words representing position or rank in a sequential order (1st, 2nd, 3rd, and so on). -->
+Use an en dash without a space on either side for number ranges.
+E.g. “88–110”.
 
 In all cases, include a non-breaking space (`option + space`) between the number and the unit.
+E.g. “2,172 km/h”.
 
-When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number and include a space.
+When listing out multiple measurements in a row, put the unit of measurement at the end instead of after each number.
+E.g. “95, 119 and 500 L”.
 
-When possible, use the month’s full name, for example, October. If there are space constraints, use 3-letter abbreviations, for example, Oct.
-<!-- Don’t write dates numerically, for example, 07-02-14. -->
+#### 2.5.5. Date & Time
 
-#### 2.5.5. Misc
+For copywriting, use the `MMMM d, yyyy` format.
+E.g. “March 6, 2026”.
 
-Use [semantic line breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html), a.k.a. [ventilated prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html), whenever possible.
+It’s readable, familiar, and works well in sentences.
 
-Semantic line breaks are  supported in Marked but not in Deckset. Deckset parses them like alineas, altering the rendering of the presentation.
+Depending on context (for example, in short-lived deliverables), the year could be omitted.
+If there are space constraints, the month could be abbreviated to three letters.
+E.g. “Mar 6”.
+
+<!-- no leading zeros for days, and a 4-digit year.
+Do not use ordinal suffixes (“March 29”, not “March 29th”) -->
+
+For technical material, datasets or computer processing, use the [ISO 8601](https://en.wikipedia.org/wiki/ISO_8601) `YYYY-MM-DD` format.
+E.g. “2026-03-06”.
+
+It's unambiguous worldwide, machine-friendly, and works well in tables.
+
+<!-- Pas besoin de précision heure/seconde pour faire des ppts. En UI ce serait une autre histoire. -->
 
 <!--BREAK-->
 
-## 3. Illustrating Style
+## 3. Illustration Style
 
 >The greatest value of a picture is when it forces us to notice what we never expected to see.
 
 — John Tukey, Exploratory Data Analysis, 1977
 
-<!-- ### 3.1 Usage
+### 3.1. Grid & Sizing
 
-When/what to illustrate: covers/back covers for style, caricatured examples for trainings, charts-instead-of-text, etc.
+#### 3.1.1. Parameters
 
-Illustrate profusely. At least an illustration every 2-3 slides. They help keep reader interest.
-
-Always associate illustrations directly to the content they support, e.g. floated right.
-
-Make sure full-page illustrations are commented in *presenter’s notes* (see xxx) as otherwise they lack the context required to be useful.
-
-Don’t illustrate bad practices. In the rare case a bad practice has to be depicted, always depict the corresponding good practice immediately next to it. -->
-
-### 3.1. Style
-
-Use a consistent pictorial style for all comparable figures in a document, for example, all line drawings, or all photographs. Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
-
-<!-- Also Midjourney’s `--sref` and `--p` (code?) -->
-
-Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
-
-### 3.2. Grid
-
-This guidance is most relevant for heavily templated tools like Deckset or Marked, that offer little control over the size, position or treatment of images. Manually laid out documents may go past the conventions covered here.
-
-Units can be expressed as pixels (px), points (pt) or dips (dp) depending on the OS. They are hereafter noted as pixels for clarity.
-
-<!-- A **unit** is the smallest measure a vertex can be positioned at in entire values. It depends on the physical and logical resolution of the device. -->
-
-<!-- prefer 1/4 or portait illos for docs, or put them full sized landscape in addendas?
-likewise landscape for presos -->
-
-#### 3.2.1. Parameters
-
-The UXA grid is set to an 8 px module.
+The UXA grid is set to an 8 px module, arranged in a 16:9 ratio.
 
 <!-- module: The recurring measure/multiplier vertices are anchored at -->
 
-![Grid Parameters](assets/grid-parameters@2x.png)
+![Grid parameters.](assets/grid-parameters@2x.png)
 
-#### 3.2.2. Form Factors
+#### 3.1.2. Form Factors
 
-While the canonical 1600 × 900 px artboard size is well-suited to full-screen rendering, it can be unwieldy to use alongside text. Derived artboard sizes are available:
+While the canonical 1600 × 900 px frame size is well-suited to full-screen rendering, it can be unwieldy to use alongside text, especially in tools like [Marked](https://marked2app.com/) or [Deckset](https://www.deckset.com/) that offer little control over the size, position or treatment of images.
+Derived artboard sizes are available:
 
-![Artboards Form Factors](assets/artboards-form-factors@2x.png)
+![Artboards form factors.](assets/artboards-form-factors@2x.png)
 
-| Type         |  Size (px) | Usage                                               |
-| ------------ | ----------:| --------------------------------------------------- |
-| 1 artboard   | 1600 × 900 | Full-screen in presentation (or stand-alone)        |
-| 1/2 artboard |  800 × 900 | Inline in presentation (e.g. next to bullet points) |
-| 1/4 artboard |  800 × 450 | Inline in document (e.g. between two paragraphs)    |
+| Type    |  Size (px) | Usage                                               |
+| ------- | ----------:| --------------------------------------------------- |
+| 1 frame | 1600 × 900 | Full-screen in presentation (or stand-alone)        |
+| ½ frame |  800 × 900 | Inline in presentation (e.g. next to bullet points) |
+| ¼ frame |  800 × 450 | Inline in document (e.g. between two paragraphs)    |
 
-#### 3.2.3. Layout
+<!-- Manually laid out documents may go past the conventions covered here. -->
+
+#### 3.1.3. Layout
 
 Various guides help lay out content quickly and consistently:
 
-1. Artboard: export frame of the figure,
-2. Measurement origin: virtual border from which all content should be measured and aligned, set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px artboard,
+![Layout templates.](assets/grid-layout.pdf)
+
+1. Frame: export area of the figure
+2. Measurement origin: virtual border from which all content should be measured and aligned, set so that content can be laid out on a 8 px grid within the larger 1600 × 900 px frame
 <!-- origin correction -->
 3. Visual clearance: whitespace around the content; 40 px for documents, 40 or 80 px for presentations. When editorial impact is desired, the clearance can be as small as 8 px or ignored altogether.
-4. Content keylines: preferred alignment guides for content.
+4. Content keylines: preferred alignment guides for content
 
-![Layout Templates](assets/grid-layout-templates.pdf)
+In inline usages (½ or ¼ frames), consider trimming the eventual bottom whitespace, so that the illustration doesn't unnecessarily disrupt the reading flow.
+Trim to a preferred size.
 
-<!-- Inline doc: shave vertically as much as possible (to not disrupt reading flow).
-Can be vertically shortened (only at export time, so that it’s easy to get back to nominal).
-try and catch a preferred size.
+<!-- exampleeeee -->
 
-![Inline illustration shortening](assets/inline-illo-shortening@2x.png) -->
+#### 3.1.4. Preferred Sizes
 
-#### 3.2.3. Preferred Sizes
+While an 8 px module is appropriate for fine work like UI design, it’s too granular for illustration or page layouts, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
 
-Specific values along the 8 px grid are preferred when working on editorial layouts.
-
-While an 8 px module is appropriate for fine work like UI design, it’s too granular for illustrations or pages layout, where elements are sized and positioned at a much bigger scale. Thus specific, bigger values are picked out of all the possible multiples of 8.
-
-The preferred values are multiples of 8 (the UXA grid module) and 10 (another frequent grid module), ensuring scale and compatibility. Multiples of 4 (half UXA grid module) and 10 are also possible, as a second choice. Straight multiples of 8 are the last resort.
+The preferred values are multiples of 8 (the UXA grid module) and 10 (another frequent grid module), ensuring scale and compatibility. Multiples of 4 (half UXA grid module) and 10 are also possible, as a second choice. Direct multiples of 8 are the last resort.
 
 [Preferred Sizes]
 | Priority | Rythm (px)      | Sample values (px)                                    |
@@ -429,43 +418,24 @@ The preferred values are multiples of 8 (the UXA grid module) and 10 (another fr
 
 Note that these preferred values are just a starting point, merely minimizing accidental divergences. Better layouts require further refinement, like [harmonic scales](https://type-scale.com/) or [Renard series](https://en.wikipedia.org/wiki/Renard_series).
 
-<!-- ### 3.4 Composition
+### 3.2. Art Direction
 
-Print several wires on the same artboard when documenting multi-parts components, content variations, states, etc.
+Use a consistent pictorial style for all comparable figures in a document.
+For example, all line drawings, or all photographs.
 
-Lay out steps or states horizontally, options vertically.
+Follow the style of the [moodboard](https://www.pinterest.ca/nwodtcobalt/uxa/).
 
-Arrange wires after a vertical axial symmetry.
+<!-- Also Midjourney’s `--sref` and `--p` (code?) -->
 
-If the wires do not fit in the artboard, consider cropping them, scaling them, or splitting up them up.
+Photographs or screenshots can be used as examples or explanations, but should not be used for editorial purposes. Prefer illustrations.
 
-Selectively blur wires with the Supporting Content symbol to put the focus on the part that’s being documented.
+### 3.3. Export
 
-Import the Shore Leave symbol and stretch it to match the artboard size.
-
-Position callouts to the right of the wires as much as possible, so that the reader can have an unencumbered look at the UI before delving into the documentation.
-
-Align callouts horizontally.
-
-Leave a 5 px margin between the callout tip and the element it’s pointing at.
-
-Avoid vertical callouts. Mixing horizontal and vertical annotation lines hinders reading and looks cluttered.
-
-Avoid Descriptors or Area symbols. Only use them when they are absolutely needed to clarify what the callout is pointing at.
-
-Arrange callouts by descending order of importance.
-
-Don’t burn explanation text in illustrations, as it incurs extra maintenance. Short floating labels are acceptable when describing multi-parts illustrations.
-
-Don’t call out every part of the wireframe. Instead, focus on the key parts that you intend to explain in the annotations. -->
-
-<!-- should figures have (exposed) alt/desc
-if so what are the best practices -->
-
-### 3.4. Export
+#### 3.3.1. File Format
 
 Export to SVG by default.  
 SVG files are scalable, interoperable, programmatically manipulable and lightweight.
+
 Some specific use cases may require other formats:
 
 | Priority | Format | Scaling | Usage                                                            |
@@ -475,28 +445,28 @@ Some specific use cases may require other formats:
 | 3        | PNG    | 3x      | Screenshots, UI mockups                                          |
 | 4        | JPG    | 3x      | Photos, scanned documents                                        |
 
+If an illustration was exported as a SVG or PDF, export it as a PNG or JPG as well.
+While not the preferred formats, bitmaps are sometimes required for compatibility.
+
+<!-- On pourrait officiellement dispenser du suffixe @3x -->
+
+#### 3.3.2. Background Color
+
 Set an illustration background color, `Gris 0106 Béton Clair` by default.
-<!-- Marked-only? -->
 
 Illustration assets can be rendered in a variety of contexts such as a high-contrast Markdown client, a dark-mode browser or a hand-off, inspection or version control tool. Their background color is unknown, and could make the illustration foreground illegible.
 
-Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will show through. Depending on the photo, the `Gris 0106 Béton Clair` background may not work well. In this case, it’s possible to select the closest-matching UXA color (e.g. `Noir 1571 Jais`), or to sample an appropriate color from the photo.
-<!-- Heh that’s actually slide bg , not illo bg + 90% scaling-->
+Moreover, some photos may not have a 16:9 aspect ratio meaning the document background will show through. Depending on the photo, the `Gris 0106 Béton Clair` background may not work well. In this case, it’s possible to select the closest-matching UXA color (e.g. `Noir 1571 Graphite`), or to sample an appropriate color from the photo.
 
 Do not pick an arbitrary background color for editorial purposes, like calling for attention or impact.
-<!-- divider entre recommendations marked et recommendations deckset ? peu d’overlap au final -->
 
-![Background colors](assets/background-color@2x.png)
-
-<!-- export as vector even if it doesnt render on github; that’s a non factor.
-but double exports as @3x for unforeseen compatibility -->
+![Background colors.](assets/background-color@2x.png)
 
 <!--BREAK-->
 
 ## 4. Tools
 
-Setting up [Deckset](https://www.deckset.com/) and [Marked](https://marked2app.com/), the preferred tools for publishing UXA material.
-<!-- thats a description when everything else is an instruction -->
+Setting up [Marked](https://marked2app.com/) and [Deckset](https://www.deckset.com/), the preferred tools for publishing UXA material.
 
 ### 4.1. Marked
 
@@ -554,77 +524,3 @@ naming convention: lib artboards, exported assets, styles, frames (add to starte
 - Human Factors Design Standard (HFDS), FAA, 2003 ([link](https://hf.tc.faa.gov/hfds/))
 - IND6406 Ergonomie Cognitive — Les procédures de travail, Jean-Marc Robert, 2009
 - Swift API Design Guidelines, Apple, 2020 ([link](https://swift.org/documentation/api-design-guidelines/))
-
-<!--BREAK-->
-
-<!--
-
-- AI writing: contain multitudes. As in let it go then check the quality with those guidelines, use it to write those very guidelines etc. In any case: <https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing>
-- Conventions EN/FR
-- desc for all img and tables. good desc/alt text best practices
-- overall reorganize as “high-level considerations” that require thinking (eg overview before details) vs “settings to just know”, eventually lintable (eg punctuation) / boilerplate f(type of document)
-- mettre juste après l’intro un recap ~normatif en 5-10 pts pour lancer le monde (pas juste les praticiens UXA) (et linker chaque point vers sa section etc). Genre le premier truc à donner à qqun qui commencerait. noter que tjrs applicable, à différents niveaux, et pas juste pour marked/deckset. sous forme de slides plutot, et juste mentionné ici ?
-- Handbook / IND6408 / IND6402
-- UXA·ID?
-- Page numbers?
-- Titles on individual slides?
-- Highlight sparsely (e.g. command names, symbol names)?
-- TOC, recap?
-- Qualités: Validité, Clarté/Transparence, Granularité, Uniformité, Cohérence, Complétude, Disponibilité, Accessibilité, Utilisabilité
-- Pour chaque action significative ou groupe d’actions significatives reliées, on inclut une ou des vérifications afin de s’assurer que leur exécution a apporté les résultats attendus.
-- Un titre d’activité ne contient pas de verbe d’action afin de ne pas le confondre avec une étape
-- Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture.
-- Keep annotations terse. Economy of concepts and terms is a primary goal.
-- controlled list of values
-- style guide TLDR: noir jais pour premier plan, gris béton clair pour arrière plan, bleu xxx pour emphase, gris xxx pour déemphase. color variation/blending is possible, except on the core black/grey/blue, that should always be most of the opaque pixels of the figure
-- <https://plain-words.com/>
-- Organize technical guidance after the process it’s a part of, eg icons or libs guidance
-- Governance: who does what, who’s checking what, who says things are good to go etc. What’s the contribution model past the initial effort, etc.
-- replace document, too generic, with ~report or so
-- <https://classnames.paulrobertlloyd.com/>
-- In journalism, “graf” is an informal term for a paragraph, often used to describe a short paragraph containing a single, concise idea.
-
----
-
-How to write normative templates/definitions (eg for publishing to a platform)
-
-- Be explicit and exclusive
-- (local) unambiguous terminology/anatomy
-- best practices/intention/expectations/examples
-- responsabilities: product designer/stakeholders provide domain input, DLS/platform people provide templates/channels/actual publication/outputs
-
----
-
-## Design system documentation is essential–as long as it’s good
-
-<https://pjonori.blog/posts/design-system-documentation/>
-date d’ajout : 26/05/2025
-
-*Pertinent pour tout type de documentation, pas juste les design systems.*
-
-Good documentation is short, simple, structured, and actionable:
-
-- Succinct
-- Predictable
-- Concrete
-- Exact
-- Approachable
-- Encapsulated
-- Actionable
-- Justified
-- Definitive (in a chill kind of way)
-
-Good documentation can help transform the way work is done:
-
-- It forces a point of view
-- It improves the thinking behind the system
-- It keeps the design system team aligned
-- It keeps thinking available when people aren’t
-- It creates a common language
-- It levels the playing field (maybe)
-- It reduces team overhead
-- It acts as a feeder for AI
-
-People read good stuff. So write good stuff.
-
--->
