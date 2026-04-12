@@ -1,5 +1,9 @@
 # Taxonomy for Component States
 
+<!-- To-do -->
+<!-- Have 1 example per state category -->
+<!-- Show how examples fill or not the complete matrix -->
+
 <!--BREAK-->
 
 ## Overview
@@ -26,7 +30,7 @@ A [plain text recap](Taxonomy%20for%20component%20states%20—%20Recap.txt) is p
 States are a broad notion. This document covers direct user interaction feedback component’s states.
 
 This excludes application states, that are driven by data status, business logic, system services or back-end calls:  incomplete, running or error progress statuses, new/unread, locked/unlocked, unsaved, read-only etc.
-Those application states may sometimes be displayed on components, but they aren’t a response to direct user manipulation.
+While application states could be displayed on components, they aren’t a response to direct user manipulation.
 
 ![For example, the “4 new” indicator of the “In transfer” tab isn’t in scope. While the “new” status does exist, it characterizes a data attribute (`Read` vs `Unread`) rather than a component feedback (`Idle` vs `Pressed down`). Likewise, the “active” indicator on the filter communicates an application state, that only happens to be depicted on this component. Both indicators are changed not by interacting directly with the component, but by performing actions within the panel associated to it.](assets/not-all-states.pdf)
 
@@ -44,9 +48,6 @@ In this taxonomy:
 
 ## Taxonomy
 
-<!-- Have 1 example per state category -->
-<!-- show how examples fill or not the complete matrix -->
-
 **Pointer States**
 
 `Idle`, `Hovered`, `Focused`, `Pressed`, `Disabled`, `Loading`
@@ -55,7 +56,7 @@ A pointer is a hardware-agnostic representation of input devices that can target
 This category covers the immediate feedback from mouse, touch or stylus interaction.
 It’s colloquially called “state”, although it’s only a subset of them.
 
-NB: `Focused` is technically not a pointer state, but considering it like one is true enough and sheds significant complexity.
+While `Focused` isn’t technically a pointer state it’s close enough, and simplifies things substantially.
 
 <!-- “Pressed down” is preferred to “Active”, as per WCAG. -->
 
@@ -67,17 +68,17 @@ NB: `Focused` is technically not a pointer state, but considering it like one is
 
 `Empty`,  `In progress`, `Filled`
 
-Note that “Empty” means “empty of user input”, not “empty of any content”. There may still be a placeholder, as a component property.
+“Empty” means “empty of user input”, not “empty of any content”. There may still be a placeholder, as a component property.
 
 **Validation States**
 
 `No validation`, `Instructions`, `Valid`, `Invalid`
 
-Note that “Instructions” means “explanations in reaction to user input”, not persistent help text. There may still be persistent help text, independently from instructions, as a component property.
+“Instructions” means “explanations in reaction to user input”, not persistent help text. There may still be persistent help text, independently from instructions, as a component property.
 
 **Others**
 
-The states listed above are the most common. Further states should be considered on a case-by-case basis, such as “visited” for links or “dragged” for draggable elements.
+The states listed above are the most common. Further states should be considered on a case-by-case basis, such as “visited” for links, “dragged” for draggable elements or “highlighted” for search results or deep-link targets.
 
 ## How-To
 
@@ -135,8 +136,8 @@ Apply the whole thing to the design of an example toggle control. show how it al
 
 ## Sources
 
-- [All the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/)
-- [cursor - CSS | MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor)
-- [Pointer Events](https://www.w3.org/TR/pointerevents/) from W3C
-- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#dfn-states) from W3C
-- Vendors component libraries and guidelines
+- [All the user-facing states](https://ericwbailey.website/published/all-the-user-facing-states/), Eric Bailey, 2022
+- [cursor - CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/cursor), MDN, 2025
+- [Pointer Events](https://www.w3.org/TR/pointerevents/), W3C, 2025
+- [Web Content Accessibility Guidelines (WCAG) 2.1](https://www.w3.org/TR/WCAG21/#dfn-states), W3C, 2025
+- Component libraries and guidelines from major vendors
