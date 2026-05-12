@@ -6,7 +6,7 @@ contextualiser dans le processus créatif plus large
 
 [Beetles of Braigh](https://www.artstation.com/artwork/RyVDYX)
 
-[Personal branding](https://silviaamadei.com/portfolio/personal-branding/) et al.
+[Personal branding](https://silviaamadei.com/personal-branding) et al.
 
 <https://www.artstation.com/artwork/oArYEJ>
 

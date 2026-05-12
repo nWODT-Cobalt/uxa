@@ -63,10 +63,6 @@ Conceptual Integrity:
 
 *Applicables au-delà des design systems, mais pas fonctionnel unitairement.*
 
-## Typograms
-
-<https://google.github.io/typograms/>
-
 ##  What it means to design a platform
 
 <https://matthewstrom.com/writing/platform-design/>
@@ -137,6 +133,8 @@ Classes that interact with each other can also be culprits of tight coupling. Yo
 Repeated code is a sure sign of low cohesion. Similar lines of code should be broken into functions, and similar functions should be broken into classes.
 
 ## En vrac
+
+<https://chakra-ui.com/docs/components/date-picker#placement> excellent feedforward sur le component explorer
 
 « Levels of abstraction » à ajouter en synonyme de map-territory, type-token etc. Bon exemple avec le « where do you live? » à 5 niveaux
 

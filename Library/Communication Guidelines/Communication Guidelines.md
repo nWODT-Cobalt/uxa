@@ -20,6 +20,12 @@
 
 — Bertrand Russell
 
+<br>
+
+>The final cause of speech is to get an idea as exactly as possible out of one mind into another. Its formal cause therefore is such choice and disposition of words as will achieve this end most economically.
+
+— G.M.Young
+
 ## Introduction
 
 Communication is integral, not additive, to architecture — because it clarifies thinking, enables collaboration and supports scale.
@@ -66,6 +72,7 @@ Full-screen figures take up the entirety of a page or slide.
 Keyword
 : Reference to a formally defined entity, rather than a generic notion.
 
+<!-- Words in purple refers to specific, existing entities e.g. rules in this document, assets in Radiance or controls in Figma -->
 <!-- search and replace throughout the whole doc -->
 
 Practitioner
@@ -78,11 +85,13 @@ Section
 
 ## 1. Content
 
-What to communicate, in what order, to what level of detail.
-
 <!-- outline (???)-->
 
+What to communicate, in what order, to what level of detail.
+
 ### 1.1. Providing an Overview
+
+<!-- after "Capturing context"? -->
 
 Expose an overview before the complete content.
 
@@ -126,7 +135,7 @@ Frequently captured context elements include:
 - Target audience or [assumed audiences](https://maggieappleton.com/assumed-audience), prerequisites
 - Assumptions, hypothesis
 - Environment, setup, access rights, tech specs
-- Terms of art
+- Terms of art (more in *2.2. Terminology*)
 - Degree of maturity or stability, is the content a recommendation or an obligation
 
 Note that the negatives are as important as the positives, and should be captured too.
@@ -137,6 +146,8 @@ E.g: “a consequence of x and y is z”.
 
 ### 1.3. Shaping Content
 
+<!-- Findind the right medium -->
+
 Strive to communicate through media other than text.
 
 While text is often the default choice, it isn’t necessarily the best. Depending on the situation, comparison tables, data tables, decision trees, flowcharts, diagrams, illustrations, etc. can be more efficient to output and learn.
@@ -146,6 +157,8 @@ When text is unavoidable, it can often be reworked into more efficient shapes su
 ![A structured layout demonstrates the token naming scheme better than if it had been shown as plain text.](assets/examples-token-naming-schema@2x.png)
 
 ### 1.4. Delineating Ideas
+
+<!-- If text, ... -->
 
 Each idea should be one section and one only.
 
@@ -192,12 +205,11 @@ This can be achieved through various means, like the usage of an open-source lic
 Provide attribution for other people’s material.
 
 Inline attribution, located directly where the material is, is preferred. It works well for most quotes, tables or figures.
-Reference attribution, separate from the material and gathered at the end of the document in a “Sources & Credits” section, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. It’s mostly for full-slide images.
+Reference attribution, separate from the material and gathered at the end of the document in a “Sources & Credits” section, is possible when inline attribution isn’t appropriate for aesthetic or technical reasons. .
 
 If the author asks for a specific an attribution format, use it. If not, use the following:
 
-- Inline: `<work title>, <author name>, <year of publication>`
-- Reference: `<page/slide number>: <work title>, <author name>, <year of publication>`
+`<work title>, <author name>, <year of publication>`
 
 <!-- provide examples: default, talk within a conference, figure within a document, etc. -->
 <!-- the point is to be fair and useful (provide context), not be dogmatic nor academic -->
@@ -234,12 +246,14 @@ Be very mindful of wording.
 
 Prefer generic terms over terms of art. Terms of art (words or phrases that have a precise, specialized meaning within a particular field or profession) are an essential communication tool, but should only be used to capture crucial meaning that would otherwise be lost. The only reason to use a technical term rather than a more common word is that it precisely expresses something that would otherwise be ambiguous or unclear.
 
+<!-- Embrace precedent. Don’t optimize terms for the total beginner at the expense of conformance to existing culture. -->
+
 Define acronyms, technical terms, uncommon words and common words that are used in an unusual or special way. Define them immediately following their first occurrence in the text.
 
 Avoid abbreviations.
 
 When several (about 10) new terms or abbreviations are used, provide a glossary or list of acronyms.
-Include it in the document, or contribute and link to a greater terminology reference.
+Either include it in the document, or contribute and link to a greater terminology reference.
 
 Avoid synonyms, especially in domain-specific matters, as well as fuzzy terms and everything-buckets. Aim to reuse the same, simple words as much as possible.
 
@@ -352,6 +366,12 @@ E.g. “2026-03-06”.
 It's unambiguous worldwide, machine-friendly, and works well in tables.
 
 <!-- Pas besoin de précision heure/seconde pour faire des ppts. En UI ce serait une autre histoire. -->
+
+#### 2.5.6.
+
+Use [semantic line breaks](https://www.gwern.net/docs/www/sembr.org/ac853de1a0d7c7da21880a7b54fad27f27da70f1.html), a.k.a. [ventilated prose](https://www.gwern.net/docs/www/vanemden.wordpress.com/e7f5b9a1d5d4332192fe6174976d02d863c255cc.html), whenever possible.
+
+Semantic line breaks are supported in Marked but not in Deckset. Deckset parses them like alineas, altering the rendering of the presentation.
 
 <!--BREAK-->
 
