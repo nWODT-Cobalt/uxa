@@ -6,6 +6,29 @@
 *This document gathers perspectives biased towards a narrower, more actionable definition of design principles.*
 *The resulting guidance is captured in [Effective Design Principles](../Effective%20Design%20Principles).*
 
+## Why Most Design Principles Fail
+
+<https://principles.design/articles/why-most-design-principles-fail>
+<!--date d’ajout : 11/05/2026-->
+
+Many organisations publish design principles. They appear in slide decks, design systems and internal documentation. They are sometimes printed on posters and hung on office walls. Yet they are rarely used.
+
+Meetings still go on and on. Teams argue over the same questions. Decisions often depend on opinion or whoever speaks the loudest.
+
+The problem is usually not that teams lack design principles. The problem is that most design principles don’t work.
+
+Values describe what a company believes.
+Principles guide how teams make decisions.
+
+Values shape culture.
+Principles shape decisions.
+
+Design principles are not statements of intent. They are tools. They help teams make decisions when things are unclear. They reduce debate. They give people a shared way to reason about choices.
+
+When written well, they quietly shape how work gets done. When written poorly, they become slogans that nobody uses.
+
+*Du même site : des règles comme “ne pas empiler”, “ne pas jeter”, “haut ↑" peuvent être remplacées avantageusement par un seul principe communiquant l’intention, “fragile”.*
+
 ## Zack Yu
 
 <!--date d’ajout : 18/06/2022-->
@@ -105,6 +128,8 @@ Aggregators:
 - [Design Principles](https://principles.adactio.com/)
 - [Design Principles FTW](https://www.designprinciplesftw.com/)
 - [principles.design](https://principles.design/)
+
+<!-- https://www.smashingmagazine.com/2026/04/practical-guide-design-principles/ -->
 
 Misc:
 

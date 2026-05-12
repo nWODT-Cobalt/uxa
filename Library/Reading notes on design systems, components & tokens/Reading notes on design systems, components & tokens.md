@@ -112,6 +112,13 @@ Style guides serves as a huge recruitment tool.
 
 <!--BREAK-->
 
+## Purpose Over Preference: How to Define Design System Components That Actually Scale
+
+<https://www.designsystemscollective.com/purpose-over-preference-how-to-define-design-system-components-that-actually-scale-7876c3b4f96b>
+<!--date d'ajout : 11/05/2026-->
+
+*Explication et exemples de pourquoi il faut séparer les composants par objectif, quitte à avoir des quasi-duplicata, plutôt que de garder des gros construits qui essaient de répondre à plusieurs objectifs en même temps.*
+
 ## How to start building community around your design system
 
 <https://zeroheight.com/blog/how-to-start-building-community-around-your-design-system/>
